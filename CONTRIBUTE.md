@@ -1,4 +1,6 @@
 # Contributing
+`need to update this page`
+
 
 We follow a [code of conduct](http://www.google.fr/ "Named link title") when participating in the community. Please read it before you make any contributions.
 

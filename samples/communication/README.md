@@ -2,4 +2,4 @@
 
 `need to update this page`
 
-![picture alt](assets/commscard.png)
+![picture alt](assets/CommsCard.png)

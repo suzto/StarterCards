@@ -109,6 +109,7 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
 
 
 ## 2) 🚗 Test Drive Your Card
+ADD REAL EXAMPLES FROM RENDERINGS (DESKTOP, iOS, MEETING CHAT)
 
 Visit our <a href="/TESTDRIVEYOURCARD.md">Test Drive Your Card</a> page to learn how to preview your card on various Teams surfaces/endpoints and color modes.
 

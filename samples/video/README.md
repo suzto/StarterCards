@@ -95,3 +95,85 @@ We do not support samples, but we this community is always willing to help, and 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
 
+### Card payload
+
+````
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/video_image.png"
+    },
+    {
+      "type": "TextBlock",
+      "text": "3 Minute Energy Flow with Kayo",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/avatar.png",
+              "width": "24px",
+              "height": "24px",
+              "style": "Person"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Kayo Miwa",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and mind! All you need is a little space, and get ready to stretch your arms and legs.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "veryNarrow",
+      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and...",
+      "wrap": true
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Remind me",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/remind_icon.png"
+        }
+      ]
+    }
+  ]
+}
+````

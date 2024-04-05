@@ -266,7 +266,7 @@
         {
           "type": "Action.OpenUrl",
           "title": "View Details",
-          "url": "https://adaptivecards.io/designer/"
+          "url": "https://adaptivecards.io/"
         }
       ]
     }

@@ -42,7 +42,8 @@
         {
           "type": "Action.OpenUrl",
           "title": "Add to calendar",
-          "url": "https://adaptivecards.io/"
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
         },
         {
           "type": "Action.OpenUrl",

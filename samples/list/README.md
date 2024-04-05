@@ -15,7 +15,7 @@
       "size": "large",
       "text": "Robin, explore your weekly picks",
       "weight": "bolder",
-      "wrap": true,f
+      "wrap": true,
       "type": "TextBlock"
     },
     {
@@ -32,7 +32,7 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2flist%2fassets%2fResourceImage_1.png",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/ResourceImage_1.png",
                   "width": "56px",
                   "height": "56px",
                   "type": "Image"
@@ -87,7 +87,7 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2flist%2fassets%2fResourceImage_2.png",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/ResourceImage_2.png",
                   "width": "56px",
                   "height": "56px",
                   "type": "Image"
@@ -142,7 +142,7 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2flist%2fassets%2fResourceImage_3.png",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/ResourceImage_3.png",
                   "width": "56px",
                   "height": "56px",
                   "type": "Image"

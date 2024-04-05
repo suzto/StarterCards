@@ -8,7 +8,11 @@
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png"
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/"
+    }
     },
     {
       "type": "TextBlock",
@@ -18,13 +22,43 @@
       "weight": "Bolder"
     },
     {
-      "type": "Input.Rating",
-      "placeholder": "Placeholder text"
-    },
-    {
-      "type": "TextBlock",
-      "text": "⭐⭐⭐⭐✰ 4 · 1,160",
-      "wrap": true,
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Rating",
+              "value": "4",
+              "color": "Marigold"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "1,160",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
       "spacing": "None"
     },
     {
@@ -110,6 +144,7 @@
     {
       "type": "RichTextBlock",
       "id": "showMore",
+      "targetWidth": "atLeast:narrow",
       "inlines": [
         {
           "type": "TextRun",
@@ -129,6 +164,7 @@
     {
       "type": "RichTextBlock",
       "id": "showLess",
+      "targetWidth": "atLeast:narrow",
       "inlines": [
         {
           "type": "TextRun",

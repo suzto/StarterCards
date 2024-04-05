@@ -15,13 +15,14 @@
       "size": "large",
       "text": "Robin, explore your weekly picks",
       "weight": "bolder",
-      "wrap": true,
+      "wrap": true,f
       "type": "TextBlock"
     },
     {
       "text": "These resources will teach you how to achieve balance in your life and work with more ease.",
       "wrap": true,
-      "type": "TextBlock"
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow"
     },
     {
       "items": [
@@ -72,6 +73,10 @@
       "style": "emphasis",
       "spacing": "Medium",
       "targetWidth": "atLeast:narrow",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/"
+      },
       "type": "Container"
     },
     {
@@ -123,6 +128,10 @@
       "style": "emphasis",
       "spacing": "Small",
       "targetWidth": "atLeast:narrow",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/"
+      },
       "type": "Container"
     },
     {
@@ -174,107 +183,450 @@
       "style": "emphasis",
       "spacing": "Small",
       "targetWidth": "atLeast:narrow",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/"
+      },
       "type": "Container"
     },
     {
-      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2flist%2fassets%2fResourceImage_2_Horizontal.png",
-      "height": "auto",
+      "type": "Container",
       "targetWidth": "veryNarrow",
-      "type": "Image"
-    },
-    {
-      "text": "Stay Healthy and Productive Working from Home",
-      "weight": "bolder",
-      "wrap": true,
-      "spacing": "Small",
-      "targetWidth": "veryNarrow",
-      "type": "TextBlock"
-    },
-    {
-      "isSubtle": true,
-      "size": "small",
-      "text": "Article · 5min",
-      "wrap": true,
-      "spacing": "None",
-      "targetWidth": "veryNarrow",
-      "type": "TextBlock"
-    },
-    {
-      "actions": [
+      "items": [
         {
-          "targetElements": [
-            "image2",
-            "title2",
-            "subtle2",
-            "image3",
-            "title3",
-            "subtle3"
+          "text": "Learn how to achieve balance in life and work.",
+          "wrap": true,
+          "type": "TextBlock"
+        },
+        {
+          "type": "Container",
+          "id": "content1",
+          "items": [
+            {
+              "type": "Container",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/ResourceImage_1_Horizontal.png",
+                "verticalAlignment": "Center",
+                "horizontalAlignment": "Center"
+              },
+              "bleed": true,
+              "minHeight": "128px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": ""
+                }
+              ],
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowLeft.png",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center",
+                  "horizontalAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content2"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowRight.png",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content2"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "text": "Why You Should Take a Break from Screen Time and Enjoy Nature",
+              "weight": "Bolder",
+              "wrap": true,
+              "type": "TextBlock",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "isSubtle": true,
+              "size": "Small",
+              "text": "Video · 12min",
+              "wrap": true,
+              "type": "TextBlock",
+              "spacing": "None",
+              "horizontalAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "content2",
+          "items": [
+            {
+              "type": "Container",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/ResourceImage_2_Horizontal.png",
+                "verticalAlignment": "Center",
+                "horizontalAlignment": "Center"
+              },
+              "bleed": true,
+              "minHeight": "128px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": ""
+                }
+              ],
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowLeft.png",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content2"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center",
+                  "horizontalAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content2"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content2",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowRight.png",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content2",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "text": "Stay Healthy and Productive Working from Home",
+              "weight": "Bolder",
+              "wrap": true,
+              "type": "TextBlock",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "isSubtle": true,
+              "size": "Small",
+              "text": "Article · 5min",
+              "wrap": true,
+              "type": "TextBlock",
+              "spacing": "None",
+              "horizontalAlignment": "Center"
+            }
           ],
-          "title": "More picks for you",
-          "iconUrl": "data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.22 8.47c.3-.3.77-.3 1.06 0L12 15.19l6.72-6.72a.75.75 0 1 1 1.06 1.06l-7.25 7.25c-.3.3-.77.3-1.06 0L4.22 9.53a.75.75 0 0 1 0-1.06Z'%3E%3C/path%3E%3C/svg%3E",
-          "type": "Action.ToggleVisibility"
+          "isVisible": false
+        },
+        {
+          "type": "Container",
+          "id": "content3",
+          "items": [
+            {
+              "type": "Container",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/ResourceImage_3_Horizontal.png",
+                "verticalAlignment": "Center",
+                "horizontalAlignment": "Center"
+              },
+              "bleed": true,
+              "minHeight": "128px",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": ""
+                }
+              ],
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            },
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowLeft.png",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content2",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center",
+                  "horizontalAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content2",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
+                      "width": "15px",
+                      "height": "15px",
+                      "horizontalAlignment": "Center"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowRight.png",
+                      "horizontalAlignment": "Center",
+                      "selectAction": {
+                        "type": "Action.ToggleVisibility",
+                        "targetElements": [
+                          "content1",
+                          "content3"
+                        ]
+                      }
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "text": "Productivity Mastery: How to Optimize Your Energy, Focus, and Motivation",
+              "weight": "Bolder",
+              "wrap": true,
+              "type": "TextBlock",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "isSubtle": true,
+              "size": "Small",
+              "text": "Course · 30min",
+              "wrap": true,
+              "type": "TextBlock",
+              "spacing": "None",
+              "horizontalAlignment": "Center"
+            }
+          ],
+          "isVisible": false
         }
-      ],
-      "targetWidth": "veryNarrow",
-      "type": "ActionSet"
-    },
-    {
-      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2flist%2fassets%2fResourceImage_1_Horizontal.png",
-      "height": "auto",
-      "id": "image2",
-      "isVisible": false,
-      "targetWidth": "veryNarrow",
-      "type": "Image"
-    },
-    {
-      "text": "Why You Should Take a Break from Screen Time and Enjoy Nature",
-      "weight": "bolder",
-      "wrap": true,
-      "id": "title2",
-      "spacing": "Small",
-      "isVisible": false,
-      "targetWidth": "veryNarrow",
-      "type": "TextBlock"
-    },
-    {
-      "isSubtle": true,
-      "size": "small",
-      "text": "Video · 12min",
-      "wrap": true,
-      "id": "subtle2",
-      "spacing": "None",
-      "isVisible": false,
-      "targetWidth": "veryNarrow",
-      "type": "TextBlock"
-    },
-    {
-      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2flist%2fassets%2fResourceImage_3_Horizontal.png",
-      "height": "auto",
-      "id": "image3",
-      "isVisible": false,
-      "targetWidth": "veryNarrow",
-      "type": "Image"
-    },
-    {
-      "text": "Productivity Mastery: How to Optimize Your Energy, Focus and Motivation",
-      "weight": "bolder",
-      "wrap": true,
-      "id": "title3",
-      "spacing": "Small",
-      "isVisible": false,
-      "targetWidth": "veryNarrow",
-      "type": "TextBlock"
-    },
-    {
-      "isSubtle": true,
-      "size": "small",
-      "text": "Course · 30min",
-      "wrap": true,
-      "id": "subtle3",
-      "spacing": "None",
-      "isVisible": false,
-      "targetWidth": "veryNarrow",
-      "type": "TextBlock"
+      ]
     },
     {
       "actions": [
@@ -285,7 +637,7 @@
         },
         {
           "title": "Remind me later",
-          "iconUrl": "data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.5 12a8.5 8.5 0 1 1 17 0 8.5 8.5 0 0 1-17 0ZM12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 4.65a.75.75 0 0 0-1.5.1v6.1c.06.37.37.65.75.65h4.1a.75.75 0 0 0-.1-1.5H12V6.65Z'%3E%3C/path%3E%3C/svg%3E",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/clock_icon.png",
           "type": "Action.Submit"
         }
       ],
@@ -294,13 +646,6 @@
     }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "fallback": {
-    "text": "This card cannot be rendered",
-    "type": "TextBlock"
-  },
-  "requires": {
-    "responsiveLayout": "1.0"
-  }
+  "version": "1.5"
 }
 ````

@@ -115,7 +115,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Pablo Astudillo",
+              "text": "Hugo Gonzalez",
               "wrap": true
             }
           ],
@@ -131,8 +131,9 @@
           "title": "Open"
         },
         {
-          "type": "Action.ToggleVisibility",
-          "title": "Follow"
+          "type": "Action.Submit",
+          "title": "Follow",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/follow_icon.png"
         }
       ]
     }

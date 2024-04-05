@@ -18,6 +18,10 @@
       "weight": "Bolder"
     },
     {
+      "type": "Input.Rating",
+      "placeholder": "Placeholder text"
+    },
+    {
       "type": "TextBlock",
       "text": "⭐⭐⭐⭐✰ 4 · 1,160",
       "wrap": true,
@@ -27,7 +31,8 @@
       "type": "TextBlock",
       "text": "Course · 52m · Beginner",
       "wrap": true,
-      "isSubtle": true
+      "isSubtle": true,
+      "spacing": "Small"
     },
     {
       "type": "ColumnSet",
@@ -56,7 +61,20 @@
               "wrap": true,
               "weight": "Bolder"
             }
-          ]
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
         },
         {
           "type": "Column",
@@ -68,7 +86,8 @@
               "text": "Tony Harper",
               "wrap": true
             }
-          ]
+          ],
+          "spacing": "Small"
         }
       ],
       "spacing": "Small"
@@ -89,41 +108,43 @@
       "id": "fullText"
     },
     {
-      "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
-      "actions": [
+      "type": "RichTextBlock",
+      "id": "showMore",
+      "inlines": [
         {
-          "type": "Action.ToggleVisibility",
-          "title": "Show more",
-          "id": "showMoreBtn",
-          "targetElements": [
-            "truncatedText",
-            "fullText",
-            "showMoreBtn",
-            "showLessBtn"
-          ]
+          "type": "TextRun",
+          "text": "Show more",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
         }
-      ],
-      "id": "showMoreBtn"
+      ]
     },
     {
-      "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
-      "actions": [
+      "type": "RichTextBlock",
+      "id": "showLess",
+      "inlines": [
         {
-          "type": "Action.ToggleVisibility",
-          "title": "Show less",
-          "id": "showLessBtn",
-          "targetElements": [
-            "truncatedText",
-            "fullText",
-            "showMoreBtn",
-            "showLessBtn"
-          ]
+          "type": "TextRun",
+          "text": "Show less",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
         }
       ],
-      "isVisible": false,
-      "id": "showLessBtn"
+      "isVisible": false
     },
     {
       "type": "ActionSet",
@@ -131,11 +152,13 @@
       "actions": [
         {
           "type": "Action.OpenUrl",
-          "title": "Open"
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.Execute",
-          "title": "Bookmark"
+          "title": "Bookmark",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
         }
       ]
     },
@@ -145,11 +168,12 @@
       "actions": [
         {
           "type": "Action.OpenUrl",
-          "title": "Open"
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.Execute",
-          "title": "B"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
         }
       ]
     }

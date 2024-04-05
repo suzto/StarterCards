@@ -21,7 +21,7 @@
                   "width": "auto",
                   "items": [
                     {
-                      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2fcommunication%2fassets%2ficon_megaphone.png",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
                       "height": "auto",
                       "type": "Image"
                     }
@@ -51,7 +51,7 @@
                   "width": "auto",
                   "items": [
                     {
-                      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2fcommunication%2fassets%2favatar.png",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
                       "height": "auto",
                       "type": "Image"
                     }
@@ -90,10 +90,11 @@
               "type": "TextBlock"
             },
             {
-              "text": "For a limited time, you can book a four night stay at luxury resort on the island of Maui for only $999 pe...",
+              "text": "For a limited time, you can book a four night stay at luxury resort on the island of Maui for only $999 per person.",
               "wrap": true,
               "spacing": "Small",
-              "type": "TextBlock"
+              "type": "TextBlock",
+              "maxLines": 3
             },
             {
               "columns": [
@@ -102,14 +103,14 @@
                   "items": [
                     {
                       "horizontalAlignment": "right",
-                      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2fcommunication%2fassets%2ficon_like_outline.png",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
                       "height": "auto",
                       "id": "likeOutline",
                       "type": "Image"
                     },
                     {
                       "horizontalAlignment": "right",
-                      "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2fcommunication%2fassets%2ficon_like_filled.png",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
                       "height": "auto",
                       "id": "likeFilled",
                       "isVisible": false,
@@ -146,6 +147,27 @@
               ],
               "spacing": "ExtraLarge",
               "type": "ColumnSet"
+            },
+            {
+              "targetWidth": "atMost:narrow",
+              "actions": [
+                {
+                  "targetElements": [
+                    "likeFilled",
+                    "likeOutline",
+                    "commentLike",
+                    "commentUnlike"
+                  ],
+                  "title": "Like",
+                  "type": "Action.ToggleVisibility"
+                },
+                {
+                  "title": "Comment",
+                  "type": "Action.Submit"
+                }
+              ],
+              "spacing": "Medium",
+              "type": "ActionSet"
             }
           ],
           "type": "Column"
@@ -154,12 +176,13 @@
           "width": "auto",
           "items": [
             {
-              "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https%3a%2f%2fraw.githubusercontent.com%2fsuzto%2fStarterCards%2fmain%2fsamples%2fcommunication%2fassets%2fhero_image.png",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
               "width": "150px",
               "height": "auto",
               "type": "Image"
             },
             {
+              "targetWidth": "atLeast:standard",
               "actions": [
                 {
                   "targetElements": [

@@ -2,11 +2,11 @@
 
 ### Wide / Standard
 
-![picture alt](assets/atleast-standard-card.png)
+![picture alt](assets/account_card.png)
 
 ### Narrow
 
-![picture alt](assets/narrow-card.png)
+![picture alt](assets/card_variations.png)
 
 ### Card payload
 

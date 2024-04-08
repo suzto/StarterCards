@@ -8,7 +8,8 @@
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/video_image.png"
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/video_image.png",
+      "altText": "Web Development Bootcamp Video"
     },
     {
       "type": "TextBlock",

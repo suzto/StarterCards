@@ -105,7 +105,8 @@ You can try looking at [issues related to this sample](https://github.com/pnp/Ad
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/video_image.png"
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/video_image.png",
+      "altText": "3 Minute Energy Flow with Kayo Video"
     },
     {
       "type": "TextBlock",
@@ -126,7 +127,8 @@ You can try looking at [issues related to this sample](https://github.com/pnp/Ad
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/avatar.png",
               "width": "24px",
               "height": "24px",
-              "style": "Person"
+              "style": "Person",
+              "altText": "Avatar"
             }
           ],
           "verticalContentAlignment": "Center"

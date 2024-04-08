@@ -11,8 +11,9 @@
       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
       "selectAction": {
         "type": "Action.OpenUrl",
-        "url": "https://adaptivecards.io/"
-    }
+        "url": "https://adaptivecards.io/",
+        "altText": "Intro to Graphic Design: Concepts Video"
+      }
     },
     {
       "type": "TextBlock",
@@ -77,9 +78,10 @@
           "items": [
             {
               "type": "Image",
-              "url": "https://github.com/suzto/StarterCards/blob/main/samples/video_two/assets/logo_image.png?raw=true",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/logo_image.png",
               "width": "16px",
-              "height": "16px"
+              "height": "16px",
+              "altText": "Logo"
             }
           ],
           "horizontalAlignment": "Center",

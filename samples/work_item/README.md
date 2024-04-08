@@ -17,7 +17,8 @@
               "type": "Image",
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/thumb_image.png",
               "width": "56px",
-              "height": "56px"
+              "height": "56px",
+              "altText": "Logo"
             }
           ]
         },
@@ -43,7 +44,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
                       "width": "8px",
-                      "height": "8px"
+                      "height": "8px",
+                      "altText": "Red circle"
                     }
                   ],
                   "horizontalAlignment": "Center",

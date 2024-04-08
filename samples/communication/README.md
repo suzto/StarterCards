@@ -23,7 +23,8 @@
                     {
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
                       "height": "auto",
-                      "type": "Image"
+                      "type": "Image",
+                      "altText": "📢"
                     }
                   ],
                   "type": "Column"
@@ -53,7 +54,8 @@
                     {
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
                       "height": "auto",
-                      "type": "Image"
+                      "type": "Image",
+                      "altText": "Avatar"
                     }
                   ],
                   "type": "Column"
@@ -106,7 +108,8 @@
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
                       "height": "auto",
                       "id": "likeOutline",
-                      "type": "Image"
+                      "type": "Image",
+                      "altText": "👍"
                     },
                     {
                       "horizontalAlignment": "right",
@@ -114,7 +117,8 @@
                       "height": "auto",
                       "id": "likeFilled",
                       "isVisible": false,
-                      "type": "Image"
+                      "type": "Image",
+                      "altText": "👍"
                     }
                   ],
                   "verticalContentAlignment": "center",
@@ -179,7 +183,8 @@
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
               "width": "150px",
               "height": "auto",
-              "type": "Image"
+              "type": "Image",
+              "altText": "Beach Image"
             },
             {
               "targetWidth": "atLeast:standard",

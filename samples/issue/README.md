@@ -34,7 +34,7 @@
           "width": "auto",
           "items": [
             {
-              "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' width='800px' height='800px' viewBox='0 0 512 512' style='&amp;%2310;'%3E%3Ctitle%3Eionicons-v5-d%3C/title%3E%3Cpath d='M416,160a64,64,0,1,0-96.27,55.24c-2.29,29.08-20.08,37-75,48.42-17.76,3.68-35.93,7.45-52.71,13.93V151.39a64,64,0,1,0-64,0V360.61a64,64,0,1,0,64.42.24c2.39-18,16-24.33,65.26-34.52,27.43-5.67,55.78-11.54,79.78-26.95,29-18.58,44.53-46.78,46.36-83.89A64,64,0,0,0,416,160ZM160,64a32,32,0,1,1-32,32A32,32,0,0,1,160,64Zm0,384a32,32,0,1,1,32-32A32,32,0,0,1,160,448ZM352,192a32,32,0,1,1,32-32A32,32,0,0,1,352,192Z' fill='%230073e6'/%3E%3C/svg%3E",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/issue_icon.png",
               "width": "37px",
               "height": "auto",
               "type": "Image"
@@ -62,37 +62,364 @@
       "type": "ColumnSet"
     },
     {
+      "type": "Table",
       "targetWidth": "atLeast:narrow",
+      "columns": [
+        {
+          "width": 1
+        },
+        {
+          "width": 2
+        }
+      ],
+      "rows": [
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Status",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Waiting for Review",
+                  "wrap": true
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Due Date",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "May 21, 2023",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Priority",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
+                          "width": "16px",
+                          "horizontalAlignment": "Center"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "color": "Attention",
+                          "text": "Critical",
+                          "wrap": true,
+                          "spacing": "Small",
+                          "type": "TextBlock"
+                        }
+                      ],
+                      "spacing": "Small"
+                    }
+                  ],
+                  "spacing": "Small"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Assigned To",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/avatar.png",
+                          "width": "16px"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center",
+                      "horizontalAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Charlotte Waltson",
+                          "wrap": true
+                        }
+                      ],
+                      "spacing": "Small"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "firstRowAsHeaders": false,
+      "showGridLines": false
+    },
+    {
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "text": "Status",
+          "weight": "Bolder",
+          "wrap": true,
+          "type": "TextBlock"
+        },
+        {
+          "text": "Waiting for Review",
+          "wrap": true,
+          "type": "TextBlock",
+          "spacing": "None"
+        },
+        {
+          "text": "Due Date",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "text": "May 21, 2023",
+          "wrap": true,
+          "spacing": "None",
+          "type": "TextBlock"
+        },
+        {
+          "text": "Priority",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
+                  "width": "16px",
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "color": "Attention",
+                  "text": "Critical",
+                  "wrap": true,
+                  "spacing": "Small",
+                  "type": "TextBlock"
+                }
+              ],
+              "spacing": "Small"
+            }
+          ],
+          "spacing": "None"
+        },
+        {
+          "text": "Assigned To",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/avatar.png",
+                  "width": "16px"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Charlotte Waltson",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small"
+            }
+          ],
+          "spacing": "None"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "title": "Comment",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "title": "Edit Issue",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        }
+      ],
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "ExtraLarge"
+    },
+    {
+      "actions": [
+        {
+          "title": "Comment",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/edit_icon.png"
+        }
+      ],
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "spacing": "ExtraLarge"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}
+````
+
+### Full width Card Payload
+
+````
+{
+  "type": "AdaptiveCard",
+  "msTeams": {
+    "width": "full"
+  },
+  "body": [
+    {
+      "inlines": [
+        {
+          "type": "TextRun",
+          "size": "Small",
+          "text": "Android Scrum Project / SSP-98",
+          "selectAction": {
+            "url": "https://adaptivecards.io",
+            "type": "Action.OpenUrl"
+          }
+        }
+      ],
+      "type": "RichTextBlock"
+    },
+    {
       "columns": [
         {
           "width": "auto",
           "items": [
             {
-              "text": "Status",
-              "weight": "bolder",
-              "wrap": true,
-              "type": "TextBlock"
-            },
-            {
-              "text": "Due Date",
-              "weight": "bolder",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock"
-            },
-            {
-              "text": "Priority",
-              "weight": "bolder",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock"
-            },
-            {
-              "text": "Assigned To",
-              "weight": "bolder",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock"
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/issue_icon.png",
+              "width": "37px",
+              "height": "auto",
+              "type": "Image"
             }
           ],
           "type": "Column"
@@ -101,107 +428,340 @@
           "width": "stretch",
           "items": [
             {
-              "text": "Waiting for Review",
+              "size": "Large",
+              "text": "Version 2.2 Performance Optimization",
+              "weight": "Bolder",
               "wrap": true,
-              "type": "TextBlock"
-            },
-            {
-              "text": "May 21, 2023",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock"
-            },
-            {
-              "color": "attention",
-              "text": "Critical",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock"
-            },
-            {
-              "text": "Charlotte Waltson",
-              "wrap": true,
-              "spacing": "Small",
               "type": "TextBlock"
             }
           ],
+          "verticalContentAlignment": "Center",
+          "spacing": "Small",
           "type": "Column"
         }
       ],
+      "spacing": "Small",
       "type": "ColumnSet"
     },
     {
-      "text": "Status",
-      "weight": "Bolder",
-      "wrap": true,
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
+      "type": "Table",
+      "targetWidth": "atLeast:narrow",
+      "columns": [
+        {
+          "width": 1
+        },
+        {
+          "width": 2
+        }
+      ],
+      "rows": [
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Status",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Waiting for Review",
+                  "wrap": true
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Due Date",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "May 21, 2023",
+                  "wrap": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Priority",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
+                          "width": "16px",
+                          "horizontalAlignment": "Center"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "color": "Attention",
+                          "text": "Critical",
+                          "wrap": true,
+                          "spacing": "Small",
+                          "type": "TextBlock"
+                        }
+                      ],
+                      "spacing": "Small"
+                    }
+                  ],
+                  "spacing": "Small"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Assigned To",
+                  "wrap": true,
+                  "weight": "Bolder"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/avatar.png",
+                          "width": "16px"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center",
+                      "horizontalAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Charlotte Waltson",
+                          "wrap": true
+                        }
+                      ],
+                      "spacing": "Small"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "firstRowAsHeaders": false,
+      "showGridLines": false
     },
     {
-      "text": "Waiting for Review",
-      "wrap": true,
-      "type": "TextBlock",
-      "spacing": "None",
-      "targetWidth": "veryNarrow"
-    },
-    {
-      "text": "Due Date",
-      "weight": "Bolder",
-      "wrap": true,
-      "spacing": "Small",
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
-    },
-    {
-      "text": "May 21, 2023",
-      "wrap": true,
-      "spacing": "None",
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
-    },
-    {
-      "text": "Priority",
-      "weight": "Bolder",
-      "wrap": true,
-      "spacing": "Small",
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
-    },
-    {
-      "color": "Attention",
-      "text": "Critical",
-      "wrap": true,
-      "spacing": "None",
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
-    },
-    {
-      "text": "Assigned To",
-      "weight": "Bolder",
-      "wrap": true,
-      "spacing": "Small",
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
-    },
-    {
-      "text": "Charlotte Waltson",
-      "wrap": true,
-      "spacing": "None",
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow"
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "text": "Status",
+          "weight": "Bolder",
+          "wrap": true,
+          "type": "TextBlock"
+        },
+        {
+          "text": "Waiting for Review",
+          "wrap": true,
+          "type": "TextBlock",
+          "spacing": "None"
+        },
+        {
+          "text": "Due Date",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "text": "May 21, 2023",
+          "wrap": true,
+          "spacing": "None",
+          "type": "TextBlock"
+        },
+        {
+          "text": "Priority",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
+                  "width": "16px",
+                  "horizontalAlignment": "Center"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "color": "Attention",
+                  "text": "Critical",
+                  "wrap": true,
+                  "spacing": "Small",
+                  "type": "TextBlock"
+                }
+              ],
+              "spacing": "Small"
+            }
+          ],
+          "spacing": "None"
+        },
+        {
+          "text": "Assigned To",
+          "weight": "Bolder",
+          "wrap": true,
+          "spacing": "Small",
+          "type": "TextBlock"
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/avatar.png",
+                  "width": "16px"
+                }
+              ],
+              "verticalContentAlignment": "Center",
+              "horizontalAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Charlotte Waltson",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small"
+            }
+          ],
+          "spacing": "None"
+        }
+      ]
     },
     {
       "actions": [
         {
           "title": "Comment",
-          "type": "Action.OpenUrl"
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
         },
         {
           "title": "Edit Issue",
-          "type": "Action.OpenUrl"
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
         }
       ],
-      "type": "ActionSet"
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "ExtraLarge"
+    },
+    {
+      "actions": [
+        {
+          "title": "Comment",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/edit_icon.png"
+        }
+      ],
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "spacing": "ExtraLarge"
     }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",

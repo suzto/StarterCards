@@ -22,128 +22,290 @@
       "columns": [
         {
           "type": "Column",
-          "width": 60,
+          "width": 40,
           "items": [
             {
               "type": "TextBlock",
-              "text": "Fabrikam Coffee Machines",
-              "wrap": true,
+              "text": "Fourth Coffee Distillery Equipment ",
               "size": "Large",
-              "weight": "Bolder"
+              "weight": "Bolder",
+              "wrap": true
             }
-          ]
+          ],
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
+          "targetWidth": "atLeast:standard",
           "width": 15,
           "items": [
             {
               "type": "TextBlock",
               "text": "Status",
               "wrap": true,
-              "size": "Medium",
-              "weight": "Lighter"
+              "size": "Small",
+              "weight": "Default",
+              "isSubtle": true
             },
             {
               "type": "TextBlock",
               "text": "In Progress",
-              "wrap": true,
-              "color": "Warning"
+              "color": "Good",
+              "spacing": "None",
+              "size": "Small",
+              "weight": "Bolder",
+              "wrap": true
             }
-          ]
+          ],
+          "spacing": "Small"
         },
         {
           "type": "Column",
-          "width": 18,
+          "targetWidth": "atLeast:standard",
+          "width": 20,
           "separator": true,
           "items": [
             {
               "type": "TextBlock",
               "text": "Opportunity Score",
-              "wrap": true,
               "size": "Small",
-              "weight": "Lighter"
+              "weight": "Default",
+              "isSubtle": true,
+              "wrap": true
             },
             {
               "type": "TextBlock",
               "text": "91 - Grade A",
               "wrap": true,
-              "weight": "Bolder"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "V",
-              "wrap": true
+              "weight": "Bolder",
+              "spacing": "None",
+              "size": "Small",
+              "color": "Default"
             }
           ]
         }
       ]
     },
     {
-      "targetWidth": "narrow",
       "type": "TextBlock",
-      "text": "Fabrikam Coffee Machines",
+      "text": "Opportunity",
       "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
+      "isSubtle": true,
+      "spacing": "None"
     },
     {
+      "type": "TextBlock",
+      "targetWidth": "atMost:narrow",
+      "text": "In Progress",
+      "color": "Good",
+      "size": "Small",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atMost:narrow",
+      "text": "91 - Grade A",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "None",
+      "size": "Small",
+      "color": "Default"
+    },
+    {
+      "type": "Table",
       "targetWidth": "narrow",
-      "type": "ColumnSet",
       "columns": [
         {
-          "type": "Column",
-          "width": 15,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Status",
-              "wrap": true,
-              "size": "Medium",
-              "weight": "Lighter"
-            },
-            {
-              "type": "TextBlock",
-              "text": "In Progress",
-              "wrap": true,
-              "color": "Warning"
-            }
-          ]
+          "width": 2
         },
         {
-          "type": "Column",
-          "width": 15,
-          "separator": true,
-          "items": [
+          "width": 3
+        }
+      ],
+      "rows": [
+        {
+          "type": "TableRow",
+          "cells": [
             {
-              "type": "TextBlock",
-              "text": "Opportunity Score",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Lighter"
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Account",
+                  "wrap": true,
+                  "isSubtle": true
+                }
+              ]
             },
             {
-              "type": "TextBlock",
-              "text": "91 - Grade A  V",
-              "wrap": true,
-              "weight": "Bolder"
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Fourth Coffee",
+                  "wrap": true
+                }
+              ]
             }
-          ]
+          ],
+          "verticalCellContentAlignment": "Center"
         },
         {
-          "type": "Column",
-          "width": "auto"
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Est. Revenue",
+                  "wrap": true,
+                  "isSubtle": true
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "$3,000,000.00",
+                  "wrap": true
+                }
+              ]
+            }
+          ],
+          "verticalCellContentAlignment": "Center"
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Owner",
+                  "wrap": true,
+                  "isSubtle": true
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
+                          "width": "20px"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Reta Taylor",
+                          "wrap": true
+                        }
+                      ],
+                      "spacing": "Small",
+                      "verticalContentAlignment": "Center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "verticalCellContentAlignment": "Center"
+        }
+      ],
+      "firstRowAsHeaders": false,
+      "showGridLines": false,
+      "spacing": "Small",
+      "separator": true
+    },
+    {
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Account",
+          "wrap": true,
+          "isSubtle": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Fourth Coffee",
+          "wrap": true,
+          "spacing": "None"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Est. Revenue",
+          "wrap": true,
+          "isSubtle": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "$3,000,000.00",
+          "wrap": true,
+          "spacing": "None"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Owner",
+          "wrap": true,
+          "isSubtle": true
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
+                  "width": "20px"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Reta Taylor",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small",
+              "verticalContentAlignment": "Center"
+            }
+          ],
+          "spacing": "None"
         }
       ]
     },
     {
       "type": "ColumnSet",
+      "targetWidth": "atLeast:standard",
       "columns": [
         {
           "type": "Column",
@@ -158,7 +320,8 @@
             {
               "type": "TextBlock",
               "text": "Fabrikam",
-              "wrap": true
+              "wrap": true,
+              "spacing": "Small"
             }
           ]
         },
@@ -175,7 +338,8 @@
             {
               "type": "TextBlock",
               "text": "$3,000,000.00",
-              "wrap": true
+              "wrap": true,
+              "spacing": "Small"
             }
           ]
         },
@@ -190,9 +354,35 @@
               "weight": "Lighter"
             },
             {
-              "type": "TextBlock",
-              "text": "👤Daisy Phillips",
-              "wrap": true
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
+                      "width": "20px"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Reta Taylor",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
+                }
+              ],
+              "spacing": "Small"
             }
           ]
         },
@@ -200,7 +390,8 @@
           "type": "Column",
           "width": "stretch"
         }
-      ]
+      ],
+      "spacing": "Medium"
     },
     {
       "type": "ColumnSet",
@@ -208,20 +399,20 @@
       "columns": [
         {
           "type": "Column",
-          "width": 3,
+          "width": "auto",
+          "verticalContentAlignment": "Center",
           "items": [
             {
-              "type": "TextBlock",
-              "text": "👤",
-              "wrap": true,
-              "size": "ExtraLarge"
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_large.png",
+              "style": "Person",
+              "width": "35px"
             }
-          ],
-          "verticalContentAlignment": "Center"
+          ]
         },
         {
           "type": "Column",
-          "width": 20,
+          "width": "stretch",
           "items": [
             {
               "type": "TextBlock",
@@ -233,31 +424,102 @@
               "type": "TextBlock",
               "text": "Contact",
               "wrap": true,
-              "spacing": "Small",
+              "spacing": "None",
               "size": "Small",
               "weight": "Lighter"
             }
           ],
-          "verticalContentAlignment": "Center"
+          "verticalContentAlignment": "Center",
+          "spacing": "Small"
         },
         {
           "type": "Column",
-          "width": "stretch"
-        },
-        {
-          "type": "Column",
-          "width": 8,
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
           "items": [
             {
-              "type": "TextBlock",
-              "text": "View More",
-              "wrap": true,
-              "color": "Accent"
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "See More",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.io/"
+                  }
+                }
+              ]
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "rtl": false
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "horizontalAlignment": "Center",
+          "spacing": "None"
+        }
+      ],
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "targetWidth": "veryNarrow",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "See More",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.io/"
+                  }
+                }
+              ]
             }
           ],
           "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "horizontalAlignment": "Center",
+          "spacing": "None"
         }
-      ]
+      ],
+      "spacing": "Small"
     },
     {
       "type": "ActionSet",
@@ -268,7 +530,8 @@
           "title": "View Details",
           "url": "https://adaptivecards.io/"
         }
-      ]
+      ],
+      "spacing": "Medium"
     }
   ]
 }
@@ -291,128 +554,290 @@
       "columns": [
         {
           "type": "Column",
-          "width": 60,
+          "width": 40,
           "items": [
             {
               "type": "TextBlock",
-              "text": "Fabrikam Coffee Machines",
-              "wrap": true,
+              "text": "Fourth Coffee Distillery Equipment ",
               "size": "Large",
-              "weight": "Bolder"
+              "weight": "Bolder",
+              "wrap": true
             }
-          ]
+          ],
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
+          "targetWidth": "atLeast:standard",
           "width": 15,
           "items": [
             {
               "type": "TextBlock",
               "text": "Status",
               "wrap": true,
-              "size": "Medium",
-              "weight": "Lighter"
+              "size": "Small",
+              "weight": "Default",
+              "isSubtle": true
             },
             {
               "type": "TextBlock",
               "text": "In Progress",
-              "wrap": true,
-              "color": "Warning"
+              "color": "Good",
+              "spacing": "None",
+              "size": "Small",
+              "weight": "Bolder",
+              "wrap": true
             }
-          ]
+          ],
+          "spacing": "Small"
         },
         {
           "type": "Column",
-          "width": 18,
+          "targetWidth": "atLeast:standard",
+          "width": 20,
           "separator": true,
           "items": [
             {
               "type": "TextBlock",
               "text": "Opportunity Score",
-              "wrap": true,
               "size": "Small",
-              "weight": "Lighter"
+              "weight": "Default",
+              "isSubtle": true,
+              "wrap": true
             },
             {
               "type": "TextBlock",
               "text": "91 - Grade A",
               "wrap": true,
-              "weight": "Bolder"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "V",
-              "wrap": true
+              "weight": "Bolder",
+              "spacing": "None",
+              "size": "Small",
+              "color": "Default"
             }
           ]
         }
       ]
     },
     {
-      "targetWidth": "narrow",
       "type": "TextBlock",
-      "text": "Fabrikam Coffee Machines",
+      "text": "Opportunity",
       "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
+      "isSubtle": true,
+      "spacing": "None"
     },
     {
+      "type": "TextBlock",
+      "targetWidth": "atMost:narrow",
+      "text": "In Progress",
+      "color": "Good",
+      "size": "Small",
+      "weight": "Bolder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atMost:narrow",
+      "text": "91 - Grade A",
+      "wrap": true,
+      "weight": "Bolder",
+      "spacing": "None",
+      "size": "Small",
+      "color": "Default"
+    },
+    {
+      "type": "Table",
       "targetWidth": "narrow",
-      "type": "ColumnSet",
       "columns": [
         {
-          "type": "Column",
-          "width": 15,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Status",
-              "wrap": true,
-              "size": "Medium",
-              "weight": "Lighter"
-            },
-            {
-              "type": "TextBlock",
-              "text": "In Progress",
-              "wrap": true,
-              "color": "Warning"
-            }
-          ]
+          "width": 2
         },
         {
-          "type": "Column",
-          "width": 15,
-          "separator": true,
-          "items": [
+          "width": 3
+        }
+      ],
+      "rows": [
+        {
+          "type": "TableRow",
+          "cells": [
             {
-              "type": "TextBlock",
-              "text": "Opportunity Score",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Lighter"
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Account",
+                  "wrap": true,
+                  "isSubtle": true
+                }
+              ]
             },
             {
-              "type": "TextBlock",
-              "text": "91 - Grade A  V",
-              "wrap": true,
-              "weight": "Bolder"
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Fourth Coffee",
+                  "wrap": true
+                }
+              ]
             }
-          ]
+          ],
+          "verticalCellContentAlignment": "Center"
         },
         {
-          "type": "Column",
-          "width": "auto"
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Est. Revenue",
+                  "wrap": true,
+                  "isSubtle": true
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "$3,000,000.00",
+                  "wrap": true
+                }
+              ]
+            }
+          ],
+          "verticalCellContentAlignment": "Center"
+        },
+        {
+          "type": "TableRow",
+          "cells": [
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Owner",
+                  "wrap": true,
+                  "isSubtle": true
+                }
+              ]
+            },
+            {
+              "type": "TableCell",
+              "items": [
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "type": "Column",
+                      "width": "auto",
+                      "items": [
+                        {
+                          "type": "Image",
+                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
+                          "width": "20px"
+                        }
+                      ],
+                      "verticalContentAlignment": "Center"
+                    },
+                    {
+                      "type": "Column",
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Reta Taylor",
+                          "wrap": true
+                        }
+                      ],
+                      "spacing": "Small",
+                      "verticalContentAlignment": "Center"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "verticalCellContentAlignment": "Center"
+        }
+      ],
+      "firstRowAsHeaders": false,
+      "showGridLines": false,
+      "spacing": "Small",
+      "separator": true
+    },
+    {
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Account",
+          "wrap": true,
+          "isSubtle": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "Fourth Coffee",
+          "wrap": true,
+          "spacing": "None"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Est. Revenue",
+          "wrap": true,
+          "isSubtle": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "$3,000,000.00",
+          "wrap": true,
+          "spacing": "None"
+        },
+        {
+          "type": "TextBlock",
+          "text": "Owner",
+          "wrap": true,
+          "isSubtle": true
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
+                  "width": "20px"
+                }
+              ],
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Reta Taylor",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small",
+              "verticalContentAlignment": "Center"
+            }
+          ],
+          "spacing": "None"
         }
       ]
     },
     {
       "type": "ColumnSet",
+      "targetWidth": "atLeast:standard",
       "columns": [
         {
           "type": "Column",
@@ -427,7 +852,8 @@
             {
               "type": "TextBlock",
               "text": "Fabrikam",
-              "wrap": true
+              "wrap": true,
+              "spacing": "Small"
             }
           ]
         },
@@ -444,7 +870,8 @@
             {
               "type": "TextBlock",
               "text": "$3,000,000.00",
-              "wrap": true
+              "wrap": true,
+              "spacing": "Small"
             }
           ]
         },
@@ -459,9 +886,35 @@
               "weight": "Lighter"
             },
             {
-              "type": "TextBlock",
-              "text": "👤Daisy Phillips",
-              "wrap": true
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
+                      "width": "20px"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Reta Taylor",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
+                }
+              ],
+              "spacing": "Small"
             }
           ]
         },
@@ -469,7 +922,8 @@
           "type": "Column",
           "width": "stretch"
         }
-      ]
+      ],
+      "spacing": "Medium"
     },
     {
       "type": "ColumnSet",
@@ -477,20 +931,20 @@
       "columns": [
         {
           "type": "Column",
-          "width": 3,
+          "width": "auto",
+          "verticalContentAlignment": "Center",
           "items": [
             {
-              "type": "TextBlock",
-              "text": "👤",
-              "wrap": true,
-              "size": "ExtraLarge"
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_large.png",
+              "style": "Person",
+              "width": "35px"
             }
-          ],
-          "verticalContentAlignment": "Center"
+          ]
         },
         {
           "type": "Column",
-          "width": 20,
+          "width": "stretch",
           "items": [
             {
               "type": "TextBlock",
@@ -502,31 +956,102 @@
               "type": "TextBlock",
               "text": "Contact",
               "wrap": true,
-              "spacing": "Small",
+              "spacing": "None",
               "size": "Small",
               "weight": "Lighter"
             }
           ],
-          "verticalContentAlignment": "Center"
+          "verticalContentAlignment": "Center",
+          "spacing": "Small"
         },
         {
           "type": "Column",
-          "width": "stretch"
-        },
-        {
-          "type": "Column",
-          "width": 8,
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
           "items": [
             {
-              "type": "TextBlock",
-              "text": "View More",
-              "wrap": true,
-              "color": "Accent"
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "See More",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.io/"
+                  }
+                }
+              ]
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "rtl": false
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "horizontalAlignment": "Center",
+          "spacing": "None"
+        }
+      ],
+      "spacing": "Medium"
+    },
+    {
+      "type": "ColumnSet",
+      "targetWidth": "veryNarrow",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "RichTextBlock",
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "See More",
+                  "selectAction": {
+                    "type": "Action.OpenUrl",
+                    "url": "https://adaptivecards.io/"
+                  }
+                }
+              ]
             }
           ],
           "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://adaptivecards.io/"
+              }
+            }
+          ],
+          "verticalContentAlignment": "Center",
+          "horizontalAlignment": "Center",
+          "spacing": "None"
         }
-      ]
+      ],
+      "spacing": "Small"
     },
     {
       "type": "ActionSet",
@@ -537,7 +1062,8 @@
           "title": "View Details",
           "url": "https://adaptivecards.io/"
         }
-      ]
+      ],
+      "spacing": "Medium"
     }
   ]
 }

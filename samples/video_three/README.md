@@ -50,19 +50,22 @@
           "type": "Action.OpenUrl",
           "title": "Share in Teams",
           "mode": "secondary",
-          "url": "https://adaptivecards.io/"
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Download",
           "url": "https://adaptivecards.io/",
-          "mode": "secondary"
+          "mode": "secondary",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Copy link",
           "mode": "secondary",
-          "url": "https://adaptivecards.io/"
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
         }
       ]
     },

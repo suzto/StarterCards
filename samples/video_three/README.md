@@ -6,15 +6,46 @@ This versatile and robust card serves as a learning hub for video content. Tailo
 
 _bot-sent_ card example:
 
-
-
 ![picture of the extension in action](readme_assets/hero.png)
 
 
 
- 
 ## Compatibility
 
+![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
+
+## Adaptive Cards Designer Tool
+<!--- button image exported at 1.2x --->
+<p>
+    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Femployee-onboarding%2Fac-qv-employee-onboarding.json&data=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Femployee-onboarding%2Fac-qv-employee-onboarding.data.json">
+        <img src="https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/suz_test/assets/open_designer_button.png" alt="Open in Adaptive Card Designer" />
+    </a>
+</p>
+
+## Solution
+
+Solution|Author(s)
+--------|---------
+Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="32" height="32" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) \| Microsoft  
+
+ 
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0| October 31, 2023 | Initial release
+
+
+## Disclaimer
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+
+## Variations
+
+Information here about typical modifications that are reasonable to this card
+
+![picture of alterations](assets/video_variations.png)
 
 
 

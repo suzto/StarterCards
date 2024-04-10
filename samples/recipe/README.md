@@ -145,8 +145,276 @@ Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
 Samples are not supported, but this community is helpful and we want to make the samples better. We track issues on GitHub, which lets community members contribute their time and skills to solve them.
 
-A possible way to check if others have the same issues is to look at the [issues related to this sample](https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/issues).  
-
- 
+A possible way to check if others have the same issues is to look at the [issues related to this sample](https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/issues).
 
 
+### Card payload
+
+````
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "altText": "Image of Apricot-Chile Glazed Chicken",
+      "size": "Stretch",
+      "url": "https://onedrive.live.com/embed?resid=EBE108865B49234E%21142072&authkey=%21AIH0yXnxgH5RoCY&width=840&height=360"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Apricot-Chile Glazed Chicken",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder",
+      "color": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "text": "15 min · 215 calories · 29g protein",
+      "wrap": true,
+      "spacing": "None",
+      "fontType": "Default",
+      "size": "Small",
+      "weight": "Default",
+      "isSubtle": true,
+      "color": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "id": "truncatedText",
+      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.\n\nThe recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
+      "wrap": true,
+      "maxLines": 3
+    },
+    {
+      "type": "TextBlock",
+      "id": "fullText1",
+      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.",
+      "wrap": true,
+      "isVisible": false
+    },
+    {
+      "type": "TextBlock",
+      "id": "fullText2",
+      "text": "The recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
+      "wrap": true,
+      "isVisible": false
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showMore",
+      "targetWidth": "atLeast:narrow",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show more",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText1",
+              "fullText2",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showLess",
+      "targetWidth": "atLeast:narrow",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show less",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText1",
+              "fullText2",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "View recipe",
+          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Add to cart",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
+        }
+      ],
+      "spacing": "Medium"
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "View recipe",
+          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
+        },
+        {
+          "type": "Action.Submit",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
+        }
+      ],
+      "spacing": "Medium"
+    }
+  ]
+}
+````
+
+### Full width Card payload
+
+````
+{
+  "type": "AdaptiveCard",
+  "msTeams": {
+    "width": "full"
+  },
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "altText": "Image of Apricot-Chile Glazed Chicken",
+      "size": "Stretch",
+      "url": "https://onedrive.live.com/embed?resid=EBE108865B49234E%21142072&authkey=%21AIH0yXnxgH5RoCY&width=840&height=360"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Apricot-Chile Glazed Chicken",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder",
+      "color": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "text": "15 min · 215 calories · 29g protein",
+      "wrap": true,
+      "spacing": "None",
+      "fontType": "Default",
+      "size": "Small",
+      "weight": "Default",
+      "isSubtle": true,
+      "color": "Default"
+    },
+    {
+      "type": "TextBlock",
+      "id": "truncatedText",
+      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.\n\nThe recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
+      "wrap": true,
+      "maxLines": 3
+    },
+    {
+      "type": "TextBlock",
+      "id": "fullText1",
+      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.",
+      "wrap": true,
+      "isVisible": false
+    },
+    {
+      "type": "TextBlock",
+      "id": "fullText2",
+      "text": "The recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
+      "wrap": true,
+      "isVisible": false
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showMore",
+      "targetWidth": "atLeast:narrow",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show more",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText1",
+              "fullText2",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showLess",
+      "targetWidth": "atLeast:narrow",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show less",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText1",
+              "fullText2",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "View recipe",
+          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Add to cart",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
+        }
+      ],
+      "spacing": "Medium"
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "View recipe",
+          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
+        },
+        {
+          "type": "Action.Submit",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
+        }
+      ],
+      "spacing": "Medium"
+    }
+  ]
+}
+````

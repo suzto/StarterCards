@@ -57,11 +57,25 @@
                   "items": [
                     {
                       "type": "TextBlock",
+                      "text": "Blocked",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "None",
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
                       "text": "|",
                       "wrap": true
                     }
                   ],
-                  "spacing": "Small"
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
                 },
                 {
                   "type": "Column",
@@ -73,7 +87,8 @@
                       "wrap": true
                     }
                   ],
-                  "spacing": "Small"
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
                 }
               ]
             }
@@ -83,7 +98,7 @@
     },
     {
       "type": "ColumnSet",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "atLeast:narrow",
       "columns": [
         {
           "type": "Column",
@@ -93,10 +108,24 @@
               "type": "Image",
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
               "width": "8px",
-              "height": "8px"
+              "height": "8px",
+              "altText": "Red circle"
             }
           ],
           "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Blocked",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
           "verticalContentAlignment": "Center"
         },
         {
@@ -109,7 +138,8 @@
               "wrap": true
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
@@ -121,7 +151,8 @@
               "wrap": true
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         }
       ]
     },
@@ -148,11 +179,11 @@
 ````
 {
   "type": "AdaptiveCard",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
   "msTeams": {
     "width": "full"
   },
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
   "body": [
     {
       "type": "ColumnSet",
@@ -205,11 +236,25 @@
                   "items": [
                     {
                       "type": "TextBlock",
+                      "text": "Blocked",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "None",
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
                       "text": "|",
                       "wrap": true
                     }
                   ],
-                  "spacing": "Small"
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
                 },
                 {
                   "type": "Column",
@@ -221,7 +266,8 @@
                       "wrap": true
                     }
                   ],
-                  "spacing": "Small"
+                  "spacing": "Small",
+                  "verticalContentAlignment": "Center"
                 }
               ]
             }
@@ -231,7 +277,7 @@
     },
     {
       "type": "ColumnSet",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "atLeast:narrow",
       "columns": [
         {
           "type": "Column",
@@ -241,10 +287,24 @@
               "type": "Image",
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
               "width": "8px",
-              "height": "8px"
+              "height": "8px",
+              "altText": "Red circle"
             }
           ],
           "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Blocked",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
           "verticalContentAlignment": "Center"
         },
         {
@@ -257,7 +317,8 @@
               "wrap": true
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         },
         {
           "type": "Column",
@@ -269,7 +330,8 @@
               "wrap": true
             }
           ],
-          "spacing": "Small"
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
         }
       ]
     },

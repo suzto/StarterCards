@@ -28,11 +28,17 @@
         {
           "type": "Column",
           "width": "auto",
+          "verticalContentAlignment": "Center",
           "items": [
             {
               "type": "Rating",
               "value": "4",
-              "color": "Marigold"
+              "color": "Marigold",
+              "size": "Medium",
+              "fallback": {
+                "type": "TextBlock",
+                "text": "4 Stars"
+              }
             }
           ]
         },

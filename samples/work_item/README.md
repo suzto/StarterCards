@@ -61,7 +61,7 @@
                       "wrap": true
                     }
                   ],
-                  "spacing": "None",
+                  "spacing": "Small",
                   "verticalContentAlignment": "Center"
                 },
                 {
@@ -161,7 +161,8 @@
       "actions": [
         {
           "type": "Action.OpenUrl",
-          "title": "Open"
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.Submit",
@@ -240,7 +241,7 @@
                       "wrap": true
                     }
                   ],
-                  "spacing": "None",
+                  "spacing": "Small",
                   "verticalContentAlignment": "Center"
                 },
                 {
@@ -340,7 +341,8 @@
       "actions": [
         {
           "type": "Action.OpenUrl",
-          "title": "Open"
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.Submit",

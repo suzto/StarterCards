@@ -17,7 +17,6 @@
   "version": "1.5",
   "body": [
     {
-      "targetWidth": "atLeast:standard",
       "type": "ColumnSet",
       "columns": [
         {
@@ -549,7 +548,6 @@
   },
   "body": [
     {
-      "targetWidth": "atLeast:standard",
       "type": "ColumnSet",
       "columns": [
         {

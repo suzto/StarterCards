@@ -51,21 +51,21 @@
           "title": "Share in Teams",
           "mode": "secondary",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_teams.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Copy link",
           "mode": "secondary",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_link.png"
         }
       ]
     },
@@ -85,21 +85,21 @@
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_teams.png",
           "title": "Share in Teams",
           "mode": "secondary",
           "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_link.png",
           "title": "Copy link",
           "mode": "secondary",
           "url": "https://adaptivecards.io/"
@@ -204,7 +204,7 @@
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary"

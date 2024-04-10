@@ -8,7 +8,7 @@ _bot-sent_ card example:
 
 
 
-![picture of the extension in action](readme_assets/couse_hero.png)
+![picture of the extension in action](readme_assets/course_hero.png)
 
 
 

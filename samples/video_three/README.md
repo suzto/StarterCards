@@ -17,7 +17,7 @@ _bot-sent_ card example:
 ## Adaptive Cards Designer Tool
 <!--- button image exported at 1.2x --->
 <p>
-    <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Femployee-onboarding%2Fac-qv-employee-onboarding.json&data=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Femployee-onboarding%2Fac-qv-employee-onboarding.data.json">
+    <a href="https://dev.teams.microsoft.com/home">
         <img src="https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/blob/suz_test/assets/open_designer_button.png" alt="Open in Adaptive Card Designer" />
     </a>
 </p>

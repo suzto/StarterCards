@@ -15,7 +15,7 @@ _bot-sent_ card example:
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
 
 ## Adaptive Cards Designer Tool
-<!--- button image exported at 1.2x --->
+Use our Teams specific Designer Tool to build and modify your cards. Access it thru the <b>Developer Portal app</b> on Teams.<br/><br/>
  <a href="https://dev.teams.microsoft.com/home">![picture of the extension in action](/assets/devportal_button.png) </a>
 
 

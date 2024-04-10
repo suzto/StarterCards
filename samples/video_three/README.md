@@ -1,3 +1,23 @@
+# Static Video
+
+## Summary
+
+This versatile and robust card serves as a learning hub for video content. Tailor it to your specific needs, whether it’s a series of courses, tutorials, or informative clips. Customize titles, descriptions, and author information to create engaging viewing experiences.
+
+_bot-sent_ card example:
+
+
+
+![picture of the extension in action](assets/card.png)
+
+
+
+ 
+## Compatibility
+
+
+
+
 ### Card payload
 
 ````

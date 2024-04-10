@@ -1,4 +1,4 @@
-# Static Video
+# Course Video
 
 ## Summary
 

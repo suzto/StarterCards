@@ -16,13 +16,8 @@ _bot-sent_ card example:
 
 ## Adaptive Cards Designer Tool
 <!--- button image exported at 1.2x --->
-![picture of the extension in action](/assets/devportal_button.png)
+ <a href="https://dev.teams.microsoft.com/home">![picture of the extension in action](/assets/devportal_button.png) </a>
 
-<p>
-    <a href="https://dev.teams.microsoft.com/home">
-        <img src="assets/DesignerButton.png" alt="Open in Adaptive Card Designer" />
-    </a>
-</p>
 
 ## Solution
 

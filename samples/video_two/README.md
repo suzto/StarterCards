@@ -84,7 +84,7 @@ Set the maximum line truncation as desired. The "Show more" /  "Show less" featu
 
 ## 2) 👩‍🎨 Test your card
 
-This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the below categories:
+This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:
 * <b>Themes:</b> Light Mode, Dark Mode, High Contrast
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)

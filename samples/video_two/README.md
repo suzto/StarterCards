@@ -37,7 +37,7 @@ Version|Date|Comments
 
 This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
 
-![picture of the extension in action](readme_assets/layouts.png)
+![picture of the extension in action](assets/layouts.png)
 
 ## Inspiration Gallery
 

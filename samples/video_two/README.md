@@ -55,7 +55,7 @@ lorem ipsum delor amet consectuer leoeian
 
   
  #### 1) Open the Microsoft Teams Designer Editing tool
- This is our ___Teams supported___ tool for building and editing cards. <b>Copy in the [JSON payload](#card-payload)</b> provided on this page.
+ This is our ___Teams supported___ tool for building and editing cards. <b>Copy in the [JSON payload](#card-payload)</b> provided at the bottom of this page.
  
  <a href="https://dev.teams.microsoft.com/home">
         <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
@@ -131,3 +131,467 @@ Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
+<br>
+
+
+### Card Payload
+
+````
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/",
+        "altText": "Intro to Graphic Design: Concepts Video"
+      }
+    },
+    {
+      "type": "TextBlock",
+      "text": "Intro to Graphic Design: Concepts",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "Rating",
+              "value": "4",
+              "color": "Marigold",
+              "size": "Medium",
+              "fallback": {
+                "type": "TextBlock",
+                "text": "4 Stars"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "1,160",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Course · 52m · Beginner",
+      "wrap": true,
+      "isSubtle": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/logo_image.png",
+              "width": "16px",
+              "height": "16px",
+              "altText": "Logo"
+            }
+          ],
+          "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Sketchpad Scholars",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tony Harper",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn...",
+      "wrap": true,
+      "id": "truncatedText"
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn about design principles through hands-on projects that will help build your portfolio. Enroll now and start your journey to mastering the art of graphic design.",
+      "wrap": true,
+      "isVisible": false,
+      "id": "fullText"
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showMore",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "None",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show more",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showLess",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "None",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show less",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Bookmark",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.Execute",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+        }
+      ]
+    }
+  ]
+}
+````
+
+<!--  
+### Full width Card Payload
+
+````
+{
+  "type": "AdaptiveCard",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "msTeams": {
+    "width": "full
+  }
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/",
+        "altText": "Intro to Graphic Design: Concepts Video"
+      }
+    },
+    {
+      "type": "TextBlock",
+      "text": "Intro to Graphic Design: Concepts",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "Rating",
+              "value": "4",
+              "color": "Marigold",
+              "size": "Medium",
+              "fallback": {
+                "type": "TextBlock",
+                "text": "4 Stars"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "1,160",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Course · 52m · Beginner",
+      "wrap": true,
+      "isSubtle": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/logo_image.png",
+              "width": "16px",
+              "height": "16px",
+              "altText": "Logo"
+            }
+          ],
+          "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Sketchpad Scholars",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tony Harper",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn...",
+      "wrap": true,
+      "id": "truncatedText"
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn about design principles through hands-on projects that will help build your portfolio. Enroll now and start your journey to mastering the art of graphic design.",
+      "wrap": true,
+      "isVisible": false,
+      "id": "fullText"
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showMore",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "None",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show more",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showLess",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "None",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show less",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Bookmark",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.Execute",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+        }
+      ]
+    }
+  ]
+}
+````  -->

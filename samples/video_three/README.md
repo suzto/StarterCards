@@ -160,6 +160,8 @@ Information here about typical modifications that are reasonable to this card
 }
 ````
 
+<!-- 
+
 ### Full width Card payload
 
 ````
@@ -270,4 +272,4 @@ Information here about typical modifications that are reasonable to this card
     }
   ]
 }
-````
+````  -->

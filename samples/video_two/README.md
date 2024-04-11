@@ -75,33 +75,12 @@ If you are creating an image use a 16:9 aspect ratio. I find saving out the imag
 Replace the mini 16x16px square image. If you are creating a new image save it out as a transparent png at 2x size (to ensure good resolution) but keep the 16x16 fixed width in the card. 
 
 
-<!--- dropdown --->
+#### 4) Update the description copy and set truncation
+Set the maximum line truncation as desired. The "Show more" /  "Show less" feature can be kept or removed as desired.
 
-<details closed>
-<summary>
- Photo and image resources
-</summary> <br />
-
-<p>One- Instructions go here about free images</p>
-</details>
-
-<!--- dropdown --->
-
-<details closed>
-<summary>
- Advanced image editing information
-</summary> <br />
-
-<p>One- Instructions go here</p>
-
-</details>  
-
-
-#### 3) Update the copy and set truncation
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
-
-#### 4) Next steps goes here
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+#### 5) Update button copy and actions
+* Update button text and actions to suit your needs. <br>
+* <b>Creating icons:</b> If you'd like to add icons, the color should be #818181 to ensure readability on light/dark modes and should fit edge to edge in a 16x16 square. Save out the image as a transparent png at 2x size to ensure good resolution across endpoints.
 
 <p>&nbsp;</p>
 

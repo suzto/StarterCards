@@ -35,7 +35,7 @@ Version|Date|Comments
 
 ## Responsive Layouts
 
-This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see <insert msft learn link>.
+This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
 
 ![picture of alterations](assets/video_variations.png) 
 <br/><br/>

@@ -65,7 +65,12 @@ lorem ipsum delor amet consectuer leoeian
   
 
 #### 2) Replace the image
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+* Replace the image url to link to your desired image as well as URL for the selection action. <br>
+* Add "play_button.png" in assets folder if possible on top of your image.
+
+<b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners. <br>
+
+For YouTube, Vimeo, and DailyMotion Inline Media Cards the "play" button will not need to be added.
 
 
 <!--- dropdown --->

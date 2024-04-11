@@ -82,9 +82,17 @@ Set the maximum line truncation as desired. The "Show more" /  "Show less" featu
 * Update button text and actions to suit your needs. <br>
 * <b>Creating icons:</b> If you'd like to add icons, the color should be #818181 to ensure readability on light/dark modes and should fit edge to edge in a 16x16 square. Save out the image as a transparent png at 2x size to ensure good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
+## 2) 👩‍🎨 Test your card
+
+This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the below categories:
+* <b>Themes:</b> Light Mode, Dark Mode, High Contrast
+* <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
+* <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
+
+  
 <br>
 
-__For further design modifications__ use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/video_spec.png">(detailed spec)</a> , and verify the layouts before coding.<br />
+__*For further design modifications__ use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/video_spec.png">(detailed spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />

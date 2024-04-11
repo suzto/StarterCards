@@ -37,6 +37,8 @@ Version|Date|Comments
 
 This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
 
+![picture of the extension in action](readme_assets/layouts.png)
+
 ## Inspiration Gallery
 
 lorem ipsum delor amet consectuer leoeian
@@ -49,11 +51,6 @@ lorem ipsum delor amet consectuer leoeian
 ## 1) 👩‍🎨 Personalize This Card 
 
 
-__To modify or extend this card__ <a href="assets/design_spec.png">(design spec)</a>, use the Microsoft Teams UI Kit to fine tune your design before coding.<br />
-
-<a href="https://www.figma.com/community/file/916836509871353159">
-<img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
-</a> 
 
 
 ### Step by step instructions and tips: 
@@ -102,6 +99,11 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
 <p>&nbsp;</p>
 
 
+__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
+
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a> 
 
 
 ### Card Payload

@@ -1,3 +1,112 @@
+# Course Video
+
+## Summary
+
+This versatile and robust card serves as a learning hub for video content. Tailor it to your specific needs, whether it’s a series of courses, tutorials, or informative clips. Customize titles, descriptions, and author information to create engaging viewing experiences.
+
+_bot-sent_ card example:
+
+![picture of the extension in action](assets/VideoCard.png)
+
+
+
+## Compatibility
+
+![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
+
+
+## Solution
+
+Solution|Author(s)
+--------|---------
+Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"> </a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp; <a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0| April 11, 2024 | Initial release
+
+
+#### Disclaimer
+***THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
+
+
+## Design Layouts
+
+This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
+
+![picture of the extension in action](readme_assets/layouts.png)
+
+## Inspiration Gallery
+
+lorem ipsum delor amet consectuer leoeian
+
+![picture of alterations](assets/video_variations.png) 
+<br/><br/>
+
+
+
+## 1) 👩‍🎨 Personalize This Card 
+
+
+
+
+### Step by step instructions and tips: 
+
+  
+ #### 1) Open in the Microsoft Teams Designer Editing tool
+ This is our ___Teams supported___ tool for building and editing cards.
+ 
+ <a href="https://dev.teams.microsoft.com/home">
+        <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+    </a>
+  
+
+#### 2) Replace the image
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+
+
+<!--- dropdown --->
+
+<details closed>
+<summary>
+ Photo and image resources
+</summary> <br />
+
+<p>One- Instructions go here about free images</p>
+</details>
+
+<!--- dropdown --->
+
+<details closed>
+<summary>
+ Advanced image editing information
+</summary> <br />
+
+<p>One- Instructions go here</p>
+
+</details>  
+
+
+#### 3) Update the copy and set truncation
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+
+#### 4) Next steps goes here
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+
+<p>&nbsp;</p>
+
+
+__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
+
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a> 
+
+
+
 ### Card Payload
 
 ````

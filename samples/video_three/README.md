@@ -44,23 +44,63 @@ Version|Date|Comments
 
 Information here about typical modifications that are reasonable to this card
 
-![picture of alterations](assets/video_variations.png)
+![picture of alterations](assets/video_variations.png) 
+<br/><br/>
+
+## 1) 👩‍🎨 Personalize This Card 
 
 
-## Customize Your Card: ####
+__To modify or extend this card__ <a href="assets/design_spec.png">(design spec)</a>, use the Microsoft Teams UI Kit to fine tune your design before coding.<br />
 
-<details>
-<summary>Open Card in Designer</summary>
-<p></p>
-<p>One- Instructions go here</p>
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a> 
 
- `Hello This is a code`
+
+### Step by step instructions and tips: 
+
+  
+ #### 1) Open in the Microsoft Teams Designer Editing tool
+ This is our ___Teams supported___ tool for building and editing cards.
+ 
+ <a href="https://adaptivecards.io/designer/index.html?card=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Femployee-onboarding%2Fac-qv-employee-onboarding.json&data=https%3A%2F%2Fraw.githubusercontent.com%2Fpnp%2FAdaptiveCards-Templates%2Fmain%2Fsamples%2Femployee-onboarding%2Fac-qv-employee-onboarding.data.json">
+        <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+    </a>
+  
+
+#### 2) Replace the image
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+
+
+<!--- dropdown --->
+
+<details closed>
+<summary>
+ Photo and image resources
+</summary> <br />
+
+<p>One- Instructions go here about free images</p>
 </details>
 
-          
-#### Next item ####
-- **One** - Insructions go here
-- **Two** - Insructions go here about what to do next
+<!--- dropdown --->
+
+<details closed>
+<summary>
+ Advanced image editing information
+</summary> <br />
+
+<p>One- Instructions go here</p>
+
+</details>  
+
+
+#### 3) Update the copy and set truncation
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+
+#### 4) Next steps goes here
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+
+<p>&nbsp;</p>
 
 
 

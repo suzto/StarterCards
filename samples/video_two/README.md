@@ -6,7 +6,7 @@ This versatile and robust card serves as a learning hub for video content. Tailo
 
 _bot-sent_ card example:
 
-![picture of the extension in action](assets/videocard.png)
+![picture of the extension in action](assets/VideoCard.png)
 
 
 

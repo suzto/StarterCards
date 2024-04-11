@@ -327,7 +327,7 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
 ````  -->
 
 
-## Resources & Tools: ##
+## Resources & Tools ##
  
 
 - __Learn__: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
@@ -344,7 +344,7 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
 </p>
 
 
-## Contribute: ##
+## Contribute ##
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
 

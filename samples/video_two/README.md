@@ -56,8 +56,8 @@ lorem ipsum delor amet consectuer leoeian
 ### Step by step instructions and tips: 
 
   
- #### 1) Open in the Microsoft Teams Designer Editing tool
- This is our ___Teams supported___ tool for building and editing cards.
+ #### 1) Open the Microsoft Teams Designer Editing tool
+ This is our ___Teams supported___ tool for building and editing cards. <b>Copy in the JSON code</b> provided on this page.
  
  <a href="https://dev.teams.microsoft.com/home">
         <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />

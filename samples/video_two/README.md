@@ -132,7 +132,7 @@
           "spacing": "Small"
         }
       ],
-      "spacing": "Small"
+      "spacing": "None"
     },
     {
       "type": "TextBlock",
@@ -153,6 +153,7 @@
       "type": "RichTextBlock",
       "id": "showMore",
       "targetWidth": "atLeast:narrow",
+      "spacing": "None",
       "inlines": [
         {
           "type": "TextRun",
@@ -173,6 +174,7 @@
       "type": "RichTextBlock",
       "id": "showLess",
       "targetWidth": "atLeast:narrow",
+      "spacing": "None",
       "inlines": [
         {
           "type": "TextRun",
@@ -231,6 +233,9 @@
 {
   "type": "AdaptiveCard",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "msTeams": {
+    "width": "full
+  }
   "version": "1.5",
   "body": [
     {
@@ -255,11 +260,17 @@
         {
           "type": "Column",
           "width": "auto",
+          "verticalContentAlignment": "Center",
           "items": [
             {
               "type": "Rating",
               "value": "4",
-              "color": "Marigold"
+              "color": "Marigold",
+              "size": "Medium",
+              "fallback": {
+                "type": "TextBlock",
+                "text": "4 Stars"
+              }
             }
           ]
         },
@@ -353,7 +364,7 @@
           "spacing": "Small"
         }
       ],
-      "spacing": "Small"
+      "spacing": "None"
     },
     {
       "type": "TextBlock",
@@ -374,6 +385,7 @@
       "type": "RichTextBlock",
       "id": "showMore",
       "targetWidth": "atLeast:narrow",
+      "spacing": "None",
       "inlines": [
         {
           "type": "TextRun",
@@ -394,6 +406,7 @@
       "type": "RichTextBlock",
       "id": "showLess",
       "targetWidth": "atLeast:narrow",
+      "spacing": "None",
       "inlines": [
         {
           "type": "TextRun",

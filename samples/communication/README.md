@@ -17,9 +17,10 @@
           "items": [
             {
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-              "height": "auto",
+              "height": "16px",
               "type": "Image",
-              "altText": "📢"
+              "altText": "Megaphone icon",
+              "width": "16px"
             }
           ],
           "type": "Column"
@@ -29,7 +30,7 @@
           "items": [
             {
               "isSubtle": true,
-              "size": "small",
+              "size": "Small",
               "text": "Posted in Employee Deals",
               "wrap": true,
               "type": "TextBlock"
@@ -51,7 +52,7 @@
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
               "height": "auto",
               "type": "Image",
-              "altText": "Avatar"
+              "altText": "Avatar of Laurence Gibertson"
             }
           ],
           "type": "Column"
@@ -61,13 +62,13 @@
           "items": [
             {
               "text": "Laurence Gibertson",
-              "weight": "bolder",
+              "weight": "Bolder",
               "wrap": true,
               "type": "TextBlock"
             },
             {
               "isSubtle": true,
-              "size": "small",
+              "size": "Small",
               "text": "Oct 22",
               "wrap": true,
               "spacing": "None",
@@ -92,9 +93,10 @@
                   "items": [
                     {
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-                      "height": "auto",
+                      "height": "16px",
                       "type": "Image",
-                      "altText": "📢"
+                      "altText": "Megaphone icon",
+                      "width": "16px"
                     }
                   ],
                   "type": "Column"
@@ -104,7 +106,7 @@
                   "items": [
                     {
                       "isSubtle": true,
-                      "size": "small",
+                      "size": "Small",
                       "text": "Posted in Employee Deals",
                       "wrap": true,
                       "type": "TextBlock"
@@ -126,7 +128,7 @@
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
                       "height": "auto",
                       "type": "Image",
-                      "altText": "Avatar"
+                      "altText": "Avatar of Laurence Gibertson"
                     }
                   ],
                   "type": "Column"
@@ -136,13 +138,13 @@
                   "items": [
                     {
                       "text": "Laurence Gibertson",
-                      "weight": "bolder",
+                      "weight": "Bolder",
                       "wrap": true,
                       "type": "TextBlock"
                     },
                     {
                       "isSubtle": true,
-                      "size": "small",
+                      "size": "Small",
                       "text": "Oct 22",
                       "wrap": true,
                       "spacing": "None",
@@ -156,9 +158,9 @@
               "type": "ColumnSet"
             },
             {
-              "size": "large",
+              "size": "Large",
               "text": "Hawaii holiday escape deals start tonight!",
-              "weight": "bolder",
+              "weight": "Bolder",
               "wrap": true,
               "spacing": "Small",
               "type": "TextBlock"
@@ -176,24 +178,26 @@
                   "width": "auto",
                   "items": [
                     {
-                      "horizontalAlignment": "right",
+                      "horizontalAlignment": "Right",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
-                      "height": "auto",
+                      "width": "16px",
+                      "height": "16px",
                       "id": "likeOutline",
                       "type": "Image",
-                      "altText": "👍"
+                      "altText": "Outlined thumbs up"
                     },
                     {
-                      "horizontalAlignment": "right",
+                      "horizontalAlignment": "Right",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
-                      "height": "auto",
+                      "width": "16px",
+                      "height": "16px",
                       "id": "likeFilled",
                       "isVisible": false,
                       "type": "Image",
-                      "altText": "👍"
+                      "altText": "Thumbs up"
                     }
                   ],
-                  "verticalContentAlignment": "center",
+                  "verticalContentAlignment": "Bottom",
                   "spacing": "None",
                   "type": "Column"
                 },
@@ -201,14 +205,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "size": "small",
+                      "size": "Small",
                       "text": "26 people like this",
                       "wrap": true,
                       "id": "commentLike",
                       "type": "TextBlock"
                     },
                     {
-                      "size": "small",
+                      "size": "Small",
                       "text": "27 people like this",
                       "wrap": true,
                       "id": "commentUnlike",
@@ -216,11 +220,12 @@
                       "type": "TextBlock"
                     }
                   ],
-                  "verticalContentAlignment": "center",
+                  "verticalContentAlignment": "Bottom",
                   "spacing": "Small",
                   "type": "Column"
                 }
               ],
+              "height": "stretch",
               "spacing": "ExtraLarge",
               "type": "ColumnSet"
             },
@@ -305,9 +310,11 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-                  "height": "auto",
-                  "type": "Image"
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
+                  "height": "16px",
+                  "type": "Image",
+                  "altText": "Megaphone icon",
+                  "width": "16px"
                 }
               ],
               "type": "Column"
@@ -337,7 +344,8 @@
                 {
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
                   "height": "auto",
-                  "type": "Image"
+                  "type": "Image",
+                  "altText": "Avatar of Laurence Gibertson"
                 }
               ],
               "type": "Column"
@@ -410,17 +418,21 @@
                 {
                   "horizontalAlignment": "Right",
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
-                  "height": "auto",
+                  "width": "16px",
+                  "height": "16px",
                   "id": "likeOutline",
-                  "type": "Image"
+                  "type": "Image",
+                  "altText": "Outlined thumbs up"
                 },
                 {
                   "horizontalAlignment": "Right",
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
-                  "height": "auto",
+                  "width": "16px",
+                  "height": "16px",
                   "id": "likeFilled",
                   "isVisible": false,
-                  "type": "Image"
+                  "type": "Image",
+                  "altText": "Thumbs up"
                 }
               ],
               "verticalContentAlignment": "Center",
@@ -498,9 +510,10 @@
           "items": [
             {
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-              "height": "auto",
+              "height": "16px",
               "type": "Image",
-              "altText": "📢"
+              "altText": "Megaphone icon",
+              "width": "16px"
             }
           ],
           "type": "Column"
@@ -510,7 +523,7 @@
           "items": [
             {
               "isSubtle": true,
-              "size": "small",
+              "size": "Small",
               "text": "Posted in Employee Deals",
               "wrap": true,
               "type": "TextBlock"
@@ -532,7 +545,7 @@
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
               "height": "auto",
               "type": "Image",
-              "altText": "Avatar"
+              "altText": "Avatar of Laurence Gibertson"
             }
           ],
           "type": "Column"
@@ -542,13 +555,13 @@
           "items": [
             {
               "text": "Laurence Gibertson",
-              "weight": "bolder",
+              "weight": "Bolder",
               "wrap": true,
               "type": "TextBlock"
             },
             {
               "isSubtle": true,
-              "size": "small",
+              "size": "Small",
               "text": "Oct 22",
               "wrap": true,
               "spacing": "None",
@@ -573,9 +586,10 @@
                   "items": [
                     {
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-                      "height": "auto",
+                      "height": "16px",
                       "type": "Image",
-                      "altText": "📢"
+                      "altText": "Megaphone icon",
+                      "width": "16px"
                     }
                   ],
                   "type": "Column"
@@ -585,7 +599,7 @@
                   "items": [
                     {
                       "isSubtle": true,
-                      "size": "small",
+                      "size": "Small",
                       "text": "Posted in Employee Deals",
                       "wrap": true,
                       "type": "TextBlock"
@@ -607,7 +621,7 @@
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
                       "height": "auto",
                       "type": "Image",
-                      "altText": "Avatar"
+                      "altText": "Avatar of Laurence Gibertson"
                     }
                   ],
                   "type": "Column"
@@ -617,13 +631,13 @@
                   "items": [
                     {
                       "text": "Laurence Gibertson",
-                      "weight": "bolder",
+                      "weight": "Bolder",
                       "wrap": true,
                       "type": "TextBlock"
                     },
                     {
                       "isSubtle": true,
-                      "size": "small",
+                      "size": "Small",
                       "text": "Oct 22",
                       "wrap": true,
                       "spacing": "None",
@@ -637,9 +651,9 @@
               "type": "ColumnSet"
             },
             {
-              "size": "large",
+              "size": "Large",
               "text": "Hawaii holiday escape deals start tonight!",
-              "weight": "bolder",
+              "weight": "Bolder",
               "wrap": true,
               "spacing": "Small",
               "type": "TextBlock"
@@ -657,24 +671,26 @@
                   "width": "auto",
                   "items": [
                     {
-                      "horizontalAlignment": "right",
+                      "horizontalAlignment": "Right",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
-                      "height": "auto",
+                      "width": "16px",
+                      "height": "16px",
                       "id": "likeOutline",
                       "type": "Image",
-                      "altText": "👍"
+                      "altText": "Outlined thumbs up"
                     },
                     {
-                      "horizontalAlignment": "right",
+                      "horizontalAlignment": "Right",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
-                      "height": "auto",
+                      "width": "16px",
+                      "height": "16px",
                       "id": "likeFilled",
                       "isVisible": false,
                       "type": "Image",
-                      "altText": "👍"
+                      "altText": "Thumbs up"
                     }
                   ],
-                  "verticalContentAlignment": "center",
+                  "verticalContentAlignment": "Bottom",
                   "spacing": "None",
                   "type": "Column"
                 },
@@ -682,14 +698,14 @@
                   "width": "stretch",
                   "items": [
                     {
-                      "size": "small",
+                      "size": "Small",
                       "text": "26 people like this",
                       "wrap": true,
                       "id": "commentLike",
                       "type": "TextBlock"
                     },
                     {
-                      "size": "small",
+                      "size": "Small",
                       "text": "27 people like this",
                       "wrap": true,
                       "id": "commentUnlike",
@@ -697,11 +713,12 @@
                       "type": "TextBlock"
                     }
                   ],
-                  "verticalContentAlignment": "center",
+                  "verticalContentAlignment": "Bottom",
                   "spacing": "Small",
                   "type": "Column"
                 }
               ],
+              "height": "stretch",
               "spacing": "ExtraLarge",
               "type": "ColumnSet"
             },
@@ -786,9 +803,11 @@
               "width": "auto",
               "items": [
                 {
-                  "url": "https://us-prod.asyncgw.teams.microsoft.com/urlp/v1/url/content?url=https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-                  "height": "auto",
-                  "type": "Image"
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
+                  "height": "16px",
+                  "type": "Image",
+                  "altText": "Megaphone icon",
+                  "width": "16px"
                 }
               ],
               "type": "Column"
@@ -818,7 +837,8 @@
                 {
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
                   "height": "auto",
-                  "type": "Image"
+                  "type": "Image",
+                  "altText": "Avatar of Laurence Gibertson"
                 }
               ],
               "type": "Column"
@@ -891,17 +911,21 @@
                 {
                   "horizontalAlignment": "Right",
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
-                  "height": "auto",
+                  "width": "16px",
+                  "height": "16px",
                   "id": "likeOutline",
-                  "type": "Image"
+                  "type": "Image",
+                  "altText": "Outlined thumbs up"
                 },
                 {
                   "horizontalAlignment": "Right",
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
-                  "height": "auto",
+                  "width": "16px",
+                  "height": "16px",
                   "id": "likeFilled",
                   "isVisible": false,
-                  "type": "Image"
+                  "type": "Image",
+                  "altText": "Thumbs up"
                 }
               ],
               "verticalContentAlignment": "Center",

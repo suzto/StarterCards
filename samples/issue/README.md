@@ -155,7 +155,8 @@
                         {
                           "type": "Image",
                           "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
-                          "width": "16px",
+                          "width": "20px",
+                          "height": "20px",
                           "horizontalAlignment": "Center"
                         }
                       ]
@@ -284,7 +285,8 @@
                 {
                   "type": "Image",
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
-                  "width": "16px",
+                  "width": "20px",
+                  "height": "20px",
                   "horizontalAlignment": "Center"
                 }
               ],
@@ -537,7 +539,8 @@
                         {
                           "type": "Image",
                           "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
-                          "width": "16px",
+                          "width": "20px",
+                          "height": "20px",
                           "horizontalAlignment": "Center"
                         }
                       ]
@@ -666,7 +669,8 @@
                 {
                   "type": "Image",
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/issue/assets/critical_icon.png",
-                  "width": "16px",
+                  "width": "20px",
+                  "height": "20px",
                   "horizontalAlignment": "Center"
                 }
               ],

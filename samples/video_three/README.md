@@ -22,7 +22,7 @@
       "type": "TextBlock",
       "text": "HackLab Films",
       "wrap": true,
-      "spacing": "None",
+      "spacing": "Small",
       "weight": "Bolder"
     },
     {
@@ -137,7 +137,7 @@
       "type": "TextBlock",
       "text": "HackLab Films",
       "wrap": true,
-      "spacing": "None",
+      "spacing": "Small",
       "weight": "Bolder"
     },
     {

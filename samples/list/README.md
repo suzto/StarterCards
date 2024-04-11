@@ -22,7 +22,8 @@
       "text": "These resources will teach you how to achieve balance in your life and work with more ease.",
       "wrap": true,
       "type": "TextBlock",
-      "targetWidth": "atLeast:narrow"
+      "targetWidth": "atLeast:narrow",
+      "spacing": "Small"
     },
     {
       "items": [
@@ -257,8 +258,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
                       "altText": "⬤",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -272,8 +273,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -294,8 +295,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -404,8 +405,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -426,8 +427,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
                       "altText": "⬤",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -441,8 +442,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -552,8 +553,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -574,8 +575,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -596,8 +597,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
                       "altText": "⬤",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -688,7 +689,8 @@
       "text": "These resources will teach you how to achieve balance in your life and work with more ease.",
       "wrap": true,
       "type": "TextBlock",
-      "targetWidth": "atLeast:narrow"
+      "targetWidth": "atLeast:narrow",
+      "spacing": "Small"
     },
     {
       "items": [
@@ -923,8 +925,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
                       "altText": "⬤",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -938,8 +940,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -960,8 +962,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -1070,8 +1072,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -1092,8 +1094,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
                       "altText": "⬤",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center"
                     }
                   ],
@@ -1107,8 +1109,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -1218,8 +1220,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -1240,8 +1242,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/outlineCircle.png",
                       "altText": "〇",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
@@ -1262,8 +1264,8 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/filledCircle.png",
                       "altText": "⬤",
-                      "width": "15px",
-                      "height": "15px",
+                      "width": "8px",
+                      "height": "8px",
                       "horizontalAlignment": "Center"
                     }
                   ],

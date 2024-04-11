@@ -128,7 +128,7 @@ You can try looking at [issues related to this sample](https://github.com/pnp/Ad
               "width": "24px",
               "height": "24px",
               "style": "Person",
-              "altText": "Avatar"
+              "altText": "Avatar of Kayo Miwa"
             }
           ],
           "verticalContentAlignment": "Center"

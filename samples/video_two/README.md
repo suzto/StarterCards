@@ -64,13 +64,14 @@ lorem ipsum delor amet consectuer leoeian
 
 #### 2) Replace the image
 If you are creating an image use a 16:9 aspect ratio. I find saving out the image as a transparent png at 2x size ensures a good resolution across endpoints.
-* Add "play_button.png" in assets folder if possible on top of your image.
+* Add "play_button.png" in assets folder if possible on top of your image.<br>
+*For YouTube, Vimeo, and DailyMotion Inline Media Cards the "play" button will not need to be added.*
 * Update the image url to link to your desired image as well as the URL for the selection action. <br>
 
 
-<b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners. <br>
+*<b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners.* <br>
 
-For YouTube, Vimeo, and DailyMotion Inline Media Cards the "play" button will not need to be added.
+
 
 
 <!--- dropdown --->

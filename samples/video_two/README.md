@@ -90,6 +90,8 @@ __*For further design modifications__ use the Microsoft Teams UI Kit in Figma to
 <img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
 </a> 
 
+<br>
+
 ## 2) 🚗 Test your card
 
 This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:

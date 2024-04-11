@@ -82,8 +82,7 @@ Set the maximum line truncation as desired. The "Show more" /  "Show less" featu
 * Update button text and actions to suit your needs. <br>
 * <b>Creating icons:</b> If you'd like to add icons, the color should be #818181 to ensure readability on light/dark modes and should fit edge to edge in a 16x16 square. Save out the image as a transparent png at 2x size to ensure good resolution across endpoints.
 
-<p>&nbsp;</p>
-
+<br>
 
 __For further design modifications__ use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/video_spec.png">(detailed spec)</a> , and verify the layouts before coding.<br />
 
@@ -563,7 +562,7 @@ __For further design modifications__ use the Microsoft Teams UI Kit in Figma to 
 - __Design__: Our tools can help you learn Teams patterns and design apps and cards.
 
   - Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
-  - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and use them in your cards. You can also use the [Card Designer Icon Set](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/fluent-icons-limitations#card-designer-icons-set) which is fully supported.
+  - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support). 
 
 
 - __Build__: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).

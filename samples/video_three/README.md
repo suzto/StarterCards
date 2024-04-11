@@ -47,6 +47,21 @@ Information here about typical modifications that are reasonable to this card
 ![picture of alterations](assets/video_variations.png)
 
 
+## Customize Your Card: ####
+
+<details>
+<summary>Open Card in Designer</summary>
+<p></p>
+<p>One- Instructions go here</p>
+
+ `Hello This is a code`
+</details>
+
+
+          
+#### Next item ####
+- **One** - Insructions go here
+- **Two** - Insructions go here about what to do next
 
 ### Card payload
 

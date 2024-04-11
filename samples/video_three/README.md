@@ -326,6 +326,28 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
 }
 ````  -->
 
+
+## Resources & Tools: ##
+ 
+
+- __Learn__: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+
+
+- __Design__: Our tools can help you learn Teams patterns and design apps and cards.
+
+  - Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
+  - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and use them in your cards. You can also use the [Card Designer Icon Set](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/fluent-icons-limitations#card-designer-icons-set) which is fully supported.
+
+
+- __Build__: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+    
+</p>
+
+
+## Contribute: ##
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
+
 ## Help
 
 We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.

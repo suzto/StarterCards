@@ -51,8 +51,6 @@ lorem ipsum delor amet consectuer leoeian
 ## 1) 👩‍🎨 Personalize This Card 
 
 
-
-
 ### Step by step instructions and tips: 
 
   
@@ -65,8 +63,10 @@ lorem ipsum delor amet consectuer leoeian
   
 
 #### 2) Replace the image
-* Replace the image url to link to your desired image as well as URL for the selection action. <br>
+If you are creating an image use a 16:9 aspect ratio.
 * Add "play_button.png" in assets folder if possible on top of your image.
+* Update the image url to link to your desired image as well as the URL for the selection action. <br>
+
 
 <b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners. <br>
 

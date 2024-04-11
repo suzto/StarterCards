@@ -336,6 +336,7 @@ __Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify o
 }
 ````
 
+<!--  
 ### Full width Card Payload
 
 ````
@@ -566,7 +567,7 @@ __Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify o
     }
   ]
 }
-````
+````  -->
 ## Resources & Tools ##
  
 

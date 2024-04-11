@@ -33,9 +33,9 @@ Version|Date|Comments
 ***THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
 
 
-## Variations
+## Responsive Layouts
 
-Information here about typical modifications that are reasonable to this card
+This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see <insert msft learn link>.
 
 ![picture of alterations](assets/video_variations.png) 
 <br/><br/>

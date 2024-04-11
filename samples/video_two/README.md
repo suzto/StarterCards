@@ -6,7 +6,7 @@ This versatile and robust card serves as a learning hub for video content. Tailo
 
 _bot-sent_ card example:
 
-![picture of the extension in action](assets/VideoCard.png)
+![picture of the extension in action](assets/hero.png)
 
 
 
@@ -33,11 +33,11 @@ Version|Date|Comments
 ***THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
 
 
-## Design Layouts
+## Responsive Layouts
 
 This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
 
-![picture of the extension in action](readme_assets/layouts.png)
+![picture of the extension in action](assets/layouts.png)
 
 ## Inspiration Gallery
 
@@ -56,8 +56,8 @@ lorem ipsum delor amet consectuer leoeian
 ### Step by step instructions and tips: 
 
   
- #### 1) Open in the Microsoft Teams Designer Editing tool
- This is our ___Teams supported___ tool for building and editing cards.
+ #### 1) Open the Microsoft Teams Designer Editing tool
+ This is our ___Teams supported___ tool for building and editing cards. <b>Copy in the JSON code</b> provided on this page.
  
  <a href="https://dev.teams.microsoft.com/home">
         <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
@@ -65,7 +65,12 @@ lorem ipsum delor amet consectuer leoeian
   
 
 #### 2) Replace the image
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+* Replace the image url to link to your desired image as well as URL for the selection action. <br>
+* Add "play_button.png" in assets folder if possible on top of your image.
+
+<b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners. <br>
+
+For YouTube, Vimeo, and DailyMotion Inline Media Cards the "play" button will not need to be added.
 
 
 <!--- dropdown --->
@@ -99,7 +104,7 @@ lorem ipsum delor amet consectuer leoeian
 <p>&nbsp;</p>
 
 
-__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
+__For further design modifications__ use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/video_spec.png">(detailed spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
@@ -336,6 +341,7 @@ __Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify o
 }
 ````
 
+<!--  
 ### Full width Card Payload
 
 ````
@@ -566,4 +572,30 @@ __Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify o
     }
   ]
 }
-````
+````  -->
+## Resources & Tools ##
+ 
+
+- __Learn__: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+
+
+- __Design__: Our tools can help you learn Teams patterns and design apps and cards.
+
+  - Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
+  - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and use them in your cards. You can also use the [Card Designer Icon Set](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/fluent-icons-limitations#card-designer-icons-set) which is fully supported.
+
+
+- __Build__: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+    
+</p>
+
+
+## Contribute ##
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
+
+## Help
+
+We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
+
+You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.

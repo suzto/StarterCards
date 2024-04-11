@@ -290,3 +290,9 @@ Information here about typical modifications that are reasonable to this card
   ]
 }
 ````  -->
+
+## Help
+
+We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
+
+You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.

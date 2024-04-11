@@ -37,7 +37,7 @@ Version|Date|Comments
 
 This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
 
-## Modification Ideas and Inspiration
+## Modifications and Inspiration
 
 lorem ipsum delor amet consectuer leoeian
 

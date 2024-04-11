@@ -99,7 +99,7 @@ lorem ipsum delor amet consectuer leoeian
 <p>&nbsp;</p>
 
 
-__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/design_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
+__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />

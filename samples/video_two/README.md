@@ -40,9 +40,9 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 ## Inspiration Gallery
 
-lorem ipsum delor amet consectuer leoeian
+A few examples of possible modifications.
 
-![picture of alterations](assets/video_variations.png) 
+![picture of alterations](assets/inspiration.png) 
 <br/><br/>
 
 

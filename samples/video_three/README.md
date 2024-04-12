@@ -33,9 +33,15 @@ Version|Date|Comments
 ***THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
 
 
-## Variations
+## Design Layouts
 
-Information here about typical modifications that are reasonable to this card
+This card utilizes our responsive framework, creating multiple layouts or content modifications for specific width ranges. For more details on coding with this framework, see insert msft learn link.
+
+![picture of the extension in action](readme_assets/layouts.png)
+
+## Inspiration Gallery
+
+lorem ipsum delor amet consectuer leoeian
 
 ![picture of alterations](assets/video_variations.png) 
 <br/><br/>
@@ -45,11 +51,6 @@ Information here about typical modifications that are reasonable to this card
 ## 1) 👩‍🎨 Personalize This Card 
 
 
-__To modify or extend this card__ <a href="assets/design_spec.png">(design spec)</a>, use the Microsoft Teams UI Kit to fine tune your design before coding.<br />
-
-<a href="https://www.figma.com/community/file/916836509871353159">
-<img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
-</a> 
 
 
 ### Step by step instructions and tips: 
@@ -98,6 +99,11 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
 <p>&nbsp;</p>
 
 
+__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
+
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a> 
 
 
 ### Card Payload
@@ -325,6 +331,28 @@ __To modify or extend this card__ <a href="assets/design_spec.png">(design spec)
   ]
 }
 ````  -->
+
+
+## Resources & Tools ##
+ 
+
+- __Learn__: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+
+
+- __Design__: Our tools can help you learn Teams patterns and design apps and cards.
+
+  - Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
+  - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and use them in your cards. You can also use the [Card Designer Icon Set](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/fluent-icons-limitations#card-designer-icons-set) which is fully supported.
+
+
+- __Build__: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+    
+</p>
+
+
+## Contribute ##
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
 
 ## Help
 

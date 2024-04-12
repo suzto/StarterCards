@@ -61,17 +61,17 @@ This tool is <b>supported by Teams</b> for building and editing cards. <b>Copy i
     </a>
   
 
-#### 2) Replace the hero image
-If you are creating an image use a 16:9 aspect ratio. I find saving out the image as a transparent png at 2x size ensures a good resolution across endpoints.
-* Add "play_button.png" in assets folder if possible on top of your image.<br>
-*For YouTube, Vimeo, and DailyMotion Inline Media Cards the "play" button will not need to be added.*
-* Update the image url to link to your desired image as well as the URL for the selection action. <br>
+#### 2) Replace the Hero Image
+If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
+* Update the image URL to link to your desired image and specify the URL for the selection action.
+* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
 
 *<b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners.* <br>
 
-#### 3) Replace the author/company logo
-Replace the mini 16x16px square image. If you are creating a new image save it out as a transparent png at 2x size (to ensure good resolution) but keep the 16x16 fixed width in the card. 
+#### 3) Replace the Author/Company Logo
+Replace the mini 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
 
 
 #### 4) Update the description copy and set truncation

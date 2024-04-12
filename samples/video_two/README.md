@@ -68,8 +68,6 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
 
-*<b>Note:</b> We have a radius feature coming soon that will allow you to add a rounded corner to your image. In the meantime if you'd like to do this, please add a 6px radius to the corners.* <br>
-
 #### 3) Replace the Author/Company Logo
 Replace the mini 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
 

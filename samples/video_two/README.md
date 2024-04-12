@@ -50,11 +50,11 @@ lorem ipsum delor amet consectuer leoeian
 ## 1) 👩‍🎨 Personalize This Card 
 
 
-### Step by step instructions and tips: 
+### Step-by-step instructions and tips: 
 
   
  #### 1) Open the Microsoft Teams Designer Editing tool
- This is our ___Teams supported___ tool for building and editing cards. <b>Copy in the [JSON payload](#card-payload)</b> provided at the bottom of this page.
+This tool is <b>supported by Teams</b> for building and editing cards. <b>Copy in the [JSON payload](#card-payload)</b> provided at the bottom of this page. Open in Adaptive Card Designer.
  
  <a href="https://dev.teams.microsoft.com/home">
         <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />

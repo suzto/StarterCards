@@ -79,6 +79,7 @@ Set the maximum line truncation as desired. You can choose to keep or remove the
 
 #### 5) Update Button Copy and Actions
 * Customize button text and actions to suit your needs. <br>
+For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the Resources section on this page.
 * <b>Creating icons:</b> If you'd like to add icons, the color should be #818181 to ensure readability on light/dark modes and should fit edge to edge in a 16x16 square. Save out the image as a transparent png at 2x size to ensure good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
 <br>

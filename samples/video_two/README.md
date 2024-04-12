@@ -194,6 +194,7 @@
     },
     {
       "type": "ActionSet",
+      "spacing": "Large",
       "targetWidth": "atLeast:narrow",
       "actions": [
         {
@@ -210,6 +211,7 @@
     },
     {
       "type": "ActionSet",
+      "spacing": "Large",
       "targetWidth": "veryNarrow",
       "actions": [
         {
@@ -426,6 +428,7 @@
     },
     {
       "type": "ActionSet",
+      "spacing": "Large",
       "targetWidth": "atLeast:narrow",
       "actions": [
         {
@@ -442,6 +445,7 @@
     },
     {
       "type": "ActionSet",
+      "spacing": "Large",
       "targetWidth": "veryNarrow",
       "actions": [
         {

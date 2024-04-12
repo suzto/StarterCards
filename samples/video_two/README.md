@@ -75,7 +75,7 @@ Replace the mini 16x16px square image. If creating a new image, save it as a tra
 
 
 #### 4) Update the description copy and set truncation
-Set the maximum line truncation as desired. The "Show more" /  "Show less" feature can be kept or removed as desired.
+Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
 
 #### 5) Update button copy and actions
 * Update button text and actions to suit your needs. <br>

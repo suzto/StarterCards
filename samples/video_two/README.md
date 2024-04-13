@@ -134,8 +134,12 @@ You can try looking at [issues related to this sample](https://github.com/pnp/Ad
 
 ***
 
+<!--- dropdown --->
 
-### Card Payload
+<details closed>
+<summary>
+ Card Payload
+</summary> <br />
 
 ````
 {
@@ -363,6 +367,12 @@ You can try looking at [issues related to this sample](https://github.com/pnp/Ad
   ]
 }
 ````
+</details>
+
+
+
+
+
 
 <!--  
 ### Full width Card Payload

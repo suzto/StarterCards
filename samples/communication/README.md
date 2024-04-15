@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Communications Card</b> is a versatile and robust card designed to serve as an individual component or hub for video or learning content. Whether you’re offering a series of courses, tutorials, or informative clips, this card can be tailored to your specific needs. Customize titles, descriptions, and author information to create engaging viewing experiences.
+The <b>Communications Card</b> is designed for communication, social interaction, and sharing updates. Whether it’s company announcements, posts, or community engagement, this card adapts to your content. Customize it with your own text, images, and links to create compelling social experiences.
 
 _bot-sent_ card example:
 

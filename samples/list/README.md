@@ -1,15 +1,19 @@
-# List 
+# List
 
 `need to update this page`
 
 ![picture alt](assets/ListCard(Regular).png)
 
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Flist%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
 
 ### Card Payload
 
 ````
 {
   "type": "AdaptiveCard",
+  "speak": "Robin, explore your weekly picks",
   "body": [
     {
       "size": "large",

@@ -1,8 +1,13 @@
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fwork_item%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
 ### Card Payload
 
-````
+```json
 {
   "type": "AdaptiveCard",
+  "speak": "Bug 2837, icons not rendering in dark mode",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
@@ -173,7 +178,7 @@
     }
   ]
 }
-````
+```
 
 ### Full width Card payload
 

@@ -49,7 +49,6 @@ Below you'll find a few alternative expressions of the card.
 
 This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
 
-  },
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer. 

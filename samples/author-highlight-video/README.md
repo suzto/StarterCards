@@ -1,4 +1,4 @@
-# Static Video
+# Author Highlight Video
 
 ## Summary
 

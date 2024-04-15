@@ -283,7 +283,7 @@ For icons, use the color #818181 to ensure readability in light/dark modes. Icon
 
 <br>
 
-## 2) 🚗 Test your card
+## 2) 🚗 Test Your Card
 
 This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:
 

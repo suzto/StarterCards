@@ -4,7 +4,7 @@
 The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
 
 
-_bot-sent_ card example:
+_user-sent_ card example:
 
 ![picture alt](assets/workItemCard.png)
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Communications Card</b> is designed for communication, social interaction, and sharing updates. Whether it’s company announcements, posts, or community engagement, this card adapts to your content. Customize it with your own text, images, and links to create compelling social experiences.
+The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
 
 _bot-sent_ card example:
 

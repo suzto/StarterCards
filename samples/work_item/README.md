@@ -1,8 +1,8 @@
-# Work Item
+# Work Item Thumbnail
 
 ## Summary
+The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
 
-The <b>Work Item Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
 
 _bot-sent_ card example:
 

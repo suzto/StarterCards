@@ -1,6 +1,10 @@
-# Communication
+# Communications
 
-`need to update this page`
+## Summary
+
+The <b>Communications Card</b> is a versatile and robust card designed to serve as an individual component or hub for video or learning content. Whether you’re offering a series of courses, tutorials, or informative clips, this card can be tailored to your specific needs. Customize titles, descriptions, and author information to create engaging viewing experiences.
+
+_bot-sent_ card example:
 
 ![picture alt](assets/CommsCard.png)
 

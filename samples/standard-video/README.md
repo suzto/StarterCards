@@ -195,7 +195,7 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 * Update the image URL to link to your desired image and specify the URL for the selection action.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update the Video Information
+#### 3) Update Video Information
 
 Modify the details or statistics as desired.
 
@@ -222,7 +222,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
-<br>
+<img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
 ## Resources & Tools ##
 

@@ -315,7 +315,7 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 
 Replace the 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
 
-#### 4) Update the Description Copy and Set Truncation
+#### 4) Update Description Copy and Set Truncation
 
 Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
 
@@ -342,7 +342,8 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
-<br>
+  <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
+
 
 ## Resources & Tools ##
 

@@ -589,10 +589,12 @@ Click to see the card payload
 If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Ensure the avatar image is correctly linked
-Connect the image URL so that it retrieves/displays the message author’s image.
+#### 3) Link to the Avatar Image
+Ensure the image URL fetches and shows the image associated with the message sender.
 
-#### 4) Update the description copy and set truncation
+Verify the correct linkage of the avatar image. 
+
+#### 4) Update Description Copy and Set Truncation
 Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
 
 #### 5) Update Button Copy and Actions
@@ -610,7 +612,7 @@ For icons, use the color #818181 to ensure readability in light/dark modes. Icon
 
 <br>
 
-## 2) 🚗 Test your card
+## 2) 🚗 Test Your Card
 
 This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:
 
@@ -618,7 +620,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
-<br>
+<img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
 ## Resources & Tools ##
 

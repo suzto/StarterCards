@@ -40,7 +40,7 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 Below you'll find a few alternative expressions of the card.
 
 ![COMING SOON!](assets/inspiration.png)
-<br/><br/>
+<br> <br>
 
 
 ## 1) 👩‍🎨 Personalize This Card
@@ -50,13 +50,9 @@ Below you'll find a few alternative expressions of the card.
 #### 1) Copy the card JSON into the Designer Tool
 
 Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload provided below or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
+<br>
 
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcommunication%2Fcard.json" target="_blank">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
-
-> [!NOTE]
+ > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
 <!--- dropdown --->
@@ -578,6 +574,14 @@ Click to see the card payload
     "width": "full"
   },
 ```
+
+
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcommunication%2Fcard.json" target="_blank">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+ <br>
+
 
 
 #### 2) Replace the Hero Image

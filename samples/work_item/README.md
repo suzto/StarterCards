@@ -264,9 +264,9 @@ Click to see the card payload
 This design is best complemented by a small, square image (recommended size is <ins>~56x56 pixels</ins>). To guarantee high resolution on all endpoints, save the image as a transparent PNG at a 2x scale, while keeping the <ins>pixel size static in the Designer</ins>.
 
 
-#### 3) Update the details
+#### 3) Update the Copy/Details
 
-Modify the copy or details as desired.
+Tailor the description or features to suit your needs.
 
 #### 4) Update Button Copy and Actions
 

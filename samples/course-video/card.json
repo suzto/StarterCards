@@ -6,7 +6,7 @@
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/video_image.png",
       "selectAction": {
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/",
@@ -82,7 +82,7 @@
           "items": [
             {
               "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/logo_image.png",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/logo_image.png",
               "width": "16px",
               "height": "16px",
               "altText": "Logo"
@@ -203,7 +203,7 @@
         {
           "type": "Action.Execute",
           "title": "Bookmark",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
         }
       ]
     },
@@ -219,7 +219,7 @@
         },
         {
           "type": "Action.Execute",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
         }
       ]
     }

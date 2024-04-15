@@ -294,10 +294,13 @@ Click to see the card payload
 
 </details>
 
-If you would like a "full width" card add the following code to the JSON. <br>
+*To create a "full width" card, add the following code to the JSON.* <br>
+
+```json
 "msTeams": {
     "width": "full"
   },
+```
 
 <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo_two%2Fcard.json">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />

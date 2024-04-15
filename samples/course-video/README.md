@@ -47,7 +47,7 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload provided below or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.

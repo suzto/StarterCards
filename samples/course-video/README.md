@@ -315,7 +315,7 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 
 Replace the 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
 
-#### 4) Update the Description Copy and Set Truncation
+#### 4) Update Description Copy and Set Truncation
 
 Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
 

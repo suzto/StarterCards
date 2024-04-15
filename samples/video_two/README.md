@@ -36,7 +36,7 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 ## Inspiration Gallery
 
-A few examples of possible modifications.
+Below you'll find a few alternative expressions of the card.
 
 ![picture of alterations](assets/inspiration.png)
 <br/><br/>

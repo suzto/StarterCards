@@ -195,11 +195,11 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 * Update the image URL to link to your desired image and specify the URL for the selection action.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update the video information
+#### 3) Update the Video Information
 
 Modify the details or statistics as desired.
 
-#### 5) Update Button Copy and Actions
+#### 4) Update Button Copy and Actions
 
 Customize button text and add or remove actions to suit your needs. <br>
 For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
@@ -214,7 +214,7 @@ For icons, use the color #818181 to ensure readability in light/dark modes. Icon
 
 <br>
 
-## 2) 🚗 Test your card
+## 2) 🚗 Test Your Card
 
 This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Standard Video Card</b> Get straight to the point with this compact design. From tech updates to creative inspiration, this card delivers. Tap the overflow menu for more options—bookmark, share, or dive deeper.
+The <b>Standard Video Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
 
 _bot-sent_ card example:
 

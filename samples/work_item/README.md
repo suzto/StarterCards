@@ -6,7 +6,7 @@ The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, pe
 
 _bot-sent_ card example:
 
-![picture alt](assets/work_itemCard.png)
+![picture alt](assets/workItemCard.png)
 
 
 ## Compatibility

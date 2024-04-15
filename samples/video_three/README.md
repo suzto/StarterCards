@@ -1,8 +1,8 @@
-# Course Video
+# Standard Video
 
 ## Summary
 
-The <b>Course Video Card</b> is a versatile and robust card designed to serve as an individual component or hub for video or learning content. Whether you’re offering a series of courses, tutorials, or informative clips, this card can be tailored to your specific needs. Customize titles, descriptions, and author information to create engaging viewing experiences.
+The <b>Standard Video Card</b> Get straight to the point with this compact design. From tech updates to creative inspiration, this card delivers. Tap the overflow menu for more options—bookmark, share, or dive deeper.
 
 _bot-sent_ card example:
 

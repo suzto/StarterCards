@@ -45,17 +45,13 @@ Below you'll find a few alternative expressions of the card.
 
 ### Step-by-step instructions and tips
 
-#### 1) Open the Microsoft Teams Designer Editing tool
+#### 1) Copy the card JSON into the Designer Tool
 
 This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+Note: If you would like a "full width" card add the following code to the JSON. "msTeams": {
+    "width": "full"
+  },
 <!--- dropdown --->
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo_two%2Fcard.json">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
-
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
 
 <details closed>
 <summary>
@@ -293,6 +289,15 @@ Click to see the card payload
 ```
 
 </details>
+
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo_two%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
+
+
 
 #### 2) Replace the Hero Image
 

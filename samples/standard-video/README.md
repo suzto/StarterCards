@@ -38,7 +38,7 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 Below you'll find a few alternative expressions of the card.
 
-![picture of alterations](assets/inspiration.png)
+![TBD](assets/inspiration.png)
 <br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card

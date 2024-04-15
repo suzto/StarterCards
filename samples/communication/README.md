@@ -1,6 +1,10 @@
-# Communication
+# Communications
 
-`need to update this page`
+## Summary
+
+The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+
+_bot-sent_ card example:
 
 ![picture alt](assets/CommsCard.png)
 

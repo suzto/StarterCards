@@ -32,13 +32,13 @@ Version|Date|Comments
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![picture of the extension in action](assets/layouts.png)
+![to be added](assets/card-layouts.png)
 
 ## Inspiration Gallery
 
 Below you'll find a few alternative expressions of the card.
 
-![picture of alterations](assets/inspiration.png)
+![TBD](assets/inspiration.png)
 <br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card
@@ -195,17 +195,13 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 * Update the image URL to link to your desired image and specify the URL for the selection action.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Replace the Author/Company Logo
+#### 3) Update the video information
 
-Replace the 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
-
-#### 4) Update the description copy and set truncation
-
-Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
+Modify the details or statistics as desired.
 
 #### 5) Update Button Copy and Actions
 
-Customize button text and actions to suit your needs. <br>
+Customize button text and add or remove actions to suit your needs. <br>
 For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
 <br>

@@ -1,3 +1,22 @@
+# Work Item
+
+## Summary
+
+The <b>Work Item Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+
+_bot-sent_ card example:
+
+![picture alt](assets/CommunicationsCard.png)
+
+
+
+
+
+
+
+
+
+
 <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fwork_item%2Fcard.json"  target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>

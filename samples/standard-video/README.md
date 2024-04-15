@@ -6,7 +6,7 @@ The <b>Standard Video Card</b> prioritizes brevity without sacrificing functiona
 
 _bot-sent_ card example:
 
-![picture of the extension in action](assets/hero.png)
+![picture of the extension in action](assets/videoCard.png)
 
 ## Compatibility
 

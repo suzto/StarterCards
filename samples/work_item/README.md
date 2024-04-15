@@ -261,7 +261,7 @@ Click to see the card payload
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+This design is best complemented by a small, square image (recommended size is <ins>~56x56 pixels</ins>). To guarantee high resolution on all endpoints, save the image as a transparent PNG at a 2x scale, while keeping the <ins>pixel size static in the Designer</ins>.
 
 
 #### 3) Update the details

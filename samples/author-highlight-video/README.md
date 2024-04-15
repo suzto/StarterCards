@@ -37,22 +37,23 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 
 
+## Inspiration Gallery
 
+Below you'll find a few alternative expressions of the card.
 
+![TBD](assets/inspiration.png)
+<br/><br/>
 
+## 1) 👩‍🎨 Personalize This Card
 
-## Adaptive Cards Designer Tool
-<!--- button image exported at 1.2x --->
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fauthor-highlight-video%2Fcard.json" target="_blank">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
+### Step-by-step instructions and tips
+
+#### 1) Copy the card JSON into the Designer Tool
+
+This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
-
-
-
-
 
 <details closed>
 <summary>
@@ -144,4 +145,26 @@ Click to see the card payload
 ```
 
 </details>
+
+*To create a "full width" card, add the following code to the JSON.* <br>
+
+```json
+"msTeams": {
+    "width": "full"
+  },
+```
+
+
+<!--- button image exported at 1.2x --->
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fauthor-highlight-video%2Fcard.json" target="_blank">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+
+
+
+
+
+
+
 

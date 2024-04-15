@@ -49,11 +49,9 @@ Below you'll find a few alternative expressions of the card.
 
 This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
 
-
 > [!NOTE]
-> Responsive layout is not supported in the Designer. 
+> Responsive layout is not supported in the Designer.
 
-  
 <!--- dropdown --->
 
 <details closed>
@@ -70,7 +68,7 @@ Click to see the card payload
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/video_image.png",
       "selectAction": {
         "type": "Action.OpenUrl",
         "url": "https://adaptivecards.io/",
@@ -146,7 +144,7 @@ Click to see the card payload
           "items": [
             {
               "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/logo_image.png",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/logo_image.png",
               "width": "16px",
               "height": "16px",
               "altText": "Logo"
@@ -267,7 +265,7 @@ Click to see the card payload
         {
           "type": "Action.Execute",
           "title": "Bookmark",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
         }
       ]
     },
@@ -283,7 +281,7 @@ Click to see the card payload
         },
         {
           "type": "Action.Execute",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
         }
       ]
     }
@@ -301,13 +299,9 @@ Click to see the card payload
   },
 ```
 
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo_two%2Fcard.json">
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcourse-video%2Fcard.json" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
-
-
-
-
 
 #### 2) Replace the Hero Image
 

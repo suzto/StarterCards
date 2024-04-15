@@ -59,7 +59,7 @@ We designed this card for Teams app partners who need to support your use case. 
 
  This is our ***Teams supported*** tool for building and editing cards.
 
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Frecipe%2Fcard.json">
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Frecipe%2Fcard.json" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 

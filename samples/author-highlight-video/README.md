@@ -14,7 +14,7 @@ _bot-sent_ card example:
 
 ## Adaptive Cards Designer Tool
 <!--- button image exported at 1.2x --->
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo%2Fcard.json">
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fauthor-highlight-video%2Fcard.json" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
@@ -98,7 +98,7 @@ Click to see the card payload
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/video_image.png",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/video_image.png",
       "altText": "3 Minute Energy Flow with Kayo Video"
     },
     {
@@ -117,7 +117,7 @@ Click to see the card payload
           "items": [
             {
               "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/avatar.png",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/avatar.png",
               "width": "24px",
               "height": "24px",
               "style": "Person",
@@ -165,7 +165,7 @@ Click to see the card payload
           "type": "Action.OpenUrl",
           "title": "Remind me",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/remind_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/remind_icon.png"
         }
       ]
     }
@@ -188,7 +188,7 @@ Click to see the card payload
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/video_image.png",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/video_image.png",
       "altText": "3 Minute Energy Flow with Kayo Video"
     },
     {
@@ -207,7 +207,7 @@ Click to see the card payload
           "items": [
             {
               "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/avatar.png",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/avatar.png",
               "width": "24px",
               "height": "24px",
               "style": "Person",
@@ -255,7 +255,7 @@ Click to see the card payload
           "type": "Action.OpenUrl",
           "title": "Remind me",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video/assets/remind_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/remind_icon.png"
         }
       ]
     }

@@ -49,11 +49,9 @@ Below you'll find a few alternative expressions of the card.
 
 This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
 
-
 > [!NOTE]
-> Responsive layout is not supported in the Designer. 
+> Responsive layout is not supported in the Designer.
 
-  
 <!--- dropdown --->
 
 <details closed>
@@ -72,7 +70,7 @@ Click to see the card payload
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/video_image.png",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/video_image.png",
       "altText": "Web Development Bootcamp Video"
     },
     {
@@ -108,28 +106,28 @@ Click to see the card payload
           "type": "Action.OpenUrl",
           "title": "Add to calendar",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/add_to_calendar_icon.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Share in Teams",
           "mode": "secondary",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_teams.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_teams.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_download.png"
         },
         {
           "type": "Action.OpenUrl",
           "title": "Copy link",
           "mode": "secondary",
           "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_link.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_link.png"
         }
       ]
     },
@@ -144,26 +142,26 @@ Click to see the card payload
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/add_to_calendar_icon.png",
           "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_teams.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_teams.png",
           "title": "Share in Teams",
           "mode": "secondary",
           "url": "https://adaptivecards.io/"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_download.png",
           "title": "Download",
           "url": "https://adaptivecards.io/",
           "mode": "secondary"
         },
         {
           "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_link.png",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_link.png",
           "title": "Copy link",
           "mode": "secondary",
           "url": "https://adaptivecards.io/"
@@ -185,13 +183,9 @@ Click to see the card payload
   },
 ```
 
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo_two%2Fcard.json">
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fstandard-video%2Fcard.json" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
-
-
-
-
 
 #### 2) Replace the Hero Image
 

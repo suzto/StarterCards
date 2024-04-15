@@ -43,7 +43,13 @@ Below you'll find a few alternative expressions of the card.
 <br/><br/>
 
 
+## 1) 👩‍🎨 Personalize This Card
 
+### Step-by-step instructions and tips
+
+#### 1) Copy the card JSON into the Designer Tool
+
+Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload provided below or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 
 <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcommunication%2Fcard.json" target="_blank">

@@ -62,201 +62,41 @@ Click to see the card payload
 </summary>
 
 ```json
+
+          
 {
   "type": "AdaptiveCard",
-  "speak": "Intro to graphic design, concepts video",
+  "speak": "Web development bootcamp video",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
     {
       "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/video_image.png",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "url": "https://adaptivecards.io/",
-        "altText": "Intro to Graphic Design: Concepts Video"
-      }
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/video_image.png",
+      "altText": "Web Development Bootcamp Video"
     },
     {
       "type": "TextBlock",
-      "text": "Intro to Graphic Design: Concepts",
+      "text": "Web Development Bootcamp",
       "wrap": true,
       "size": "Large",
       "weight": "Bolder"
     },
     {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "verticalContentAlignment": "Center",
-          "items": [
-            {
-              "type": "Rating",
-              "value": "4",
-              "color": "Marigold",
-              "size": "Medium",
-              "fallback": {
-                "type": "TextBlock",
-                "text": "4 Stars"
-              }
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "·"
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "1,160",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small"
-        }
-      ],
+      "type": "TextBlock",
+      "text": "HackLab Films",
+      "wrap": true,
+      "spacing": "Small",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "24m · 17.1M views · 2 months ago",
+      "wrap": true,
       "spacing": "None"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Course · 52m · Beginner",
-      "wrap": true,
-      "isSubtle": true,
-      "spacing": "Small"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/logo_image.png",
-              "width": "16px",
-              "height": "16px",
-              "altText": "Logo"
-            }
-          ],
-          "horizontalAlignment": "Center",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Sketchpad Scholars",
-              "wrap": true,
-              "weight": "Bolder"
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:narrow",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "·"
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:narrow",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Tony Harper",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small"
-        }
-      ],
-      "spacing": "None"
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
-      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn...",
-      "wrap": true,
-      "id": "truncatedText"
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
-      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn about design principles through hands-on projects that will help build your portfolio. Enroll now and start your journey to mastering the art of graphic design.",
-      "wrap": true,
-      "isVisible": false,
-      "id": "fullText"
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showMore",
-      "targetWidth": "atLeast:narrow",
-      "spacing": "None",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show more",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showLess",
-      "targetWidth": "atLeast:narrow",
-      "spacing": "None",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show less",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ],
-      "isVisible": false
     },
     {
       "type": "ActionSet",
-      "spacing": "Large",
       "targetWidth": "atLeast:narrow",
       "actions": [
         {
@@ -265,15 +105,36 @@ Click to see the card payload
           "url": "https://adaptivecards.io/"
         },
         {
-          "type": "Action.Execute",
-          "title": "Bookmark",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+          "type": "Action.OpenUrl",
+          "title": "Add to calendar",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Share in Teams",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_teams.png"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Download",
+          "url": "https://adaptivecards.io/",
+          "mode": "secondary",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Copy link",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_link.png"
         }
       ]
     },
     {
       "type": "ActionSet",
-      "spacing": "Large",
       "targetWidth": "veryNarrow",
       "actions": [
         {
@@ -282,13 +143,36 @@ Click to see the card payload
           "url": "https://adaptivecards.io/"
         },
         {
-          "type": "Action.Execute",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_two/assets/bookmark_icon.png"
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/add_to_calendar_icon.png",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_teams.png",
+          "title": "Share in Teams",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_download.png",
+          "title": "Download",
+          "url": "https://adaptivecards.io/",
+          "mode": "secondary"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/video_three/assets/menu_icon_link.png",
+          "title": "Copy link",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/"
         }
       ]
     }
   ]
 }
+
 ```
 
 </details>

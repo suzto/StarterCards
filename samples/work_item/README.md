@@ -291,7 +291,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
-<br>
+<img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
 ## Resources & Tools ##
 

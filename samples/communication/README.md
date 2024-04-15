@@ -586,19 +586,14 @@ Click to see the card payload
 
 #### 2) Replace the Hero Image
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
-
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
+If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Replace the Author/Company Logo
-
-Replace the 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
+#### 3) Ensure the avatar image is correctly linked
+Connect the image URL so that it retrieves/displays the message author’s image.
 
 #### 4) Update the description copy and set truncation
-
-Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
+Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
 
 #### 5) Update Button Copy and Actions
 

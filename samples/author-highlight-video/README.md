@@ -6,7 +6,7 @@ Showcase your video content in style with the <b>Author Highlight Video Card</b>
 
 _bot-sent_ card example:
 
-uthor![picture of the extension in action](assets/authorVideoCard.png)
+![picture of the extension in action](assets/authorVideoCard.png)
 
 ## Compatibility
 

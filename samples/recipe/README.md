@@ -59,9 +59,12 @@ We designed this card for Teams app partners who need to support your use case. 
 
  This is our ***Teams supported*** tool for building and editing cards.
 
- <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Frecipe%2Fcard.json">
-        <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-    </a>
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Frecipe%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
   
 #### 2) Replace the image
 

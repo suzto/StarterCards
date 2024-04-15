@@ -14,11 +14,12 @@ _bot-sent_ card example:
 
 ## Adaptive Cards Designer Tool
 <!--- button image exported at 1.2x --->
-<p>
-    <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo%2Fcard.json">
-        <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-    </a>
-</p>
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
 
 ## Solution
 

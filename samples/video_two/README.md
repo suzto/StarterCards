@@ -54,6 +54,9 @@ This tool is <b>supported by Teams</b> for building and editing cards. Copy the 
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
+
 <details closed>
 <summary>
 Click to see the card payload

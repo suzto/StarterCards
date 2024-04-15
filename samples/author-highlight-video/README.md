@@ -2,7 +2,7 @@
 
 ## Summary
 
-Design for showcasing a single static video (does not play inline in the card). The idea is to focus on the video image with a description and action to view. A "play" button graphic has been overlayed on the primary image to help the user quickly identify the card as a video card.
+Showcase your video content in style with the <b>Author Highlight Video Card</b>. Perfect for a variety of video types including tutorials, interviews, or creative showcases, this card is designed for customization. Add your titles, descriptions, and author info to create a personalized and engaging video experience.
 
 _bot-sent_ card example:
 

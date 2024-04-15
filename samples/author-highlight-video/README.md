@@ -12,6 +12,35 @@ _bot-sent_ card example:
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
 
+
+## Solution
+
+Solution|Author(s)
+--------|---------
+Author Highlight Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0| April 11, 2024 | Initial release
+
+### Disclaimer
+
+***THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
+
+## Responsive Layouts
+
+This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
+
+![to be added](assets/card-layouts.png)
+
+
+
+
+
+
+
 ## Adaptive Cards Designer Tool
 <!--- button image exported at 1.2x --->
 <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fauthor-highlight-video%2Fcard.json" target="_blank">
@@ -21,68 +50,9 @@ _bot-sent_ card example:
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
-## Solution
 
-Solution|Author(s)
---------|---------
-Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="32" height="32" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) \| Microsoft  
 
-## Version history
 
-Version|Date|Comments
--------|----|--------
-1.0| October 31, 2023 | Initial release
-
-## Disclaimer
-
-**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
-## Variations
-
-Information here about typical modifications that are reasonable to this card
-
-![picture of alterations](assets/video_variations.png)
-
-## Customize Your Card
-
-This design was created for Teams app partners to support your use case and provides a distinct visual/interaction pattern for this card type to ensure consistency a consistent experience for our users.
-
-> If you need to modify card elements or adjust layout, use the Teams Adaptive Cards UI Kit (Figma) to draw up the card design.
-
-#### Steps to customize this card with _Adaptive Card Designer_ as follows ####
-
-<details>
-<summary>Open Card in Designer</summary>
-<p></p>
-<p>One- Instructions go here</p>
-
- `Hello This is a code`
-</details>
-
-#### Next item ####
-
-- **One** - Insructions go here
-- **Two** - Insructions go here about what to do next
-
-## ![car icon](/assets/icon_car.png) Test Drive Your Card ##
-
-Info here on how to send card to self and where to test it (desk, mobile). Also checking for how things scale in meeting chat. Basic checklist to cover. Scenarios, light/dark mode
-
-- [ ] Task Area
-  - [x] Task Area subtask
-
-## Resources & Tools ##
-
-- Bullet list
-  - Nested bullet
-    - Sub-nested bullet etc
-- Bullet list item 2
-
-## Help
-
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
 <details closed>
 <summary>
@@ -175,90 +145,3 @@ Click to see the card payload
 
 </details>
 
-### Full width Card payload
-
-````
-{
-  "type": "AdaptiveCard",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "msTeams": {
-    "width": "full"
-  },
-  "body": [
-    {
-      "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/video_image.png",
-      "altText": "3 Minute Energy Flow with Kayo Video"
-    },
-    {
-      "type": "TextBlock",
-      "text": "3 Minute Energy Flow with Kayo",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/avatar.png",
-              "width": "24px",
-              "height": "24px",
-              "style": "Person",
-              "altText": "Avatar"
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Kayo Miwa",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        }
-      ]
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
-      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and mind! All you need is a little space, and get ready to stretch your arms and legs.",
-      "wrap": true
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow",
-      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and...",
-      "wrap": true
-    },
-    {
-      "type": "ActionSet",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Remind me",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/remind_icon.png"
-        }
-      ]
-    }
-  ]
-}
-````

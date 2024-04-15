@@ -8,12 +8,9 @@ _bot-sent_ card example:
 
 ![picture of the extension in action](readme_assets/hero.png)
 
-
-
 ## Compatibility
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
-
 
 ## Solution
 
@@ -21,17 +18,15 @@ Solution|Author(s)
 --------|---------
 Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"> </a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp; <a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
 
-
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0| April 11, 2024 | Initial release
 
-
 #### Disclaimer
-***THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
 
+***THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
 
 ## Design Layouts
 
@@ -43,30 +38,27 @@ This card utilizes our responsive framework, creating multiple layouts or conten
 
 lorem ipsum delor amet consectuer leoeian
 
-![picture of alterations](assets/video_variations.png) 
+![picture of alterations](assets/video_variations.png)
 <br/><br/>
 
+## 1) 👩‍🎨 Personalize This Card
 
+### Step by step instructions and tips
 
-## 1) 👩‍🎨 Personalize This Card 
+#### 1) Open in the Microsoft Teams Designer Editing tool
 
+ This is our _**Teams supported**_ tool for building and editing cards.
 
+ <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fvideo_three%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
 
-
-### Step by step instructions and tips: 
-
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
   
- #### 1) Open in the Microsoft Teams Designer Editing tool
- This is our ___Teams supported___ tool for building and editing cards.
- 
- <a href="https://dev.teams.microsoft.com/home">
-        <img src="/assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-    </a>
-  
-
 #### 2) Replace the image
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
 
+ Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
 
 <!--- dropdown --->
 
@@ -89,28 +81,31 @@ lorem ipsum delor amet consectuer leoeian
 
 </details>  
 
-
 #### 3) Update the copy and set truncation
+
  Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
 
 #### 4) Next steps goes here
+
  Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
 
 <p>&nbsp;</p>
 
-
-__Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
+**Need more complex design changes?** Use the Microsoft Teams UI Kit to modify or build on this design <a href="assets/video_spec.png">(detailed spec)</a> and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="/assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
-</a> 
+</a>
 
+<details closed>
+<summary>
+Click to see the card payload
+</summary>
 
-### Card Payload
-
-````
+```json
 {
   "type": "AdaptiveCard",
+  "speak": "Web development bootcamp video",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5",
   "body": [
@@ -216,7 +211,9 @@ __Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify o
     }
   ]
 }
-````
+```
+
+</details>
 
 <!-- 
 
@@ -332,27 +329,22 @@ __Need more complex design changes?__ Use the Microsoft Teams UI Kit to modify o
 }
 ````  -->
 
-
 ## Resources & Tools ##
- 
 
-- __Learn__: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+- **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
 
-
-- __Design__: Our tools can help you learn Teams patterns and design apps and cards.
+- **Design**: Our tools can help you learn Teams patterns and design apps and cards.
 
   - Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
   - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and use them in your cards. You can also use the [Card Designer Icon Set](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/fluent-icons-limitations#card-designer-icons-set) which is fully supported.
 
+- **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
 
-- __Build__: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
-    
 </p>
 
-
 ## Contribute ##
-Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
 ## Help
 

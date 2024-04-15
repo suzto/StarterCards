@@ -1,14 +1,22 @@
-# Communication 
+# Communication
 
 `need to update this page`
 
 ![picture alt](assets/CommsCard.png)
 
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcommunication%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
+
 ### Card Payload
 
-````
+```json
 {
   "type": "AdaptiveCard",
+  "speak": "Hawaii holiday escape deals start tonight",
   "body": [
     {
       "columns": [
@@ -237,7 +245,11 @@
                     "likeFilled",
                     "likeOutline",
                     "commentLike",
-                    "commentUnlike"
+                    "commentUnlike",
+                    "likeFilled2",
+                    "likeOutline2",
+                    "commentLike2",
+                    "commentUnlike2"
                   ],
                   "title": "Like",
                   "type": "Action.ToggleVisibility"
@@ -280,7 +292,11 @@
                     "likeFilled",
                     "likeOutline",
                     "commentLike",
-                    "commentUnlike"
+                    "commentUnlike",
+                    "likeFilled2",
+                    "likeOutline2",
+                    "commentLike2",
+                    "commentUnlike2"
                   ],
                   "title": "Like",
                   "type": "Action.ToggleVisibility"
@@ -420,7 +436,7 @@
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
                   "width": "16px",
                   "height": "16px",
-                  "id": "likeOutline",
+                  "id": "likeOutline2",
                   "type": "Image",
                   "altText": "Outlined thumbs up"
                 },
@@ -429,7 +445,7 @@
                   "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
                   "width": "16px",
                   "height": "16px",
-                  "id": "likeFilled",
+                  "id": "likeFilled2",
                   "isVisible": false,
                   "type": "Image",
                   "altText": "Thumbs up"
@@ -446,14 +462,14 @@
                   "size": "Small",
                   "text": "26 people like this",
                   "wrap": true,
-                  "id": "commentLike",
+                  "id": "commentLike2",
                   "type": "TextBlock"
                 },
                 {
                   "size": "Small",
                   "text": "27 people like this",
                   "wrap": true,
-                  "id": "commentUnlike",
+                  "id": "commentUnlike2",
                   "isVisible": false,
                   "type": "TextBlock"
                 }
@@ -473,7 +489,11 @@
                 "likeFilled",
                 "likeOutline",
                 "commentLike",
-                "commentUnlike"
+                "commentUnlike",
+                "likeFilled2",
+                "likeOutline2",
+                "commentLike2",
+                "commentUnlike2"
               ],
               "title": "Like",
               "type": "Action.ToggleVisibility"
@@ -492,7 +512,7 @@
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.5"
 }
-````
+```
 
 ### Full width Card Payload
 

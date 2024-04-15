@@ -8,11 +8,19 @@
 
 ![picture alt](assets/very-narrow-card.png)
 
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fissue%2Fcard.json">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
+
 ### Card payload
 
 ````
 {
   "type": "AdaptiveCard",
+  "speak": "Version 2.2 performance optimization",
   "body": [
     {
       "inlines": [

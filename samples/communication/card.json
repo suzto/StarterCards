@@ -220,31 +220,6 @@
               "height": "stretch",
               "spacing": "ExtraLarge",
               "type": "ColumnSet"
-            },
-            {
-              "targetWidth": "atMost:narrow",
-              "actions": [
-                {
-                  "targetElements": [
-                    "likeFilled",
-                    "likeOutline",
-                    "commentLike",
-                    "commentUnlike",
-                    "likeFilled2",
-                    "likeOutline2",
-                    "commentLike2",
-                    "commentUnlike2"
-                  ],
-                  "title": "Like",
-                  "type": "Action.ToggleVisibility"
-                },
-                {
-                  "title": "Comment",
-                  "type": "Action.Submit"
-                }
-              ],
-              "spacing": "Medium",
-              "type": "ActionSet"
             }
           ],
           "type": "Column"
@@ -465,32 +440,33 @@
           ],
           "spacing": "ExtraLarge",
           "type": "ColumnSet"
-        },
-        {
-          "actions": [
-            {
-              "targetElements": [
-                "likeFilled",
-                "likeOutline",
-                "commentLike",
-                "commentUnlike",
-                "likeFilled2",
-                "likeOutline2",
-                "commentLike2",
-                "commentUnlike2"
-              ],
-              "title": "Like",
-              "type": "Action.ToggleVisibility"
-            },
-            {
-              "title": "Comment",
-              "type": "Action.Submit"
-            }
-          ],
-          "spacing": "Medium",
-          "type": "ActionSet"
         }
       ]
+    },
+    {
+      "actions": [
+        {
+          "targetElements": [
+            "likeFilled",
+            "likeOutline",
+            "commentLike",
+            "commentUnlike",
+            "likeFilled2",
+            "likeOutline2",
+            "commentLike2",
+            "commentUnlike2"
+          ],
+          "title": "Like",
+          "type": "Action.ToggleVisibility"
+        },
+        {
+          "title": "Comment",
+          "type": "Action.Submit"
+        }
+      ],
+      "spacing": "Medium",
+      "type": "ActionSet",
+      "targetWidth": "atMost:narrow"
     }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",

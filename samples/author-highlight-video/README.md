@@ -170,9 +170,13 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 * Update the image URL to link to your desired image and specify the URL for the selection action.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
+#### 3) Connect to the Author Image
 
-Modify the details or statistics as desired.
+Update and verify that the image URL retrieves and displays the author’s image along with the accurate name.
+
+#### 4) Update Video Description
+
+Update the copy to capture the information and description for your video.
 
 #### 4) Update Button Copy and Actions
 

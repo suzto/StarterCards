@@ -299,7 +299,7 @@ Click to see the card payload
   },
 ```
 
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcourse-video%2Fcard.json" target="_blank">
+<a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
@@ -343,7 +343,6 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
   <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
-
 
 ## Resources & Tools ##
 

@@ -96,7 +96,7 @@
     },
     {
       "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow",
+      "targetWidth": "veryNarrow",
       "columns": [
         {
           "type": "Column",

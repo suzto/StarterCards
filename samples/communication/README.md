@@ -8,7 +8,6 @@ _bot-sent_ card example:
 
 ![picture alt](assets/CommunicationsCard.png)
 
-
 ## Compatibility
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
@@ -42,7 +41,6 @@ Below you'll find a few alternative expressions of the card.
 ![COMING SOON!](assets/inspiration.png)
 <br> <br>
 
-
 ## 1) 👩‍🎨 Personalize This Card
 
 ### Step-by-step instructions and tips
@@ -61,8 +59,6 @@ Teams provides support for this tool, which is ideal for constructing and modify
 <summary>
 Click to see the card payload
 </summary>
-
-
 
 ```json
 {
@@ -575,26 +571,26 @@ Click to see the card payload
   },
 ```
 
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcommunication%2Fcard.json" target="_blank">
+<a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
  <br>
 
-
-
 #### 2) Replace the Hero Image
 
 If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy.
+
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
 #### 3) Link to the Avatar Image
+
 Ensure the image URL fetches and shows the image associated with the message sender.
 
-Verify the correct linkage of the avatar image. 
+Verify the correct linkage of the avatar image.
 
 #### 4) Update Description Copy and Set Truncation
+
 Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
 
 #### 5) Update Button Copy and Actions

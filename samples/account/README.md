@@ -8,7 +8,7 @@
 
 ![picture alt](assets/card_variations.png)
 
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Faccount%2Fcard.json" target="_blank">
+<a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 

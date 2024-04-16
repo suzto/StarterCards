@@ -12,7 +12,6 @@ _bot-sent_ card example:
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
 
-
 ## Solution
 
 Solution|Author(s)
@@ -34,8 +33,6 @@ Version|Date|Comments
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
 ![to be added](assets/card-layouts.png)
-
-
 
 ## Inspiration Gallery
 
@@ -154,13 +151,10 @@ Click to see the card payload
   },
 ```
 
-
 <!--- button image exported at 1.2x --->
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fauthor-highlight-video%2Fcard.json" target="_blank">
+<a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
-
-
 
 #### 2) Replace the Hero Image
 
@@ -170,9 +164,13 @@ If you’re creating an image, use a 16:9 aspect ratio. Save the image as a tran
 * Update the image URL to link to your desired image and specify the URL for the selection action.
 * <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
 
-#### 3) Update Video Information
+#### 3) Connect to the Author Image
 
-Modify the details or statistics as desired.
+Update and verify that the image URL retrieves and displays the author’s image along with the accurate name.
+
+#### 4) Update Video Description
+
+Update the copy to capture the information and description for your video.
 
 #### 4) Update Button Copy and Actions
 
@@ -217,11 +215,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
 ## Help
+
 We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
-
-
-
-
-

@@ -1,173 +1,173 @@
 {
-  "type": "AdaptiveCard",
-  "speak": "Bug 2837, icons not rendering in dark mode",
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
   "body": [
     {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/thumb_image.png",
-              "width": "56px",
-              "height": "56px",
-              "altText": "Logo"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Bug 2837 - Icons not rendering in dark mode",
-              "wrap": true,
-              "weight": "Bolder"
-            },
-            {
-              "type": "ColumnSet",
-              "targetWidth": "atLeast:narrow",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
-                      "width": "8px",
-                      "height": "8px",
-                      "altText": "Red circle"
-                    }
-                  ],
-                  "horizontalAlignment": "Center",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Blocked",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "|",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Hugo Gonzalez",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
-              "width": "8px",
-              "height": "8px",
-              "altText": "Red circle"
-            }
-          ],
-          "horizontalAlignment": "Center",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Blocked",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "|",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Hugo Gonzalez",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        }
-      ]
-    },
-    {
-      "type": "ActionSet",
       "actions": [
         {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/follow_icon.png",
+          "title": "Follow",
+          "type": "Action.Submit"
         },
         {
-          "type": "Action.Submit",
-          "title": "Follow",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/follow_icon.png"
+          "title": "Open",
+          "type": "Action.OpenUrl",
+          "url": "https://adaptivecards.io/"
         }
-      ]
+      ],
+      "type": "ActionSet"
+    },
+    {
+      "columns": [
+        {
+          "horizontalAlignment": "Center",
+          "items": [
+            {
+              "altText": "Red circle",
+              "height": "8px",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
+              "width": "8px"
+            }
+          ],
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "text": "Blocked",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "text": "Hugo Gonzalez",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "text": "|",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "type": "Column",
+          "verticalContentAlignment": "Center",
+          "width": "auto"
+        }
+      ],
+      "targetWidth": "atLeast:narrow",
+      "type": "ColumnSet"
+    },
+    {
+      "columns": [
+        {
+          "items": [
+            {
+              "altText": "Logo",
+              "height": "56px",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/thumb_image.png",
+              "width": "56px"
+            }
+          ],
+          "type": "Column",
+          "width": "auto"
+        },
+        {
+          "items": [
+            {
+              "columns": [
+                {
+                  "horizontalAlignment": "Center",
+                  "items": [
+                    {
+                      "altText": "Red circle",
+                      "height": "8px",
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
+                      "width": "8px"
+                    }
+                  ],
+                  "type": "Column",
+                  "verticalContentAlignment": "Center",
+                  "width": "auto"
+                },
+                {
+                  "items": [
+                    {
+                      "text": "Blocked",
+                      "type": "TextBlock",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "type": "Column",
+                  "verticalContentAlignment": "Center",
+                  "width": "auto"
+                },
+                {
+                  "items": [
+                    {
+                      "text": "Hugo Gonzalez",
+                      "type": "TextBlock",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "type": "Column",
+                  "verticalContentAlignment": "Center",
+                  "width": "auto"
+                },
+                {
+                  "items": [
+                    {
+                      "text": "|",
+                      "type": "TextBlock",
+                      "wrap": true
+                    }
+                  ],
+                  "spacing": "Small",
+                  "type": "Column",
+                  "verticalContentAlignment": "Center",
+                  "width": "auto"
+                }
+              ],
+              "targetWidth": "atLeast:narrow",
+              "type": "ColumnSet"
+            },
+            {
+              "text": "Bug 2837 - Icons not rendering in dark mode",
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "wrap": true
+            }
+          ],
+          "type": "Column",
+          "width": "stretch"
+        }
+      ],
+      "type": "ColumnSet"
     }
-  ]
+  ],
+  "speak": "Bug 2837, icons not rendering in dark mode",
+  "type": "AdaptiveCard",
+  "version": "1.5"
 }

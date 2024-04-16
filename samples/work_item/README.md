@@ -1,13 +1,12 @@
 # Work Item Thumbnail
 
 ## Summary
-The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
 
+The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
 
 _user-sent_ card example:
 
 ![picture alt](assets/workItemCard.png)
-
 
 ## Compatibility
 
@@ -42,206 +41,20 @@ Below you'll find a few alternative expressions of the card.
 ![TBD](assets/inspiration.png)
 <br/><br/>
 
-
-
-
 ## 1) 👩‍🎨 Personalize This Card
 
 ### Step-by-step instructions and tips
 
 #### 1) Copy the card JSON into the Designer Tool
 
-This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload from [card.json](card.json) or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
+
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fwork_item%2Fcard.json"  target="_blank">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
-
-
-
-<!--- dropdown --->
-
-<details closed>
-<summary>
-Click to see the card payload
-</summary>
-
-
-```json
-{
-  "type": "AdaptiveCard",
-  "speak": "Bug 2837, icons not rendering in dark mode",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/thumb_image.png",
-              "width": "56px",
-              "height": "56px",
-              "altText": "Logo"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Bug 2837 - Icons not rendering in dark mode",
-              "wrap": true,
-              "weight": "Bolder"
-            },
-            {
-              "type": "ColumnSet",
-              "targetWidth": "atLeast:narrow",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
-                      "width": "8px",
-                      "height": "8px",
-                      "altText": "Red circle"
-                    }
-                  ],
-                  "horizontalAlignment": "Center",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Blocked",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "|",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Hugo Gonzalez",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
-              "width": "8px",
-              "height": "8px",
-              "altText": "Red circle"
-            }
-          ],
-          "horizontalAlignment": "Center",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Blocked",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "|",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Hugo Gonzalez",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        }
-      ]
-    },
-    {
-      "type": "ActionSet",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.Submit",
-          "title": "Follow",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/follow_icon.png"
-        }
-      ]
-    }
-  ]
-}
-```
-</details>
 
 *To create a "full width" card, add the following code to the JSON.* <br>
 
@@ -251,18 +64,9 @@ Click to see the card payload
   },
 ```
 
-
-
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fwork_item%2Fcard.json"  target="_blank">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
-
-
 #### 2) Replace the Hero Image
 
 This design is best complemented by a small, square image (recommended size is <ins>~56x56 pixels</ins>). To guarantee high resolution on all endpoints, save the image as a transparent PNG at a 2x scale, while keeping the <ins>pixel size static in the Designer</ins>.
-
 
 #### 3) Update the Copy/Details
 

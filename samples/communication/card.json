@@ -1,111 +1,148 @@
 {
-  "type": "AdaptiveCard",
-  "speak": "Hawaii holiday escape deals start tonight",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "body": [
     {
       "columns": [
         {
-          "width": "auto",
           "items": [
             {
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-              "height": "16px",
-              "type": "Image",
-              "altText": "Megaphone icon",
-              "width": "16px"
-            }
-          ],
-          "type": "Column"
-        },
-        {
-          "width": "stretch",
-          "items": [
-            {
-              "isSubtle": true,
-              "size": "Small",
-              "text": "Posted in Employee Deals",
-              "wrap": true,
-              "type": "TextBlock"
-            }
-          ],
-          "spacing": "Small",
-          "type": "Column"
-        }
-      ],
-      "type": "ColumnSet",
-      "targetWidth": "narrow"
-    },
-    {
-      "columns": [
-        {
-          "width": "auto",
-          "items": [
-            {
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
-              "height": "auto",
-              "type": "Image",
-              "altText": "Avatar of Laurence Gibertson"
-            }
-          ],
-          "type": "Column"
-        },
-        {
-          "width": "stretch",
-          "items": [
-            {
-              "text": "Laurence Gibertson",
-              "weight": "Bolder",
-              "wrap": true,
-              "type": "TextBlock"
+              "actions": [
+                {
+                  "targetElements": [
+                    "commentLike",
+                    "commentLike2",
+                    "commentUnlike",
+                    "commentUnlike2",
+                    "likeFilled",
+                    "likeFilled2",
+                    "likeOutline",
+                    "likeOutline2"
+                  ],
+                  "title": "Like",
+                  "type": "Action.ToggleVisibility"
+                },
+                {
+                  "title": "Comment",
+                  "type": "Action.Submit"
+                }
+              ],
+              "spacing": "Medium",
+              "targetWidth": "atLeast:standard",
+              "type": "ActionSet"
             },
             {
-              "isSubtle": true,
-              "size": "Small",
-              "text": "Oct 22",
-              "wrap": true,
-              "spacing": "None",
-              "type": "TextBlock"
+              "altText": "Beach Image",
+              "height": "auto",
+              "targetWidth": "atLeast:standard",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
+              "width": "150px"
+            },
+            {
+              "altText": "Beach Image",
+              "height": "auto",
+              "targetWidth": "narrow",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
+              "width": "100px"
             }
           ],
-          "type": "Column"
-        }
-      ],
-      "type": "ColumnSet",
-      "targetWidth": "narrow"
-    },
-    {
-      "columns": [
+          "type": "Column",
+          "width": "auto"
+        },
         {
-          "width": "stretch",
           "items": [
+            {
+              "actions": [
+                {
+                  "targetElements": [
+                    "commentLike",
+                    "commentLike2",
+                    "commentUnlike",
+                    "commentUnlike2",
+                    "likeFilled",
+                    "likeFilled2",
+                    "likeOutline",
+                    "likeOutline2"
+                  ],
+                  "title": "Like",
+                  "type": "Action.ToggleVisibility"
+                },
+                {
+                  "title": "Comment",
+                  "type": "Action.Submit"
+                }
+              ],
+              "spacing": "Medium",
+              "targetWidth": "atMost:narrow",
+              "type": "ActionSet"
+            },
             {
               "columns": [
                 {
-                  "width": "auto",
                   "items": [
                     {
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
+                      "altText": "Avatar of Laurence Gibertson",
+                      "height": "auto",
+                      "type": "Image",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png"
+                    }
+                  ],
+                  "type": "Column",
+                  "width": "auto"
+                },
+                {
+                  "items": [
+                    {
+                      "isSubtle": true,
+                      "size": "Small",
+                      "spacing": "None",
+                      "text": "Oct 22",
+                      "type": "TextBlock",
+                      "wrap": true
+                    },
+                    {
+                      "text": "Laurence Gibertson",
+                      "type": "TextBlock",
+                      "weight": "Bolder",
+                      "wrap": true
+                    }
+                  ],
+                  "type": "Column",
+                  "width": "stretch"
+                }
+              ],
+              "targetWidth": "atLeast:standard",
+              "type": "ColumnSet"
+            },
+            {
+              "columns": [
+                {
+                  "items": [
+                    {
+                      "altText": "Megaphone icon",
                       "height": "16px",
                       "type": "Image",
-                      "altText": "Megaphone icon",
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
                       "width": "16px"
                     }
                   ],
-                  "type": "Column"
+                  "type": "Column",
+                  "width": "auto"
                 },
                 {
-                  "width": "stretch",
                   "items": [
                     {
                       "isSubtle": true,
                       "size": "Small",
                       "text": "Posted in Employee Deals",
-                      "wrap": true,
-                      "type": "TextBlock"
+                      "type": "TextBlock",
+                      "wrap": true
                     }
                   ],
                   "spacing": "Small",
-                  "type": "Column"
+                  "type": "Column",
+                  "width": "stretch"
                 }
               ],
               "targetWidth": "atLeast:standard",
@@ -114,107 +151,54 @@
             {
               "columns": [
                 {
-                  "width": "auto",
                   "items": [
                     {
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
-                      "height": "auto",
-                      "type": "Image",
-                      "altText": "Avatar of Laurence Gibertson"
-                    }
-                  ],
-                  "type": "Column"
-                },
-                {
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "text": "Laurence Gibertson",
-                      "weight": "Bolder",
-                      "wrap": true,
-                      "type": "TextBlock"
-                    },
-                    {
-                      "isSubtle": true,
-                      "size": "Small",
-                      "text": "Oct 22",
-                      "wrap": true,
-                      "spacing": "None",
-                      "type": "TextBlock"
-                    }
-                  ],
-                  "type": "Column"
-                }
-              ],
-              "targetWidth": "atLeast:standard",
-              "type": "ColumnSet"
-            },
-            {
-              "size": "Large",
-              "text": "Hawaii holiday escape deals start tonight!",
-              "weight": "Bolder",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock"
-            },
-            {
-              "text": "For a limited time, you can book a four night stay at luxury resort on the island of Maui for only $999 per person.",
-              "wrap": true,
-              "spacing": "Small",
-              "type": "TextBlock",
-              "maxLines": 3
-            },
-            {
-              "columns": [
-                {
-                  "width": "auto",
-                  "items": [
-                    {
-                      "horizontalAlignment": "Right",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
-                      "width": "16px",
+                      "altText": "Outlined thumbs up",
                       "height": "16px",
+                      "horizontalAlignment": "Right",
                       "id": "likeOutline",
                       "type": "Image",
-                      "altText": "Outlined thumbs up"
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
+                      "width": "16px"
                     },
                     {
-                      "horizontalAlignment": "Right",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
-                      "width": "16px",
+                      "altText": "Thumbs up",
                       "height": "16px",
+                      "horizontalAlignment": "Right",
                       "id": "likeFilled",
                       "isVisible": false,
                       "type": "Image",
-                      "altText": "Thumbs up"
+                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
+                      "width": "16px"
                     }
                   ],
-                  "verticalContentAlignment": "Bottom",
                   "spacing": "None",
-                  "type": "Column"
+                  "type": "Column",
+                  "verticalContentAlignment": "Bottom",
+                  "width": "auto"
                 },
                 {
-                  "width": "stretch",
                   "items": [
                     {
+                      "id": "commentLike",
                       "size": "Small",
                       "text": "26 people like this",
-                      "wrap": true,
-                      "id": "commentLike",
-                      "type": "TextBlock"
+                      "type": "TextBlock",
+                      "wrap": true
                     },
                     {
-                      "size": "Small",
-                      "text": "27 people like this",
-                      "wrap": true,
                       "id": "commentUnlike",
                       "isVisible": false,
-                      "type": "TextBlock"
+                      "size": "Small",
+                      "text": "27 people like this",
+                      "type": "TextBlock",
+                      "wrap": true
                     }
                   ],
-                  "verticalContentAlignment": "Bottom",
                   "spacing": "Small",
-                  "type": "Column"
+                  "type": "Column",
+                  "verticalContentAlignment": "Bottom",
+                  "width": "stretch"
                 }
               ],
               "height": "stretch",
@@ -222,262 +206,113 @@
               "type": "ColumnSet"
             },
             {
-              "targetWidth": "atMost:narrow",
-              "actions": [
-                {
-                  "targetElements": [
-                    "likeFilled",
-                    "likeOutline",
-                    "commentLike",
-                    "commentUnlike",
-                    "likeFilled2",
-                    "likeOutline2",
-                    "commentLike2",
-                    "commentUnlike2"
-                  ],
-                  "title": "Like",
-                  "type": "Action.ToggleVisibility"
-                },
-                {
-                  "title": "Comment",
-                  "type": "Action.Submit"
-                }
-              ],
-              "spacing": "Medium",
-              "type": "ActionSet"
-            }
-          ],
-          "type": "Column"
-        },
-        {
-          "width": "auto",
-          "items": [
-            {
-              "targetWidth": "atLeast:standard",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
-              "width": "150px",
-              "height": "auto",
-              "type": "Image",
-              "altText": "Beach Image"
+              "maxLines": 3,
+              "spacing": "Small",
+              "text": "For a limited time, you can book a four night stay at luxury resort on the island of Maui for only $999 per person.",
+              "type": "TextBlock",
+              "wrap": true
             },
             {
-              "targetWidth": "narrow",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
-              "width": "100px",
-              "height": "auto",
-              "type": "Image",
-              "altText": "Beach Image"
-            },
-            {
-              "targetWidth": "atLeast:standard",
-              "actions": [
-                {
-                  "targetElements": [
-                    "likeFilled",
-                    "likeOutline",
-                    "commentLike",
-                    "commentUnlike",
-                    "likeFilled2",
-                    "likeOutline2",
-                    "commentLike2",
-                    "commentUnlike2"
-                  ],
-                  "title": "Like",
-                  "type": "Action.ToggleVisibility"
-                },
-                {
-                  "title": "Comment",
-                  "type": "Action.Submit"
-                }
-              ],
-              "spacing": "Medium",
-              "type": "ActionSet"
+              "size": "Large",
+              "spacing": "Small",
+              "text": "Hawaii holiday escape deals start tonight!",
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "wrap": true
             }
           ],
-          "type": "Column"
+          "type": "Column",
+          "width": "stretch"
         }
       ],
-      "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow"
+      "targetWidth": "atLeast:narrow",
+      "type": "ColumnSet"
     },
     {
-      "type": "Container",
-      "targetWidth": "veryNarrow",
-      "items": [
+      "columns": [
         {
-          "columns": [
+          "items": [
             {
-              "width": "auto",
-              "items": [
-                {
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
-                  "height": "16px",
-                  "type": "Image",
-                  "altText": "Megaphone icon",
-                  "width": "16px"
-                }
-              ],
-              "type": "Column"
-            },
-            {
-              "width": "stretch",
-              "items": [
-                {
-                  "isSubtle": true,
-                  "size": "Small",
-                  "text": "Posted in Employee Deals",
-                  "wrap": true,
-                  "type": "TextBlock"
-                }
-              ],
-              "spacing": "Small",
-              "type": "Column"
+              "altText": "Avatar of Laurence Gibertson",
+              "height": "auto",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png"
             }
           ],
-          "type": "ColumnSet"
+          "type": "Column",
+          "width": "auto"
         },
         {
-          "columns": [
+          "items": [
             {
-              "width": "auto",
-              "items": [
-                {
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png",
-                  "height": "auto",
-                  "type": "Image",
-                  "altText": "Avatar of Laurence Gibertson"
-                }
-              ],
-              "type": "Column"
-            },
-            {
-              "width": "stretch",
-              "items": [
-                {
-                  "text": "Laurence Gibertson",
-                  "weight": "Bolder",
-                  "wrap": true,
-                  "type": "TextBlock"
-                },
-                {
-                  "isSubtle": true,
-                  "size": "Small",
-                  "text": "Oct 22",
-                  "wrap": true,
-                  "spacing": "None",
-                  "type": "TextBlock"
-                }
-              ],
-              "type": "Column"
-            }
-          ],
-          "type": "ColumnSet"
-        },
-        {
-          "size": "Large",
-          "text": "Hawaii holiday escape deals start tonight!",
-          "weight": "Bolder",
-          "wrap": true,
-          "spacing": "Small",
-          "type": "TextBlock"
-        },
-        {
-          "columns": [
-            {
-              "width": "stretch",
-              "items": [
-                {
-                  "maxLines": 4,
-                  "text": "For a limited time, you can book a four night stay at luxury resort on the island of Maui for only $999 per person.",
-                  "wrap": true,
-                  "spacing": "Small",
-                  "type": "TextBlock"
-                }
-              ],
-              "type": "Column"
-            },
-            {
-              "width": "auto",
-              "items": [
-                {
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
-                  "width": "60px",
-                  "type": "Image"
-                }
-              ],
-              "type": "Column"
-            }
-          ],
-          "type": "ColumnSet"
-        },
-        {
-          "columns": [
-            {
-              "width": "auto",
-              "items": [
-                {
-                  "horizontalAlignment": "Right",
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
-                  "width": "16px",
-                  "height": "16px",
-                  "id": "likeOutline2",
-                  "type": "Image",
-                  "altText": "Outlined thumbs up"
-                },
-                {
-                  "horizontalAlignment": "Right",
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
-                  "width": "16px",
-                  "height": "16px",
-                  "id": "likeFilled2",
-                  "isVisible": false,
-                  "type": "Image",
-                  "altText": "Thumbs up"
-                }
-              ],
-              "verticalContentAlignment": "Center",
+              "isSubtle": true,
+              "size": "Small",
               "spacing": "None",
-              "type": "Column"
+              "text": "Oct 22",
+              "type": "TextBlock",
+              "wrap": true
             },
             {
-              "width": "stretch",
-              "items": [
-                {
-                  "size": "Small",
-                  "text": "26 people like this",
-                  "wrap": true,
-                  "id": "commentLike2",
-                  "type": "TextBlock"
-                },
-                {
-                  "size": "Small",
-                  "text": "27 people like this",
-                  "wrap": true,
-                  "id": "commentUnlike2",
-                  "isVisible": false,
-                  "type": "TextBlock"
-                }
-              ],
-              "verticalContentAlignment": "Center",
-              "spacing": "Small",
-              "type": "Column"
+              "text": "Laurence Gibertson",
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "wrap": true
             }
           ],
-          "spacing": "ExtraLarge",
-          "type": "ColumnSet"
+          "type": "Column",
+          "width": "stretch"
+        }
+      ],
+      "targetWidth": "narrow",
+      "type": "ColumnSet"
+    },
+    {
+      "columns": [
+        {
+          "items": [
+            {
+              "altText": "Megaphone icon",
+              "height": "16px",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
+              "width": "16px"
+            }
+          ],
+          "type": "Column",
+          "width": "auto"
         },
+        {
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "Small",
+              "text": "Posted in Employee Deals",
+              "type": "TextBlock",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "type": "Column",
+          "width": "stretch"
+        }
+      ],
+      "targetWidth": "narrow",
+      "type": "ColumnSet"
+    },
+    {
+      "items": [
         {
           "actions": [
             {
               "targetElements": [
-                "likeFilled",
-                "likeOutline",
                 "commentLike",
-                "commentUnlike",
-                "likeFilled2",
-                "likeOutline2",
                 "commentLike2",
-                "commentUnlike2"
+                "commentUnlike",
+                "commentUnlike2",
+                "likeFilled",
+                "likeFilled2",
+                "likeOutline",
+                "likeOutline2"
               ],
               "title": "Like",
               "type": "Action.ToggleVisibility"
@@ -489,10 +324,175 @@
           ],
           "spacing": "Medium",
           "type": "ActionSet"
+        },
+        {
+          "columns": [
+            {
+              "items": [
+                {
+                  "altText": "Avatar of Laurence Gibertson",
+                  "height": "auto",
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/avatar.png"
+                }
+              ],
+              "type": "Column",
+              "width": "auto"
+            },
+            {
+              "items": [
+                {
+                  "isSubtle": true,
+                  "size": "Small",
+                  "spacing": "None",
+                  "text": "Oct 22",
+                  "type": "TextBlock",
+                  "wrap": true
+                },
+                {
+                  "text": "Laurence Gibertson",
+                  "type": "TextBlock",
+                  "weight": "Bolder",
+                  "wrap": true
+                }
+              ],
+              "type": "Column",
+              "width": "stretch"
+            }
+          ],
+          "type": "ColumnSet"
+        },
+        {
+          "columns": [
+            {
+              "items": [
+                {
+                  "altText": "Megaphone icon",
+                  "height": "16px",
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_megaphone.png",
+                  "width": "16px"
+                }
+              ],
+              "type": "Column",
+              "width": "auto"
+            },
+            {
+              "items": [
+                {
+                  "isSubtle": true,
+                  "size": "Small",
+                  "text": "Posted in Employee Deals",
+                  "type": "TextBlock",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small",
+              "type": "Column",
+              "width": "stretch"
+            }
+          ],
+          "type": "ColumnSet"
+        },
+        {
+          "columns": [
+            {
+              "items": [
+                {
+                  "altText": "Outlined thumbs up",
+                  "height": "16px",
+                  "horizontalAlignment": "Right",
+                  "id": "likeOutline2",
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_outline.png",
+                  "width": "16px"
+                },
+                {
+                  "altText": "Thumbs up",
+                  "height": "16px",
+                  "horizontalAlignment": "Right",
+                  "id": "likeFilled2",
+                  "isVisible": false,
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/icon_like_filled.png",
+                  "width": "16px"
+                }
+              ],
+              "spacing": "None",
+              "type": "Column",
+              "verticalContentAlignment": "Center",
+              "width": "auto"
+            },
+            {
+              "items": [
+                {
+                  "id": "commentLike2",
+                  "size": "Small",
+                  "text": "26 people like this",
+                  "type": "TextBlock",
+                  "wrap": true
+                },
+                {
+                  "id": "commentUnlike2",
+                  "isVisible": false,
+                  "size": "Small",
+                  "text": "27 people like this",
+                  "type": "TextBlock",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small",
+              "type": "Column",
+              "verticalContentAlignment": "Center",
+              "width": "stretch"
+            }
+          ],
+          "spacing": "ExtraLarge",
+          "type": "ColumnSet"
+        },
+        {
+          "columns": [
+            {
+              "items": [
+                {
+                  "maxLines": 4,
+                  "spacing": "Small",
+                  "text": "For a limited time, you can book a four night stay at luxury resort on the island of Maui for only $999 per person.",
+                  "type": "TextBlock",
+                  "wrap": true
+                }
+              ],
+              "type": "Column",
+              "width": "stretch"
+            },
+            {
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/communication/assets/hero_image.png",
+                  "width": "60px"
+                }
+              ],
+              "type": "Column",
+              "width": "auto"
+            }
+          ],
+          "type": "ColumnSet"
+        },
+        {
+          "size": "Large",
+          "spacing": "Small",
+          "text": "Hawaii holiday escape deals start tonight!",
+          "type": "TextBlock",
+          "weight": "Bolder",
+          "wrap": true
         }
-      ]
+      ],
+      "targetWidth": "veryNarrow",
+      "type": "Container"
     }
   ],
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "speak": "Hawaii holiday escape deals start tonight",
+  "type": "AdaptiveCard",
   "version": "1.5"
 }

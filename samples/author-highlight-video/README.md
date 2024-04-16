@@ -12,6 +12,7 @@ _bot-sent_ card example:
 
 ![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
 
+
 ## Solution
 
 Solution|Author(s)
@@ -34,6 +35,8 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 ![to be added](assets/card-layouts.png)
 
+
+
 ## Inspiration Gallery
 
 Below you'll find a few alternative expressions of the card.
@@ -47,23 +50,117 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload from [card.json](card.json) or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
+This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
+
+<details closed>
+<summary>
+Click to see the card payload
+</summary>
+
+```json
+{
+  "type": "AdaptiveCard",
+  "speak": "3 minute energy flow with kayo video",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/video_image.png",
+      "altText": "3 Minute Energy Flow with Kayo Video"
+    },
+    {
+      "type": "TextBlock",
+      "text": "3 Minute Energy Flow with Kayo",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/avatar.png",
+              "width": "24px",
+              "height": "24px",
+              "style": "Person",
+              "altText": "Avatar of Kayo Miwa"
+            }
+          ],
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Kayo Miwa",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small",
+          "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and mind! All you need is a little space, and get ready to stretch your arms and legs.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "veryNarrow",
+      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and...",
+      "wrap": true
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Remind me",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/remind_icon.png"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>
+
+*To create a "full width" card, add the following code to the JSON.* <br>
+
+```json
+"msTeams": {
+    "width": "full"
+  },
+```
+
 
 <!--- button image exported at 1.2x --->
 <a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fauthor-highlight-video%2Fcard.json" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
 
-*To create a "full width" card, add the following code to the JSON.* <br>
-
-```json
-"msTeams": {
-  "width": "full"
-}
-```
 
 #### 2) Replace the Hero Image
 
@@ -124,7 +221,11 @@ This is where the rubber meets the road to ensure high quality cards for all use
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
 ## Help
-
 We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
 
 You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
+
+
+
+
+

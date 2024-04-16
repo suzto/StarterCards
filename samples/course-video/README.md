@@ -47,22 +47,261 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload from [card.json](card.json) or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcourse-video%2Fcard.json" target="_blank">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
+Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload provided below or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
+
+<!--- dropdown --->
+
+<details closed>
+<summary>
+Click to see the card payload
+</summary>
+
+```json
+{
+  "type": "AdaptiveCard",
+  "speak": "Intro to graphic design, concepts video",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/video_image.png",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "https://adaptivecards.io/",
+        "altText": "Intro to Graphic Design: Concepts Video"
+      }
+    },
+    {
+      "type": "TextBlock",
+      "text": "Intro to Graphic Design: Concepts",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "verticalContentAlignment": "Center",
+          "items": [
+            {
+              "type": "Rating",
+              "value": "4",
+              "color": "Marigold",
+              "size": "Medium",
+              "fallback": {
+                "type": "TextBlock",
+                "text": "4 Stars"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "1,160",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Course · 52m · Beginner",
+      "wrap": true,
+      "isSubtle": true,
+      "spacing": "Small"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/logo_image.png",
+              "width": "16px",
+              "height": "16px",
+              "altText": "Logo"
+            }
+          ],
+          "horizontalAlignment": "Center",
+          "verticalContentAlignment": "Center"
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Sketchpad Scholars",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "·"
+            }
+          ],
+          "spacing": "Small"
+        },
+        {
+          "type": "Column",
+          "targetWidth": "atLeast:narrow",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Tony Harper",
+              "wrap": true
+            }
+          ],
+          "spacing": "Small"
+        }
+      ],
+      "spacing": "None"
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn...",
+      "wrap": true,
+      "id": "truncatedText"
+    },
+    {
+      "type": "TextBlock",
+      "targetWidth": "atLeast:narrow",
+      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn about design principles through hands-on projects that will help build your portfolio. Enroll now and start your journey to mastering the art of graphic design.",
+      "wrap": true,
+      "isVisible": false,
+      "id": "fullText"
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showMore",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "None",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show more",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "RichTextBlock",
+      "id": "showLess",
+      "targetWidth": "atLeast:narrow",
+      "spacing": "None",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Show less",
+          "selectAction": {
+            "type": "Action.ToggleVisibility",
+            "targetElements": [
+              "truncatedText",
+              "fullText",
+              "showMore",
+              "showLess"
+            ]
+          }
+        }
+      ],
+      "isVisible": false
+    },
+    {
+      "type": "ActionSet",
+      "spacing": "Large",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Bookmark",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "spacing": "Large",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.Execute",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
+        }
+      ]
+    }
+  ]
+}
+```
+
+</details>
 
 *To create a "full width" card, add the following code to the JSON.* <br>
 
 ```json
 "msTeams": {
-  "width": "full"
-}
+    "width": "full"
+  },
 ```
+
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fcourse-video%2Fcard.json" target="_blank">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
 
 #### 2) Replace the Hero Image
 
@@ -104,6 +343,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
   <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
+
 
 ## Resources & Tools ##
 

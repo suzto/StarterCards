@@ -47,14 +47,133 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload from [card.json](card.json) or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fstandard-video%2Fcard.json" target="_blank">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
+This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
+
+<!--- dropdown --->
+
+<details closed>
+<summary>
+Click to see the card payload
+</summary>
+
+```json
+
+          
+{
+  "type": "AdaptiveCard",
+  "speak": "Web development bootcamp video",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/video_image.png",
+      "altText": "Web Development Bootcamp Video"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Web Development Bootcamp",
+      "wrap": true,
+      "size": "Large",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "HackLab Films",
+      "wrap": true,
+      "spacing": "Small",
+      "weight": "Bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "24m · 17.1M views · 2 months ago",
+      "wrap": true,
+      "spacing": "None"
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "atLeast:narrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Add to calendar",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/add_to_calendar_icon.png"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Share in Teams",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_teams.png"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Download",
+          "url": "https://adaptivecards.io/",
+          "mode": "secondary",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_download.png"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Copy link",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_link.png"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "targetWidth": "veryNarrow",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Open",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/add_to_calendar_icon.png",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_teams.png",
+          "title": "Share in Teams",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_download.png",
+          "title": "Download",
+          "url": "https://adaptivecards.io/",
+          "mode": "secondary"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_link.png",
+          "title": "Copy link",
+          "mode": "secondary",
+          "url": "https://adaptivecards.io/"
+        }
+      ]
+    }
+  ]
+}
+
+```
+
+</details>
 
 *To create a "full width" card, add the following code to the JSON.* <br>
 
@@ -63,6 +182,10 @@ Teams provides support for this tool, which is ideal for constructing and modify
     "width": "full"
   },
 ```
+
+<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fstandard-video%2Fcard.json" target="_blank">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
+</a>
 
 #### 2) Replace the Hero Image
 

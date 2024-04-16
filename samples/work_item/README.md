@@ -1,13 +1,12 @@
 # Work Item Thumbnail
 
 ## Summary
-The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
 
+The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
 
 _user-sent_ card example:
 
 ![picture alt](assets/workItemCard.png)
-
 
 ## Compatibility
 
@@ -42,9 +41,6 @@ Below you'll find a few alternative expressions of the card.
 ![TBD](assets/inspiration.png)
 <br/><br/>
 
-
-
-
 ## 1) 👩‍🎨 Personalize This Card
 
 ### Step-by-step instructions and tips
@@ -56,15 +52,12 @@ This tool is <b>supported by Teams</b> for building and editing cards. Copy the 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
-
-
 <!--- dropdown --->
 
 <details closed>
 <summary>
 Click to see the card payload
 </summary>
-
 
 ```json
 {
@@ -241,6 +234,7 @@ Click to see the card payload
   ]
 }
 ```
+
 </details>
 
 *To create a "full width" card, add the following code to the JSON.* <br>
@@ -251,18 +245,13 @@ Click to see the card payload
   },
 ```
 
-
-
-
-<a href="https://adaptivecards.io/designer?card=https%3A%2F%2Fraw.githubusercontent.com%2Fsuzto%2FStarterCards%2Fmain%2Fsamples%2Fwork_item%2Fcard.json"  target="_blank">
+<a href="https://dev.teams.microsoft.com/cards/new"  target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
-
 
 #### 2) Replace the Hero Image
 
 This design is best complemented by a small, square image (recommended size is <ins>~56x56 pixels</ins>). To guarantee high resolution on all endpoints, save the image as a transparent PNG at a 2x scale, while keeping the <ins>pixel size static in the Designer</ins>.
-
 
 #### 3) Update the Copy/Details
 

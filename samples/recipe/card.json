@@ -105,7 +105,7 @@
         {
           "type": "Action.Submit",
           "title": "Add to cart",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/addToCart_icon.png"
         }
       ],
       "spacing": "Medium"
@@ -121,7 +121,7 @@
         },
         {
           "type": "Action.Submit",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
+          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/addToCart_icon.png"
         }
       ],
       "spacing": "Medium"

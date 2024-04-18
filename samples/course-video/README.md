@@ -342,6 +342,15 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
+<br>
+Ideally test all layouts, functionality, and accessibility in Teams. For lightweight checking you can use our Card Renderer Tool.
+
+<br>
+
+<a href="https://actestapp.z22.web.core.windows.net/" target="_blank">
+  <img src="../../assets/open_designer_button.png" width="190" alt="Card Renderer Tool" />
+</a>
+
   <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
 ## Resources & Tools ##

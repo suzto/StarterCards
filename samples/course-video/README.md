@@ -338,9 +338,9 @@ For icons, use the color #818181 to ensure readability in light/dark modes. Icon
 
 This marks the critical point where we ensure that our cards maintain superior quality for every user on every platform. When conducting a road test for your cards, take into account the following considerations:
 
-* <b>Themes:</b> Light Mode, Dark Mode, High Contrast
-* <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
-* <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
+* <b>Themes:</b> Ensure compatibility with Light Mode, Dark Mode, and High Contrast settings.
+* <b>Common widths:</b> Verify the display across various device widths, including Chat, Channel, Meeting Chat, and devices like Phones (iOS in Portrait/Landscape, Android in Portrait/Landscape) and Tablets (iOS in Portrait/Landscape, Android in Portrait/Landscape).
+* <b>Accessibility:</b> When designing new visuals, check for color contrast compliance, ensure smooth navigation using keyboard or mobile equivalents, and confirm that voice assistants can accurately read the card content.
 
 <br>
 To ensure accurate viewing results, test all layouts, functionalities, and accessibility features within Teams. <br>

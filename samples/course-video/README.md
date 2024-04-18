@@ -336,14 +336,15 @@ For icons, use the color #818181 to ensure readability in light/dark modes. Icon
 
 ## 2) 🚗 Test Your Card
 
-This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:
+This marks the critical point where we ensure that our cards maintain superior quality for every user on every platform. When conducting a road test for your cards, take into account the following considerations:
 
 * <b>Themes:</b> Light Mode, Dark Mode, High Contrast
 * <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
 <br>
-Ideally test all layouts, functionality, and accessibility in Teams. For lightweight checking you can use our <a href="https://actestapp.z22.web.core.windows.net/" target="_new">Card Renderer Tool.</a>
+To ensure accurate viewing results, test all layouts, functionalities, and accessibility features within Teams. <br>
+For a quick check, you can utilize our <a href="https://actestapp.z22.web.core.windows.net/" target="_new">Card Renderer Tool.</a>
 
 <br>
 

@@ -32,7 +32,7 @@
             },
             {
               "type": "ColumnSet",
-              "targetWidth": "atLeast:narrow",
+              "targetWidth": "atLeast:standard",
               "columns": [
                 {
                   "type": "Column",
@@ -96,7 +96,7 @@
     },
     {
       "type": "ColumnSet",
-      "targetWidth": "veryNarrow",
+      "targetWidth": "narrow",
       "columns": [
         {
           "type": "Column",
@@ -151,6 +151,51 @@
           ],
           "spacing": "Small",
           "verticalContentAlignment": "Center"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "targetWidth": "veryNarrow",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
+                  "width": "8px",
+                  "height": "8px",
+                  "altText": "Red circle"
+                }
+              ],
+              "horizontalAlignment": "Center",
+              "verticalContentAlignment": "Center"
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Blocked",
+                  "wrap": true
+                }
+              ],
+              "spacing": "Small",
+              "verticalContentAlignment": "Center"
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "text": "Hugo Gonzalez",
+          "wrap": true,
+          "spacing": "None"
         }
       ]
     },

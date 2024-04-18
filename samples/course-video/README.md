@@ -343,13 +343,13 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
 <br>
-Ideally test all layouts, functionality, and accessibility in Teams. For lightweight checking you can use our Card Renderer Tool.
+Ideally test all layouts, functionality, and accessibility in Teams. For lightweight checking you can use our <a href="https://actestapp.z22.web.core.windows.net/" target="_blank">Card Renderer Tool.</a>
 
 <br>
 
-<a href="https://actestapp.z22.web.core.windows.net/" target="_blank">
+
   <img src="../../assets/render_tool.png" alt="Card Renderer Tool" />
-</a>
+
 
 
 

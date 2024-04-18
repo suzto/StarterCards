@@ -348,7 +348,7 @@ Ideally test all layouts, functionality, and accessibility in Teams. For lightwe
 <br>
 
 <a href="https://actestapp.z22.web.core.windows.net/" target="_blank">
-  <img src="../../assets/RenderTool.png" width="190" alt="Card Renderer Tool" />
+  <img src="../../assets/RenderTool.png" alt="Card Renderer Tool" />
 </a>
 
 

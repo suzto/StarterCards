@@ -217,7 +217,7 @@
       ],
       "firstRowAsHeaders": false,
       "showGridLines": false,
-      "spacing": "Small",
+      "spacing": "Large",
       "separator": true
     },
     {
@@ -526,7 +526,7 @@
           "spacing": "None"
         }
       ],
-      "spacing": "Large"
+      "spacing": "ExtraLarge"
     },
     {
       "type": "ColumnSet",

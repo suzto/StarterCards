@@ -219,6 +219,7 @@
             },
             {
               "type": "ColumnSet",
+              "horizontalAlignment": "Center",
               "columns": [
                 {
                   "type": "Column",
@@ -227,8 +228,10 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowLeft.png",
-                      "horizontalAlignment": "Center",
+                      "horizontalAlignment": "Right",
                       "altText": "⇦",
+                      "width": "32px",
+                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
                         "targetElements": [
@@ -243,7 +246,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -258,7 +261,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -280,7 +283,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -308,7 +311,9 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowRight.png",
                       "altText": "⇨",
-                      "horizontalAlignment": "Center",
+                      "width": "32px",
+                      "height": "32px",
+                      "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
                         "targetElements": [
@@ -366,6 +371,7 @@
             },
             {
               "type": "ColumnSet",
+              "horizontalAlignment": "Center",
               "columns": [
                 {
                   "type": "Column",
@@ -374,8 +380,10 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowLeft.png",
-                      "horizontalAlignment": "Center",
+                      "horizontalAlignment": "Right",
                       "altText": "⇦",
+                      "width": "32px",
+                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
                         "targetElements": [
@@ -390,7 +398,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -412,7 +420,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -427,7 +435,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -455,7 +463,9 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowRight.png",
                       "altText": "⇨",
-                      "horizontalAlignment": "Center",
+                      "width": "32px",
+                      "height": "32px",
+                      "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
                         "targetElements": [
@@ -514,6 +524,7 @@
             },
             {
               "type": "ColumnSet",
+              "horizontalAlignment": "Center",
               "columns": [
                 {
                   "type": "Column",
@@ -522,8 +533,10 @@
                     {
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowLeft.png",
-                      "horizontalAlignment": "Center",
+                      "horizontalAlignment": "Right",
                       "altText": "⇦",
+                      "width": "32px",
+                      "height": "32px",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
                         "targetElements": [
@@ -538,7 +551,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -560,7 +573,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -582,7 +595,7 @@
                 },
                 {
                   "type": "Column",
-                  "width": "stretch",
+                  "width": "auto",
                   "items": [
                     {
                       "type": "Image",
@@ -603,7 +616,9 @@
                       "type": "Image",
                       "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/list/assets/arrowRight.png",
                       "altText": "⇨",
-                      "horizontalAlignment": "Center",
+                      "width": "32px",
+                      "height": "32px",
+                      "horizontalAlignment": "Left",
                       "selectAction": {
                         "type": "Action.ToggleVisibility",
                         "targetElements": [

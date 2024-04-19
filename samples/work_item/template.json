@@ -13,7 +13,7 @@
           "items": [
             {
               "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/thumb_image.png",
+              "url": "${logoUrl}",
               "width": "56px",
               "height": "56px",
               "altText": "Logo"
@@ -26,7 +26,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Bug 2837 - Icons not rendering in dark mode",
+              "text": "${title}",
               "wrap": true,
               "weight": "Bolder"
             },
@@ -40,7 +40,7 @@
                   "items": [
                     {
                       "type": "Image",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
+                      "url": "${statusIconUrl}",
                       "width": "8px",
                       "height": "8px",
                       "altText": "Red circle"
@@ -55,7 +55,7 @@
                   "items": [
                     {
                       "type": "TextBlock",
-                      "text": "Blocked",
+                      "text": "${statusText}",
                       "wrap": true
                     }
                   ],
@@ -81,7 +81,7 @@
                   "items": [
                     {
                       "type": "TextBlock",
-                      "text": "Hugo Gonzalez",
+                      "text": "${name}",
                       "wrap": true
                     }
                   ],
@@ -104,7 +104,7 @@
           "items": [
             {
               "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
+              "url": "${statusIconUrl}",
               "width": "8px",
               "height": "8px",
               "altText": "Red circle"
@@ -119,7 +119,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Blocked",
+              "text": "${statusText}",
               "wrap": true
             }
           ],
@@ -145,7 +145,7 @@
           "items": [
             {
               "type": "TextBlock",
-              "text": "Hugo Gonzalez",
+              "text": "${name}",
               "wrap": true
             }
           ],
@@ -167,7 +167,7 @@
               "items": [
                 {
                   "type": "Image",
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
+                  "url": "${statusIconUrl}",
                   "width": "8px",
                   "height": "8px",
                   "altText": "Red circle"
@@ -182,7 +182,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Blocked",
+                  "text": "${statusText}",
                   "wrap": true
                 }
               ],
@@ -193,7 +193,7 @@
         },
         {
           "type": "TextBlock",
-          "text": "Hugo Gonzalez",
+          "text": "${name}",
           "wrap": true,
           "spacing": "None"
         }
@@ -205,12 +205,12 @@
         {
           "type": "Action.OpenUrl",
           "title": "Open",
-          "url": "https://adaptivecards.io/"
+          "url": "${openActionUrl}"
         },
         {
           "type": "Action.Submit",
-          "title": "Follow",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/follow_icon.png"
+          "title": "${followText}",
+          "iconUrl": "${followIconUrl}"
         }
       ]
     }

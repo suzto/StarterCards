@@ -84,7 +84,6 @@
       "targetWidth": "atMost:narrow",
       "text": "In Progress",
       "color": "Good",
-      "size": "Small",
       "weight": "Bolder",
       "wrap": true
     },
@@ -95,7 +94,6 @@
       "wrap": true,
       "weight": "Bolder",
       "spacing": "None",
-      "size": "Small",
       "color": "Default"
     },
     {
@@ -425,13 +423,49 @@
           "items": [
             {
               "type": "RichTextBlock",
+              "id": "showMore1",
               "inlines": [
                 {
                   "type": "TextRun",
                   "text": "See more",
                   "selectAction": {
-                    "type": "Action.OpenUrl",
-                    "url": "https://adaptivecards.io/"
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": [
+                      "showMore1",
+                      "showLess1",
+                      "showMore2",
+                      "showLess2",
+                      "chevronDown1",
+                      "chevronUp1",
+                      "chevronDown2",
+                      "chevronUp2",
+                      "moreText"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "RichTextBlock",
+              "id": "showLess1",
+              "isVisible": false,
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "See less",
+                  "selectAction": {
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": [
+                      "showMore1",
+                      "showLess1",
+                      "showMore2",
+                      "showLess2",
+                      "chevronDown1",
+                      "chevronUp1",
+                      "chevronDown2",
+                      "chevronUp2",
+                      "moreText"
+                    ]
                   }
                 }
               ]
@@ -447,11 +481,43 @@
           "items": [
             {
               "type": "Image",
+              "id": "chevronDown1",
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
               "width": "25px",
               "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
+                "type": "Action.ToggleVisibility",
+                "targetElements": [
+                  "showMore1",
+                  "showLess1",
+                  "showMore2",
+                  "showLess2",
+                  "chevronDown1",
+                  "chevronUp1",
+                  "chevronDown2",
+                  "chevronUp2",
+                  "moreText"
+                ]
+              }
+            },
+            {
+              "type": "Image",
+              "id": "chevronUp1",
+              "isVisible": false,
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_up.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": [
+                  "showMore1",
+                  "showLess1",
+                  "showMore2",
+                  "showLess2",
+                  "chevronDown1",
+                  "chevronUp1",
+                  "chevronDown2",
+                  "chevronUp2",
+                  "moreText"
+                ]
               }
             }
           ],
@@ -460,7 +526,7 @@
           "spacing": "None"
         }
       ],
-      "spacing": "Medium"
+      "spacing": "Large"
     },
     {
       "type": "ColumnSet",
@@ -472,13 +538,49 @@
           "items": [
             {
               "type": "RichTextBlock",
+              "id": "showMore2",
               "inlines": [
                 {
                   "type": "TextRun",
                   "text": "See more",
                   "selectAction": {
-                    "type": "Action.OpenUrl",
-                    "url": "https://adaptivecards.io/"
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": [
+                      "showMore1",
+                      "showLess1",
+                      "showMore2",
+                      "showLess2",
+                      "chevronDown1",
+                      "chevronUp1",
+                      "chevronDown2",
+                      "chevronUp2",
+                      "moreText"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "RichTextBlock",
+              "id": "showLess2",
+              "isVisible": false,
+              "inlines": [
+                {
+                  "type": "TextRun",
+                  "text": "See less",
+                  "selectAction": {
+                    "type": "Action.ToggleVisibility",
+                    "targetElements": [
+                      "showMore1",
+                      "showLess1",
+                      "showMore2",
+                      "showLess2",
+                      "chevronDown1",
+                      "chevronUp1",
+                      "chevronDown2",
+                      "chevronUp2",
+                      "moreText"
+                    ]
                   }
                 }
               ]
@@ -492,11 +594,43 @@
           "items": [
             {
               "type": "Image",
+              "id": "chevronDown2",
               "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
               "width": "25px",
               "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
+                "type": "Action.ToggleVisibility",
+                "targetElements": [
+                  "showMore1",
+                  "showLess1",
+                  "showMore2",
+                  "showLess2",
+                  "chevronDown1",
+                  "chevronUp1",
+                  "chevronDown2",
+                  "chevronUp2",
+                  "moreText"
+                ]
+              }
+            },
+            {
+              "type": "Image",
+              "id": "chevronUp2",
+              "isVisible": false,
+              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_up.png",
+              "width": "25px",
+              "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": [
+                  "showMore1",
+                  "showLess1",
+                  "showMore2",
+                  "showLess2",
+                  "chevronDown1",
+                  "chevronUp1",
+                  "chevronDown2",
+                  "chevronUp2",
+                  "moreText"
+                ]
               }
             }
           ],
@@ -506,6 +640,12 @@
         }
       ],
       "spacing": "Small"
+    },
+    {
+      "type": "TextBlock",
+      "id": "moreText",
+      "text": "More Info",
+      "isVisible": false
     },
     {
       "type": "ActionSet",

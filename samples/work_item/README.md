@@ -26,7 +26,7 @@ Version|Date|Comments
 
 ### Disclaimer
 
-***THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
+_**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**_
 
 ## Responsive Layouts
 
@@ -47,202 +47,17 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+This tool is <b>supported by Teams</b> for building and editing cards. Copy the [card](card.json) payload or use the [template](template.json) version with its associated [data](data.json) and paste it into the Designer tool.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
-<!--- dropdown --->
-
-<details closed>
-<summary>
-Click to see the card payload
-</summary>
-
-```json
-{
-  "type": "AdaptiveCard",
-  "speak": "Bug 2837, icons not rendering in dark mode",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/thumb_image.png",
-              "width": "56px",
-              "height": "56px",
-              "altText": "Logo"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Bug 2837 - Icons not rendering in dark mode",
-              "wrap": true,
-              "weight": "Bolder"
-            },
-            {
-              "type": "ColumnSet",
-              "targetWidth": "atLeast:narrow",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
-                      "width": "8px",
-                      "height": "8px",
-                      "altText": "Red circle"
-                    }
-                  ],
-                  "horizontalAlignment": "Center",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Blocked",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "|",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Hugo Gonzalez",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "ColumnSet",
-      "targetWidth": "atLeast:narrow",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/circle.png",
-              "width": "8px",
-              "height": "8px",
-              "altText": "Red circle"
-            }
-          ],
-          "horizontalAlignment": "Center",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Blocked",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "|",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Hugo Gonzalez",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        }
-      ]
-    },
-    {
-      "type": "ActionSet",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.Submit",
-          "title": "Follow",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/work_item/assets/follow_icon.png"
-        }
-      ]
-    }
-  ]
-}
-```
-
-</details>
-
-*To create a "full width" card, add the following code to the JSON.* <br>
+_To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
 "msTeams": {
-    "width": "full"
-  },
+  "width": "full"
+}
 ```
 
 <a href="https://dev.teams.microsoft.com/cards/new"  target="_blank">
@@ -282,7 +97,13 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
 
-## Resources & Tools ##
+## Implementation Details
+
+* There are 3 different responsive versions according to the spec; `default`, `narrow` and `veryNarrow`. The main difference between them is the position of the status text / name, so those elements are the ones that will be enabled according to the `targetWidth` while the rest (icon, title, actions) can be kept the same througouht all versions.
+
+* The layout is pretty simple, a `columnSet` is used for the icon and the title with an internal `columnSet` for the status and name to keep them horizontally aligned.
+
+## Resources & Tools
 
 * **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
 
@@ -295,7 +116,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
 
 </p>
 
-## Contribute ##
+## Contribute
 
 Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 

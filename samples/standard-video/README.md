@@ -26,7 +26,7 @@ Version|Date|Comments
 
 ### Disclaimer
 
-***THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
+_**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**_
 
 ## Responsive Layouts
 
@@ -175,7 +175,7 @@ Click to see the card payload
 
 </details>
 
-*To create a "full width" card, add the following code to the JSON.* <br>
+_To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
 "msTeams": {
@@ -223,6 +223,12 @@ This is where the rubber meets the road to ensure high quality cards for all use
 * <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
 
 <img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
+
+## Implementation Details
+
+* There's only two versions of the card, `veryNarrow` and at least `narrow`, the main difference is in the `actionSet` so that element has the corresponding `targetWidth`.
+
+* To have the ellipsis menu in the `actionSet`, we use the `secondary` mode.
 
 ## Resources & Tools ##
 

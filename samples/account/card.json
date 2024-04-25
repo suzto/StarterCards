@@ -8,7 +8,7 @@
       "columns": [
         {
           "type": "Column",
-          "width": 40,
+          "width": "stretch",
           "items": [
             {
               "type": "TextBlock",
@@ -23,7 +23,7 @@
         {
           "type": "Column",
           "targetWidth": "atLeast:standard",
-          "width": 15,
+          "width": "auto",
           "items": [
             {
               "type": "TextBlock",
@@ -48,7 +48,7 @@
         {
           "type": "Column",
           "targetWidth": "atLeast:standard",
-          "width": 20,
+          "width": "auto",
           "separator": true,
           "items": [
             {
@@ -222,7 +222,7 @@
     },
     {
       "type": "Container",
-      "separator": "true",
+      "separator": true,
       "targetWidth": "veryNarrow",
       "items": [
         {

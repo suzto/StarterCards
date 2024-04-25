@@ -1,5 +1,6 @@
 # Recipe
 
+<!--
 notes: hide ui kit and move designer to bottom <br/>
 remove any action that we don't support (share)<br/>
 info on see more see less<br/>
@@ -8,6 +9,7 @@ remove designer icon set (ask viva how they implemented )<br/>
 See how to put images in public place to test (onedrive?)
 figure out if there is a way to view a card sent from dev portal in meeting chat
 image in container, check radius
+-->
 
 ## Summary
 
@@ -15,7 +17,7 @@ This card features a single recipe with an eye-catching image. The basic facts a
 
 `example of card sent in chat`
 
-![picture of the extension in action](assets/card.png)
+![picture of the extension in action](assets/recipe_card.png)
 
 ## Compatibility
 
@@ -57,14 +59,18 @@ We designed this card for Teams app partners who need to support your use case. 
 
 #### 1) Open in the Microsoft Teams Designer Editing tool
 
- This is our ***Teams supported*** tool for building and editing cards.
-
-<a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
-  <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
-</a>
+Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
+
+*To create a "full width" card, add the following code to the JSON.* <br>
+
+```json
+"msTeams": {
+  "width": "full"
+}
+```
   
 #### 2) Replace the image
 
@@ -275,140 +281,3 @@ Click to see the card payload
 ```
 
 </details>
-
-### Full width Card payload
-
-````
-{
-  "type": "AdaptiveCard",
-  "msTeams": {
-    "width": "full"
-  },
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "Image",
-      "altText": "Image of Apricot-Chile Glazed Chicken",
-      "size": "Stretch",
-      "url": "https://onedrive.live.com/embed?resid=EBE108865B49234E%21142072&authkey=%21AIH0yXnxgH5RoCY&width=840&height=360"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Apricot-Chile Glazed Chicken",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder",
-      "color": "Default"
-    },
-    {
-      "type": "TextBlock",
-      "text": "15 min · 215 calories · 29g protein",
-      "wrap": true,
-      "spacing": "None",
-      "fontType": "Default",
-      "size": "Small",
-      "weight": "Default",
-      "isSubtle": true,
-      "color": "Default"
-    },
-    {
-      "type": "TextBlock",
-      "id": "truncatedText",
-      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.\n\nThe recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
-      "wrap": true,
-      "maxLines": 3
-    },
-    {
-      "type": "TextBlock",
-      "id": "fullText1",
-      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.",
-      "wrap": true,
-      "isVisible": false
-    },
-    {
-      "type": "TextBlock",
-      "id": "fullText2",
-      "text": "The recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
-      "wrap": true,
-      "isVisible": false
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showMore",
-      "targetWidth": "atLeast:narrow",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show more",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText1",
-              "fullText2",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showLess",
-      "targetWidth": "atLeast:narrow",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show less",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText1",
-              "fullText2",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ],
-      "isVisible": false
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "View recipe",
-          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
-        },
-        {
-          "type": "Action.Submit",
-          "title": "Add to cart",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
-        }
-      ],
-      "spacing": "Medium"
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "veryNarrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "View recipe",
-          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
-        },
-        {
-          "type": "Action.Submit",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
-        }
-      ],
-      "spacing": "Medium"
-    }
-  ]
-}
-````

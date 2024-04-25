@@ -1,544 +1,108 @@
-# Ticket
+# Account
 
-### Wide / Standard
+## Summary
+
+<!--_bot-sent_ card example:-->
 
 ![picture alt](assets/account_card.png)
 
-### Narrow
+## Compatibility
 
-![picture alt](assets/card_variations.png)
+![Adaptive Card Version](https://img.shields.io/badge/Adaptive%20Card%20Version-1.5-green.svg)
+
+## Solution
+
+Solution|Author(s)
+--------|---------
+Course Video | <a href="https://github.com/SuzanneTocco"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/149005128?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Suz Tocco](https://github.com/SuzanneTocco) &nbsp;<a href="https://github.com/pabloas-ms"><img align="center" width="28" height="28" src="https://wsrv.nl/?url=https://avatars.githubusercontent.com/u/160079710?v=4&w=36&h=36&fit=cover&mask=circle"></a> &nbsp; [Pablo Vicente Astudillo Quintero](https://github.com/pabloas-ms) | Microsoft  
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0| April 11, 2024 | Initial release
+
+### Disclaimer
+
+_**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**_
+
+## Responsive Layouts
+
+This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
+
+![picture of the extension in action](assets/card_variations.png)
+
+<!--
+## Inspiration Gallery
+
+Below you'll find a few alternative expressions of the card.
+
+![COMING SOON!](assets/inspiration.png)
+<br> <br>
+-->
+
+## 1) 👩‍🎨 Personalize This Card
+
+### Step-by-step instructions and tips
+
+#### 1) Copy the card JSON into the Designer Tool
+
+Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
+
+> [!NOTE]
+> Responsive layout is not supported in the Designer.
+
+_To create a "full width" card, add the following code to the JSON._ <br>
+
+```json
+"msTeams": {
+  "width": "full"
+}
+```
 
 <a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
   <img src="../../assets/open_designer_button.png" width="190" alt="Open in Adaptive Card Designer" />
 </a>
 
-> [!NOTE]
-> Responsive layout is not supported in the Designer.
+ <br>
 
-### Card payload
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/video_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
-````
-{
-  "type": "AdaptiveCard",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": 40,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Fourth Coffee Distillery Equipment ",
-              "size": "Large",
-              "weight": "Bolder",
-              "wrap": true
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:standard",
-          "width": 15,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Status",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Default",
-              "isSubtle": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "In Progress",
-              "color": "Good",
-              "spacing": "None",
-              "size": "Small",
-              "weight": "Bolder",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:standard",
-          "width": 20,
-          "separator": true,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Opportunity Score",
-              "size": "Small",
-              "weight": "Default",
-              "isSubtle": true,
-              "wrap": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "91 - Grade A",
-              "wrap": true,
-              "weight": "Bolder",
-              "spacing": "None",
-              "size": "Small",
-              "color": "Default"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "TextBlock",
-      "text": "Opportunity",
-      "wrap": true,
-      "isSubtle": true,
-      "spacing": "None"
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atMost:narrow",
-      "text": "In Progress",
-      "color": "Good",
-      "size": "Small",
-      "weight": "Bolder",
-      "wrap": true
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atMost:narrow",
-      "text": "91 - Grade A",
-      "wrap": true,
-      "weight": "Bolder",
-      "spacing": "None",
-      "size": "Small",
-      "color": "Default"
-    },
-    {
-      "type": "Table",
-      "targetWidth": "narrow",
-      "columns": [
-        {
-          "width": 2
-        },
-        {
-          "width": 3
-        }
-      ],
-      "rows": [
-        {
-          "type": "TableRow",
-          "cells": [
-            {
-              "type": "TableCell",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Account",
-                  "wrap": true,
-                  "isSubtle": true
-                }
-              ]
-            },
-            {
-              "type": "TableCell",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Fourth Coffee",
-                  "wrap": true
-                }
-              ]
-            }
-          ],
-          "verticalCellContentAlignment": "Center"
-        },
-        {
-          "type": "TableRow",
-          "cells": [
-            {
-              "type": "TableCell",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Est. Revenue",
-                  "wrap": true,
-                  "isSubtle": true
-                }
-              ]
-            },
-            {
-              "type": "TableCell",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "$3,000,000.00",
-                  "wrap": true
-                }
-              ]
-            }
-          ],
-          "verticalCellContentAlignment": "Center"
-        },
-        {
-          "type": "TableRow",
-          "cells": [
-            {
-              "type": "TableCell",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Owner",
-                  "wrap": true,
-                  "isSubtle": true
-                }
-              ]
-            },
-            {
-              "type": "TableCell",
-              "items": [
-                {
-                  "type": "ColumnSet",
-                  "columns": [
-                    {
-                      "type": "Column",
-                      "width": "auto",
-                      "items": [
-                        {
-                          "type": "Image",
-                          "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
-                          "width": "20px"
-                        }
-                      ],
-                      "verticalContentAlignment": "Center"
-                    },
-                    {
-                      "type": "Column",
-                      "width": "stretch",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "text": "Reta Taylor",
-                          "wrap": true
-                        }
-                      ],
-                      "spacing": "Small",
-                      "verticalContentAlignment": "Center"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "verticalCellContentAlignment": "Center"
-        }
-      ],
-      "firstRowAsHeaders": false,
-      "showGridLines": false,
-      "spacing": "Small",
-      "separator": true
-    },
-    {
-      "type": "Container",
-      "separator": "true",
-      "targetWidth": "veryNarrow",
-      "items": [
-        {
-          "type": "TextBlock",
-          "text": "Account",
-          "wrap": true,
-          "isSubtle": true
-        },
-        {
-          "type": "TextBlock",
-          "text": "Fourth Coffee",
-          "wrap": true,
-          "spacing": "None"
-        },
-        {
-          "type": "TextBlock",
-          "text": "Est. Revenue",
-          "wrap": true,
-          "isSubtle": true
-        },
-        {
-          "type": "TextBlock",
-          "text": "$3,000,000.00",
-          "wrap": true,
-          "spacing": "None"
-        },
-        {
-          "type": "TextBlock",
-          "text": "Owner",
-          "wrap": true,
-          "isSubtle": true
-        },
-        {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
-                  "width": "20px"
-                }
-              ],
-              "verticalContentAlignment": "Center"
-            },
-            {
-              "type": "Column",
-              "width": "stretch",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Reta Taylor",
-                  "wrap": true
-                }
-              ],
-              "spacing": "Small",
-              "verticalContentAlignment": "Center"
-            }
-          ],
-          "spacing": "None"
-        }
-      ]
-    },
-    {
-      "type": "ColumnSet",
-      "targetWidth": "atLeast:standard",
-      "columns": [
-        {
-          "type": "Column",
-          "width": 20,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Account",
-              "wrap": true,
-              "isSubtle": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "Fabrikam",
-              "wrap": true,
-              "spacing": "None"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": 25,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Est. Revenue",
-              "wrap": true,
-              "isSubtle": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "$3,000,000.00",
-              "wrap": true,
-              "spacing": "None"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": 25,
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Owner",
-              "wrap": true,
-              "isSubtle": true
-            },
-            {
-              "type": "ColumnSet",
-              "columns": [
-                {
-                  "type": "Column",
-                  "width": "auto",
-                  "items": [
-                    {
-                      "type": "Image",
-                      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_small.png",
-                      "width": "20px"
-                    }
-                  ],
-                  "verticalContentAlignment": "Center"
-                },
-                {
-                  "type": "Column",
-                  "width": "stretch",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "text": "Reta Taylor",
-                      "wrap": true
-                    }
-                  ],
-                  "spacing": "Small",
-                  "verticalContentAlignment": "Center"
-                }
-              ],
-              "spacing": "None"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch"
-        }
-      ],
-      "spacing": "Medium"
-    },
-    {
-      "type": "ColumnSet",
-      "separator": true,
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "verticalContentAlignment": "Center",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/avatar_large.png",
-              "style": "Person",
-              "width": "35px"
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Mona Kane",
-              "wrap": true
-            },
-            {
-              "type": "TextBlock",
-              "text": "Contact",
-              "wrap": true,
-              "spacing": "None",
-              "size": "Small",
-              "isSubtle": true
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:narrow",
-          "width": "auto",
-          "items": [
-            {
-              "type": "RichTextBlock",
-              "inlines": [
-                {
-                  "type": "TextRun",
-                  "text": "See more",
-                  "selectAction": {
-                    "type": "Action.OpenUrl",
-                    "url": "https://adaptivecards.io/"
-                  }
-                }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "rtl": false
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:narrow",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
-              "width": "25px",
-              "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
-              }
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "horizontalAlignment": "Center",
-          "spacing": "None"
-        }
-      ],
-      "spacing": "Medium"
-    },
-    {
-      "type": "ColumnSet",
-      "targetWidth": "veryNarrow",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "RichTextBlock",
-              "inlines": [
-                {
-                  "type": "TextRun",
-                  "text": "See more",
-                  "selectAction": {
-                    "type": "Action.OpenUrl",
-                    "url": "https://adaptivecards.io/"
-                  }
-                }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/account/assets/chevron_down.png",
-              "width": "25px",
-              "selectAction": {
-                "type": "Action.OpenUrl",
-                "url": "https://adaptivecards.io/"
-              }
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "horizontalAlignment": "Center",
-          "spacing": "None"
-        }
-      ],
-      "spacing": "Small"
-    },
-    {
-      "type": "ActionSet",
-      "separator": true,
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "View Details",
-          "url": "https://adaptivecards.io/"
-        }
-      ],
-      "spacing": "ExtraLarge"
-    }
-  ]
-}
-````
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a>
+
+<br>
+
+## 2) 🚗 Test Your Card
+
+This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:
+
+* <b>Themes:</b> Light Mode, Dark Mode, High Contrast
+* <b>Common widths:</b> Chat, Channel, Meeting Chat, Phone (iOS- Portrait/landscape, Android-Portrait/landscape), Tablet (iOS- Portrait/landscape, Android-Portrait/landscape)
+* <b>Accessibility:</b> Color contrast if creating new visuals, tabbing with keyboard or mobile equivelents, Voice assistance (readers to read card content)
+
+<img src="../../assets/QAChecklist.png" alt="Open in Adaptive Card Designer" />
+
+## Resources & Tools ##
+
+* **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+
+* **Design**: Our tools can help you learn Teams patterns and design apps and cards.
+
+  * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
+  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
+
+* **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+
+</p>
+
+## Contribute ##
+
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
+## Help
+
+We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
+
+You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.

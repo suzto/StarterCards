@@ -26,7 +26,7 @@ Version|Date|Comments
 
 ### Disclaimer
 
-***THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
+_**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**_
 
 ## Responsive Layouts
 
@@ -47,256 +47,17 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-Teams provides support for this tool, which is ideal for constructing and modifying cards. You can either copy the card payload provided below or use the <b>‘Open in Designer’</b> button to start working in the Designer platform.
+Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
-<!--- dropdown --->
-
-<details closed>
-<summary>
-Click to see the card payload
-</summary>
-
-```json
-{
-  "type": "AdaptiveCard",
-  "speak": "Intro to graphic design, concepts video",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/video_image.png",
-      "selectAction": {
-        "type": "Action.OpenUrl",
-        "url": "https://adaptivecards.io/",
-        "altText": "Intro to Graphic Design: Concepts Video"
-      }
-    },
-    {
-      "type": "TextBlock",
-      "text": "Intro to Graphic Design: Concepts",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "verticalContentAlignment": "Center",
-          "items": [
-            {
-              "type": "Rating",
-              "value": "4",
-              "color": "Marigold",
-              "size": "Medium",
-              "fallback": {
-                "type": "TextBlock",
-                "text": "4 Stars"
-              }
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "·"
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "1,160",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small"
-        }
-      ],
-      "spacing": "None"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Course · 52m · Beginner",
-      "wrap": true,
-      "isSubtle": true,
-      "spacing": "Small"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/logo_image.png",
-              "width": "16px",
-              "height": "16px",
-              "altText": "Logo"
-            }
-          ],
-          "horizontalAlignment": "Center",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Sketchpad Scholars",
-              "wrap": true,
-              "weight": "Bolder"
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:narrow",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "·"
-            }
-          ],
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "targetWidth": "atLeast:narrow",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Tony Harper",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small"
-        }
-      ],
-      "spacing": "None"
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
-      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn...",
-      "wrap": true,
-      "id": "truncatedText"
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
-      "text": "This course is designed to equip you with an understanding of the key principles and tools necessary for creating compelling designs. You'll gain practical experience with creative software and learn about design principles through hands-on projects that will help build your portfolio. Enroll now and start your journey to mastering the art of graphic design.",
-      "wrap": true,
-      "isVisible": false,
-      "id": "fullText"
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showMore",
-      "targetWidth": "atLeast:narrow",
-      "spacing": "None",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show more",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showLess",
-      "targetWidth": "atLeast:narrow",
-      "spacing": "None",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show less",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ],
-      "isVisible": false
-    },
-    {
-      "type": "ActionSet",
-      "spacing": "Large",
-      "targetWidth": "atLeast:narrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.Execute",
-          "title": "Bookmark",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
-        }
-      ]
-    },
-    {
-      "type": "ActionSet",
-      "spacing": "Large",
-      "targetWidth": "veryNarrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.Execute",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/course-video/assets/bookmark_icon.png"
-        }
-      ]
-    }
-  ]
-}
-```
-
-</details>
-
-*To create a "full width" card, add the following code to the JSON.* <br>
+_To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
 "msTeams": {
-    "width": "full"
-  },
+  "width": "full"
+}
 ```
 
 <a href="https://dev.teams.microsoft.com/cards/new" target="_blank">
@@ -341,18 +102,6 @@ This marks the critical point where we ensure that our cards maintain superior q
 * <b>Themes:</b> Ensure compatibility with Light Mode, Dark Mode, and High Contrast settings.
 * <b>Common widths:</b> Verify the display across various device widths, including Chat, Channel, Meeting Chat, and devices like Phones (iOS in Portrait/Landscape, Android in Portrait/Landscape) and Tablets (iOS in Portrait/Landscape, Android in Portrait/Landscape).
 * <b>Accessibility:</b> When designing new visuals, check for color contrast compliance, ensure smooth navigation using keyboard or mobile equivalents, and confirm that voice assistants can accurately read the card content.
-
-<br>
-To ensure accurate viewing results, test all layouts, functionalities, and accessibility features within Teams. <br>
-For a quick check, you can utilize our <a href="https://actestapp.z22.web.core.windows.net/" target="_new">Card Renderer Tool.</a>
-
-<br>
-
-
-  <img src="../../assets/render_tool.png" alt="Card Renderer Tool" />
-
-
-
 
 ## Resources & Tools ##
 

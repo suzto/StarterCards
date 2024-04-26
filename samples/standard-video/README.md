@@ -32,13 +32,9 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![to be added](assets/card-layouts.png)
+![Layouts](assets/card-layouts.png)
 
-## Inspiration Gallery
 
-Below you'll find a few alternative expressions of the card.
-
-![TBD](assets/inspiration.png)
 <br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card
@@ -47,140 +43,17 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
-
-<!--- dropdown --->
-
-<details closed>
-<summary>
-Click to see the card payload
-</summary>
-
-```json
-
-          
-{
-  "type": "AdaptiveCard",
-  "speak": "Web development bootcamp video",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/video_image.png",
-      "altText": "Web Development Bootcamp Video"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Web Development Bootcamp",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
-    },
-    {
-      "type": "TextBlock",
-      "text": "HackLab Films",
-      "wrap": true,
-      "spacing": "Small",
-      "weight": "Bolder"
-    },
-    {
-      "type": "TextBlock",
-      "text": "24m · 17.1M views · 2 months ago",
-      "wrap": true,
-      "spacing": "None"
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Add to calendar",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/add_to_calendar_icon.png"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Share in Teams",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_teams.png"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Download",
-          "url": "https://adaptivecards.io/",
-          "mode": "secondary",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_download.png"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Copy link",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_link.png"
-        }
-      ]
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "veryNarrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/add_to_calendar_icon.png",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_teams.png",
-          "title": "Share in Teams",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_download.png",
-          "title": "Download",
-          "url": "https://adaptivecards.io/",
-          "mode": "secondary"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/standard-video/assets/menu_icon_link.png",
-          "title": "Copy link",
-          "mode": "secondary",
-          "url": "https://adaptivecards.io/"
-        }
-      ]
-    }
-  ]
-}
-
-```
-
-</details>
 
 _To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
 "msTeams": {
-    "width": "full"
-  },
+  "width": "full"
+}
 ```
 
 <a href="https://dev.teams.microsoft.com/cards/new" target="_blank">

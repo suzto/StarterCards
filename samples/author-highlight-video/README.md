@@ -26,19 +26,15 @@ Version|Date|Comments
 
 ### Disclaimer
 
-***THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.***
+_**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**_
 
 ## Responsive Layouts
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![to be added](assets/card-layouts.png)
+![Layouts](assets/card-layouts.png)
 
-## Inspiration Gallery
 
-Below you'll find a few alternative expressions of the card.
-
-![TBD](assets/inspiration.png)
 <br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card
@@ -47,108 +43,17 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-This tool is <b>supported by Teams</b> for building and editing cards. Copy the card payload below and paste into the Designer tool.
+Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.
 
-<details closed>
-<summary>
-Click to see the card payload
-</summary>
-
-```json
-{
-  "type": "AdaptiveCard",
-  "speak": "3 minute energy flow with kayo video",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "Image",
-      "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/video_image.png",
-      "altText": "3 Minute Energy Flow with Kayo Video"
-    },
-    {
-      "type": "TextBlock",
-      "text": "3 Minute Energy Flow with Kayo",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/avatar.png",
-              "width": "24px",
-              "height": "24px",
-              "style": "Person",
-              "altText": "Avatar of Kayo Miwa"
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Kayo Miwa",
-              "wrap": true
-            }
-          ],
-          "spacing": "Small",
-          "verticalContentAlignment": "Center"
-        }
-      ]
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "atLeast:narrow",
-      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and mind! All you need is a little space, and get ready to stretch your arms and legs.",
-      "wrap": true
-    },
-    {
-      "type": "TextBlock",
-      "targetWidth": "veryNarrow",
-      "text": "Feeling sluggish or sleepy? Try this quick 3 minute flow to awaken your body and...",
-      "wrap": true
-    },
-    {
-      "type": "ActionSet",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "Open",
-          "url": "https://adaptivecards.io/"
-        },
-        {
-          "type": "Action.OpenUrl",
-          "title": "Remind me",
-          "url": "https://adaptivecards.io/",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/author-highlight-video/assets/remind_icon.png"
-        }
-      ]
-    }
-  ]
-}
-```
-
-</details>
-
-*To create a "full width" card, add the following code to the JSON.* <br>
+_To create a "full width" card, add the following code to the JSON._ <br>
 
 ```json
 "msTeams": {
-    "width": "full"
-  },
+  "width": "full"
+}
 ```
 
 <!--- button image exported at 1.2x --->

@@ -34,12 +34,14 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 ![picture of the extension in action](assets/layouts.png)
 
+<!--
 ## Inspiration Gallery
 
 Below you'll find a few alternative expressions of the card.
 
 ![TBD](assets/inspiration.png)
 <br/><br/>
+-->
 
 ## 1) 👩‍🎨 Personalize This Card
 
@@ -47,7 +49,7 @@ Below you'll find a few alternative expressions of the card.
 
 #### 1) Copy the card JSON into the Designer Tool
 
-This tool is <b>supported by Teams</b> for building and editing cards. Copy the [card](card.json) payload or use the [template](template.json) version with its associated [data](data.json) and paste it into the Designer tool.
+Teams provides support for this tool, which is ideal for constructing and modifying cards. Copy the [card](card.json) payload and click on the <b>‘Open in Designer’</b> button to start working in the Designer platform.
 
 > [!NOTE]
 > Responsive layout is not supported in the Designer.

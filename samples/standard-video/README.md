@@ -32,13 +32,9 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![to be added](assets/card-layouts.png)
+![Layouts](assets/card-layouts.png)
 
-## Inspiration Gallery
 
-Below you'll find a few alternative expressions of the card.
-
-![TBD](assets/inspiration.png)
 <br/><br/>
 
 ## 1) 👩‍🎨 Personalize This Card

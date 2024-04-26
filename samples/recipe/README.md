@@ -1,19 +1,9 @@
 # Recipe
 
-<!--
-notes: hide ui kit and move designer to bottom <br/>
-remove any action that we don't support (share)<br/>
-info on see more see less<br/>
-don't show schema<br/>
-remove designer icon set (ask viva how they implemented )<br/>
-See how to put images in public place to test (onedrive?)
-figure out if there is a way to view a card sent from dev portal in meeting chat
-image in container, check radius
--->
 
 ## Summary
 
-This card features a single recipe with an eye-catching image. The basic facts and a summary snippet (that can be expanded) give more details about the recipe. The card may also have simple actions like view, add to cart, or share.
+Draw in your audience with the <b>Recipe Card</b> (AKA _Hero Showcase Card_), where a <b>captivating image</b> sets the stage for your featured content. Whether it’s a <b>recipe</b> or a <b>special feature</b>, users can expand the card to uncover the full story at their leisure.
 
 `example of card sent in chat`
 

@@ -1,8 +1,7 @@
 # Issue
 
 ## Summary
-The <b>Issue Card</b> template is designed to highlight a unique issue and provides top-level details such as the status and owner. It can be easily customized with other pertinent information.
-
+Streamline your workflow with the "Issue Card" template, tracking and managing issues becomes seamless. It presents key insights such as <b>current status</b> and <b>assigned owner</b>, all customizable to include the specifics of your project’s needs.
 
 _user-sent_ card example:
 

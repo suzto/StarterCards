@@ -1,7 +1,7 @@
 # Issue
 
 ## Summary
-Streamline your workflow with the "Issue Card" template, tracking and managing issues becomes seamless. It presents key insights such as <b>current status</b> and <b>assigned owner</b>, all customizable to include the specifics of your project’s needs.
+Streamline your workflow with the <b>Issue Card</b> template, tracking and managing issues becomes seamless. It presents key insights such as <b>current status</b> and <b>assigned owner</b>, all customizable to include the specifics of your project’s needs.
 
 _user-sent_ card example:
 

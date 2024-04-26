@@ -1,7 +1,7 @@
 # Account
 
 ## Summary
-The <b>Account Card</b> focuses on a high-level summary for an individual sales opportunity. It displays the company name, opportunity status, estimated revenue, and account owner. Additionally, there are buttons for further exploration.
+The <b>Account Card</b> is designed to give you a strategic edge by providing a <b>high-level summary</b> of each sales opportunity. It neatly displays the <b>company name</b>, <b>opportunity status</b>, <b>estimated revenue</b>, and <b>account owner</b>, with intuitive buttons that invite further exploration and engagement.
 
 _user-sent_ card example:
 

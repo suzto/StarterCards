@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Work Item Thumbnail Card</b> boasts a sleek design with a small image, perfectly suited for concise and straightforward information presentation.
+The <b>Work Item Thumbnail Card</b> is a testament to the power of simplicity. Its <b>streamlined design</b> and <b>small visual accent</b> work together to present information efficiently, ensuring your message is understood at a glance.
 
 _user-sent_ card example:
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>Communications Card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+The <b>List Card</b> is your digital curator, elegantly organizing a personalized selection of content. From insightful <b>articles</b> to engaging <b>videos</b> and comprehensive <b>courses</b>, this card spotlights the essentials. Simply <b>click</b> to delve into a topic or expand your horizon within the app.
 
 _bot-sent_ card example:
 

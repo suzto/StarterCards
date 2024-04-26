@@ -5,7 +5,7 @@
 
 Draw in your audience with the <b>Recipe Card</b> (AKA _Hero Showcase Card_), where a <b>captivating image</b> sets the stage for your featured content. Whether it’s a <b>recipe</b> or a <b>special feature</b>, users can expand the card to uncover the full story at their leisure.
 
-`example of card sent in chat`
+_user-sent_ card example:
 
 ![picture of the extension in action](assets/recipe_card.png)
 

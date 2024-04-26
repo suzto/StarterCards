@@ -1,6 +1,8 @@
 # Issue
 
 ## Summary
+The <b>Issue Card</b> template is designed to highlight a unique issue and provides top-level details such as the status and owner. It can be easily customized with other pertinent information.
+
 
 _bot-sent_ card example:
 

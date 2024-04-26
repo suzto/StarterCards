@@ -34,11 +34,6 @@ This card utilizes our responsive framework, allowing for multiple layouts or co
 
 ![picture of the extension in action](assets/communicationsLayouts.png)
 
-## Inspiration Gallery
-
-Below you'll find a few alternative expressions of the card.
-
-![COMING SOON!](assets/inspiration.png)
 <br> <br>
 
 ## 1) 👩‍🎨 Personalize This Card

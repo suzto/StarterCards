@@ -67,9 +67,9 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
- #### 2) Link to Appropriate URLs
+ #### 2) Connect to Relevant Web Addresses
 
-If you'll be using the top path name, link it to the project or issue detail.
+Ensure that the primary path name is correctly hyperlinked to the corresponding project or issue details for easy navigation.
 
 #### 3) Imagery Update and Verification
 

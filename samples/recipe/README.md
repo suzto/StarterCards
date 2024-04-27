@@ -59,7 +59,21 @@ Teams provides support for this tool, which is ideal for constructing and modify
 }
 ```
 
+#### 2) Replace the Hero Image
 
+If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+
+
+#### 4) Update Details/Description and Set Truncation
+
+Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
+
+#### 5) Update Button Copy and Actions
+
+Customize button text and actions to suit your needs. <br>
+For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
+
+<br>
   ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/recipeCard_specs.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">

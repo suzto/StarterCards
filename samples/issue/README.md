@@ -67,6 +67,13 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
+ ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/issueCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a>
+<br>
+
 ## 2) 🚗 Test Your Card
 
 This is where the rubber meets the road to ensure high quality cards for all users across all endpoints. Road test your cards considering the following:

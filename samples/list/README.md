@@ -32,13 +32,8 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/cards-format?tabs=adaptive-md%2Cdesktop%2Cconnector-html#adaptive-card-responsive-layout">Design responsive Adaptive Cards</a>.
 
-![picture of the extension in action](assets/communicationsLayouts.png)
+![picture of the extension in action](assets/listCard_layouts.png)
 
-## Inspiration Gallery
-
-Below you'll find a few alternative expressions of the card.
-
-![COMING SOON!](assets/inspiration.png)
 <br> <br>
 
 ## 1) 👩‍🎨 Personalize This Card
@@ -66,21 +61,20 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
-#### 2) Replace the Hero Image
+#### 2) Replace the Hero Images
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy.
+If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image small and square to leave ample room for the copy. Add a "Play" button graphic on top of video representations (included in assets folder).
 
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 4px radius to the corners. 
 
-#### 3) Link to the Avatar Image
+#### 3) Link to Associated Content
 
-Ensure the image URL fetches and shows the image associated with the message sender.
+Point to the appropriate URL from the content blocks.
 
-Verify the correct linkage of the avatar image.
 
 #### 4) Update Description Copy and Set Truncation
 
-Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
+Keep the descriptions small if possible, and set the maximum line truncation if needed to work for the card content and layout.  
 
 #### 5) Update Button Copy and Actions
 

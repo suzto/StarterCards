@@ -33,7 +33,7 @@ Version|Date|Comments
 
 For inspiration, check out these examples of card content and actions. The card will adjust to different screen sizes, so make sure it works well on all of them!
 
-![picture of alterations](assets/card_variations.png)
+![picture of alterations](assets/inspiration.png)
 
 ## 1) 👩‍🎨 Personalize This Card
 

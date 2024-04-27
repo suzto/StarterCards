@@ -63,6 +63,45 @@ Teams provides support for this tool, which is ideal for constructing and modify
   "width": "full"
 }
 ```
-  
+
+
+  ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/courseVideoCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a>
+
+<br>
+
+## 2) 🚗 Test Your Card
+
+This marks the critical point where we ensure that our cards maintain superior quality for every user on every platform. When conducting a road test for your cards, take into account the following considerations:
+
+* <b>Themes:</b> Ensure compatibility with Light Mode, Dark Mode, and High Contrast settings.
+* <b>Common widths:</b> Verify the display across various device widths, including Chat, Channel, Meeting Chat, and devices like Phones (iOS in Portrait/Landscape, Android in Portrait/Landscape) and Tablets (iOS in Portrait/Landscape, Android in Portrait/Landscape).
+* <b>Accessibility:</b> When designing new visuals, check for color contrast compliance, ensure smooth navigation using keyboard or mobile equivalents, and confirm that voice assistants can accurately read the card content.
+
+## Resources & Tools ##
+
+* **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+
+* **Design**: Our tools can help you learn Teams patterns and design apps and cards.
+
+  * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
+  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
+
+* **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+
+</p>
+
+## Contribute ##
+
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
+
+## Help
+
+We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
+
+You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
 

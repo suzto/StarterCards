@@ -7,7 +7,7 @@ Draw in your audience with the <b>Recipe Card</b> (AKA _Hero Showcase Card_), wh
 
 _user-sent_ card example:
 
-![picture of the extension in action](assets/recipe_card.png)
+![picture of the extension in action](assets/recipeCard.png)
 
 ## Compatibility
 

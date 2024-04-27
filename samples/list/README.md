@@ -6,7 +6,7 @@ The <b>List Card</b> is your digital curator, elegantly organizing a personalize
 
 _bot-sent_ card example:
 
-![picture alt](assets/CommunicationsCard.png)
+![picture alt](assets/ListCard.png)
 
 ## Compatibility
 

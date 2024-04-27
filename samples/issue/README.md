@@ -73,7 +73,9 @@ Ensure that the primary path name is correctly hyperlinked to the corresponding 
 
 #### 3) Imagery Update and Verification
 
-Please substitute the current 28x28 pixel square image. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size while maintaining a 16x16 pixel fixed width. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework. <b>Note:</b> It’s important to conduct tests on any icons to verify their visibility and clarity in both light and dark interface themes.
+Please substitute the current 28x28 pixel square image. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size while maintaining a 16x16 pixel fixed width. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework. 
+
+<b>Note:</b> It’s important to conduct tests on any icons to verify their visibility and clarity in both light and dark interface themes.
 
 
 #### 4) Update Button Copy and Actions

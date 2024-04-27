@@ -67,19 +67,19 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
- #### 2) Replace the Hero Image
+ #### 2) Link to Appropriate URLs
 
-If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+If you'll be using the top path name, link it to the project or issue detail.
 
-* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
-* Update the image URL to link to your desired image and specify the URL for the selection action.
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+#### 3) Imagery Update and Verification
 
-#### 3) Replace the Author/Company Logo
+Please substitute the current 28x28 pixel square image. In the event of crafting a new image, ensure it is saved as a transparent PNG at double the size while maintaining a 16x16 pixel fixed width. Establish the correct pathways to source the avatar image, which should be 20x20 pixels, and incorporate or retrieve any necessary icons for the status sections, which are 16x16 pixels within a 20x20 pixel framework. <b>Note:</b> It’s important to conduct tests on any icons to verify their visibility and clarity in both light and dark interface themes.
 
-Replace the 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
 
-#### 4) Update Description Copy and Set Truncation
+#### 4) Update Button Copy and Actions
+
+Customize button text and actions to suit your needs. <br>
+For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
  ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/issueCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 

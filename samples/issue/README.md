@@ -67,6 +67,20 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
+ #### 2) Replace the Hero Image
+
+If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
+
+* For YouTube, Vimeo, and DailyMotion Inline Media Cards, the “play” button will not need to be added.
+* Update the image URL to link to your desired image and specify the URL for the selection action.
+* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+
+#### 3) Replace the Author/Company Logo
+
+Replace the 16x16px square image. If creating a new image, save it as a transparent PNG at 2x size (keeping the 16x16 fixed width).
+
+#### 4) Update Description Copy and Set Truncation
+
  ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/issueCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">

@@ -29,11 +29,13 @@ Version|Date|Comments
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-## Personalization Examples
+## Inspiration Gallery
 
-For inspiration, check out these examples of card content and actions. The card will adjust to different screen sizes, so make sure it works well on all of them!
+Below you'll find a few alternative expressions of the card.
 
 ![picture of alterations](assets/inspiration.png)
+
+<br><br>
 
 ## 1) 👩‍🎨 Personalize This Card
 

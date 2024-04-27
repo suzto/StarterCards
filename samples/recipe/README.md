@@ -41,11 +41,6 @@ Below you'll find a few alternative expressions of the card.
 
 We designed this card for Teams app partners who need to support your use case. This card type has a unique visual and interaction pattern to ensure a consistent user experience. To make this card suit your needs, simply adjust the text, images, and actions.
 
-**To modify or extend this card** <a href="assets/design_spec.png">(design spec)</a>, use the Microsoft Teams UI Kit to fine tune your design before coding.<br />
-
-<a href="https://www.figma.com/community/file/916836509871353159">
-<img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
-</a>
 
 ### Step by step instructions and tips
 

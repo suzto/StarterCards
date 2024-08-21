@@ -29,21 +29,18 @@ Version|Date|Comments
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-## Personalization Examples
+## Inspiration Gallery
 
-For inspiration, check out these examples of card content and actions. The card will adjust to different screen sizes, so make sure it works well on all of them!
+Below you'll find a few alternative expressions of the card.
 
-![picture of alterations](assets/card_variations.png)
+![picture of alterations](assets/inspiration.png)
+
+<br><br>
 
 ## 1) 👩‍🎨 Personalize This Card
 
 We designed this card for Teams app partners who need to support your use case. This card type has a unique visual and interaction pattern to ensure a consistent user experience. To make this card suit your needs, simply adjust the text, images, and actions.
 
-**To modify or extend this card** <a href="assets/design_spec.png">(design spec)</a>, use the Microsoft Teams UI Kit to fine tune your design before coding.<br />
-
-<a href="https://www.figma.com/community/file/916836509871353159">
-<img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
-</a>
 
 ### Step by step instructions and tips
 
@@ -61,213 +58,59 @@ Teams provides support for this tool, which is ideal for constructing and modify
   "width": "full"
 }
 ```
-  
-#### 2) Replace the image
 
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+#### 2) Replace the Hero Image
 
-<!--- dropdown --->
+If you’re creating an image, use a 16:9 aspect ratio. Save the image as a transparent PNG at 2x size to ensure good resolution across endpoints.
 
-<details closed>
-<summary>
- Photo and image resources
-</summary> <br />
 
-<p>One- Instructions go here about free images</p>
-</details>
+#### 4) Update Details/Description and Set Truncation
 
-<!--- dropdown --->
+Set the maximum line truncation as desired. You can choose to keep or remove the “Show more” / “Show less” feature.
 
-<details closed>
-<summary>
- Advanced image editing information
-</summary> <br />
+#### 5) Update Button Copy and Actions
 
-<p>One- Instructions go here</p>
+Customize button text and actions to suit your needs. <br>
+For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
-</details>  
+<br>
+  ***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/recipeCard_specs.png">(see current card spec)</a> , and verify the layouts before coding.<br />
 
-#### 3) Update the copy and set truncation
+<a href="https://www.figma.com/community/file/916836509871353159">
+<img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />
+</a>
 
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+<br>
 
-#### 4) Next steps goes here
+## 2) 🚗 Test Your Card
 
- Instructions on how to do that go in this space here. Can use sentence or bulletpoints or expand/collapse section
+This marks the critical point where we ensure that our cards maintain superior quality for every user on every platform. When conducting a road test for your cards, take into account the following considerations:
 
-<p>&nbsp;</p>
-
-## 2) 🚗 Test Drive Your Card
-
-ADD REAL EXAMPLES FROM RENDERINGS (DESKTOP, iOS, MEETING CHAT)
-
-Visit our <a href="/TESTDRIVEYOURCARD.md">Test Drive Your Card</a> page to learn how to preview your card on various Teams surfaces/endpoints and color modes.
-
-![picture of size examples](/assets/endpoint_size_example.png)
-
-*After you've fully tested your card, <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/submission-checklist?tabs=desktop#compile-testing-instructions">submit it to the Teams Store</a> for publishing and get ready to launch! 🚀*
-
-<p>&nbsp;</p>
+* <b>Themes:</b> Ensure compatibility with Light Mode, Dark Mode, and High Contrast settings.
+* <b>Common widths:</b> Verify the display across various device widths, including Chat, Channel, Meeting Chat, and devices like Phones (iOS in Portrait/Landscape, Android in Portrait/Landscape) and Tablets (iOS in Portrait/Landscape, Android in Portrait/Landscape).
+* <b>Accessibility:</b> When designing new visuals, check for color contrast compliance, ensure smooth navigation using keyboard or mobile equivalents, and confirm that voice assistants can accurately read the card content.
 
 ## Resources & Tools ##
 
-- **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
+* **Learn**: For complete details on how to design and build adaptive cards for your Teams app, visit the Microsoft Teams Learn website pages on  [Design Adaptive Cards for Your Teams App](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/cards/design-effective-cards?tabs=design) and [Build Cards](https://learn.microsoft.com/en-us/microsoftteams/platform/task-modules-and-cards/what-are-cards) (You can use the [schema explorer](https://adaptivecards.io/explorer/) to learn about the structure and options of each element.
 
-- **Design**: Our tools can help you learn Teams patterns and design apps and cards.
+* **Design**: Our tools can help you learn Teams patterns and design apps and cards.
 
-  - Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
-  - Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and use them in your cards. You can also use the [Card Designer Icon Set](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/get-started/fluent-icons-limitations#card-designer-icons-set) which is fully supported.
+  * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
+  * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
 
-- **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+* **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
 
 </p>
 
 ## Contribute ##
 
-Refer to the [contribution docs](/CONTRIBUTE.md) for more information.  
+Refer to the [contribution docs](/CONTRIBUTE.md) for more information.
 
 ## Help
 
-Samples are not supported, but this community is helpful and we want to make the samples better. We track issues on GitHub, which lets community members contribute their time and skills to solve them.
+We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
 
-A possible way to check if others have the same issues is to look at the [issues related to this sample](https://github.com/OfficeDev/Microsoft-Teams-Card-Samples/issues).
+You can try looking at [issues related to this sample](https://github.com/pnp/AdaptiveCards-Templates/issues) to see if anybody else is having the same issues.
 
-<details closed>
-<summary>
-Click to see the card payload
-</summary>
 
-```json
-{
-  "type": "AdaptiveCard",
-  "speak": "Apricot-chile glazed chicken recipe",
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "Image",
-      "altText": "Image of Apricot-Chile Glazed Chicken",
-      "size": "Stretch",
-      "url": "https://onedrive.live.com/embed?resid=EBE108865B49234E%21142072&authkey=%21AIH0yXnxgH5RoCY&width=840&height=360"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Apricot-Chile Glazed Chicken",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder",
-      "color": "Default"
-    },
-    {
-      "type": "TextBlock",
-      "text": "15 min · 215 calories · 29g protein",
-      "wrap": true,
-      "spacing": "None",
-      "fontType": "Default",
-      "size": "Small",
-      "weight": "Default",
-      "isSubtle": true,
-      "color": "Default"
-    },
-    {
-      "type": "TextBlock",
-      "id": "truncatedText",
-      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.\n\nThe recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
-      "wrap": true,
-      "maxLines": 3
-    },
-    {
-      "type": "TextBlock",
-      "id": "fullText1",
-      "text": "This sweet apricot-chile glazed broccoli recipe marries fruit and chiles to make this dish mouthwateringly special. Use organic jam in place of preserves for a smoother, prettier glaze if you are into spicy food, then this will be right up your alley.",
-      "wrap": true,
-      "isVisible": false
-    },
-    {
-      "type": "TextBlock",
-      "id": "fullText2",
-      "text": "The recipe calls for 1/4 cup of the chili sauce which gives the chicken quite a bite on the palate. But for all you heat lovers, it's definitely a good feel.",
-      "wrap": true,
-      "isVisible": false
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showMore",
-      "targetWidth": "atLeast:narrow",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show more",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText1",
-              "fullText2",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "RichTextBlock",
-      "id": "showLess",
-      "targetWidth": "atLeast:narrow",
-      "inlines": [
-        {
-          "type": "TextRun",
-          "text": "Show less",
-          "selectAction": {
-            "type": "Action.ToggleVisibility",
-            "targetElements": [
-              "truncatedText",
-              "fullText1",
-              "fullText2",
-              "showMore",
-              "showLess"
-            ]
-          }
-        }
-      ],
-      "isVisible": false
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "atLeast:narrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "View recipe",
-          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
-        },
-        {
-          "type": "Action.Submit",
-          "title": "Add to cart",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
-        }
-      ],
-      "spacing": "Medium"
-    },
-    {
-      "type": "ActionSet",
-      "targetWidth": "veryNarrow",
-      "actions": [
-        {
-          "type": "Action.OpenUrl",
-          "title": "View recipe",
-          "url": "https://www.tasteofhome.com/recipes/spicy-apricot-glazed-chicken/"
-        },
-        {
-          "type": "Action.Submit",
-          "iconUrl": "https://raw.githubusercontent.com/suzto/StarterCards/main/samples/recipe/assets/cart_icon.png"
-        }
-      ],
-      "spacing": "Medium"
-    }
-  ]
-}
-```
-
-</details>

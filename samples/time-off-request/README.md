@@ -1,8 +1,8 @@
-# Standard Video
+# Time Off Request
 
 ## Summary
 
-The <b>Standard Video Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
+The <b>Time Off Request Card</b> lorem ipsum
 
 _user-sent_ card example:
 

@@ -1,8 +1,8 @@
-# Standard Video
+# Expense Report
 
 ## Summary
 
-The <b>Standard Video Card</b> prioritizes brevity without sacrificing functionality. Whether you’re after tech insights or artistic inspiration, this card delivers. Discover additional choices—bookmark, share, or dive into more content—from the overflow menu.
+The <b>Expense Report Card</b> Lorem ipsum
 
 _user-sent_ card example:
 

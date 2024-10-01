@@ -1,8 +1,8 @@
-# Expense Report
+# Book a Room
 
 ## Summary
 
-The <b>Expense Report Card</b> Lorem ipsum
+The <b>Book a Room</b> Lorem ipsum
 
 _user-sent_ card example:
 

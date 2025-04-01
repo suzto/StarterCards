@@ -1,0 +1,49 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "Icon",
+            "name": "ChevronRight",
+            "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": [
+                    "chevronRight",
+                    "chevronDown",
+                    "closedText",
+                    "openText"
+                ]
+            },
+            "id": "chevronRight"
+        },
+        {
+            "type": "Icon",
+            "name": "ChevronDown",
+            "isVisible": false,
+            "selectAction": {
+                "type": "Action.ToggleVisibility",
+                "targetElements": [
+                    "chevronRight",
+                    "chevronDown",
+                    "closedText",
+                    "openText"
+                ]
+            },
+            "id": "chevronDown"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Closed state",
+            "wrap": true,
+            "id": "closedText"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Open state",
+            "wrap": true,
+            "isVisible": false,
+            "id": "openText"
+        }
+    ]
+}

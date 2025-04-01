@@ -1,0 +1,301 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Reasoned for 12 minutes",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronDown",
+                            "size": "xxSmall",
+                            "selectAction": {
+                                "type": "Action.ToggleVisibility"
+                            },
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "spacing": "Small",
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "horizontalAlignment": "Right",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Activity",
+                            "wrap": true,
+                            "size": "Small"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "Sources (4)",
+                            "size": "ExtraLarge",
+                            "style": "Accent",
+                            "appearance": "Tint"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
+                }
+            ],
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "spacing": "Medium",
+                    "verticalContentAlignment": "Top",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "1",
+                            "style": "Informative",
+                            "appearance": "Tint",
+                            "shape": "Rounded"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "spacing": "Small",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/MS_Researcher/contoso.png",
+                            "width": "20px",
+                            "height": "20px",
+                            "selectAction": {
+                                "type": "Action.OpenUrl",
+                                "url": "www.contoso.com"
+                            }
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Insights into Contoso’s ESG and real estate investment strategies",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "contoso.com",
+                            "wrap": true,
+                            "spacing": "None",
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        }
+                    ],
+                    "spacing": "Small",
+                    "selectAction": {
+                        "type": "Action.OpenUrl",
+                        "url": "www.contoso.com"
+                    }
+                }
+            ],
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "2",
+                            "style": "Informative",
+                            "appearance": "Tint",
+                            "shape": "Rounded"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/MS_Researcher/epa.png",
+                            "width": "20px",
+                            "height": "20px",
+                            "selectAction": {
+                                "type": "Action.OpenUrl",
+                                "url": "www.epa.org"
+                            }
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "ESG benchmarking for real estate investments",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "epa.org",
+                            "wrap": true,
+                            "spacing": "None",
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "3",
+                            "style": "Informative",
+                            "appearance": "Tint",
+                            "shape": "Rounded"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "width": "20px",
+                            "height": "20px",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/MS_Researcher/pwc_3.png",
+                            "selectAction": {
+                                "type": "Action.OpenUrl",
+                                "url": "www.pwc.org"
+                            }
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Charting macroeconomic risks",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "pwc.org",
+                            "wrap": true,
+                            "spacing": "None",
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "4",
+                            "style": "Informative",
+                            "appearance": "Tint",
+                            "shape": "Rounded"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/MS_Researcher/contoso.png",
+                            "width": "20px",
+                            "height": "20px"
+                        }
+                    ],
+                    "selectAction": {
+                        "type": "Action.OpenUrl",
+                        "url": "www.contoso.com"
+                    }
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Contoso Facility Cited for Air Quality Violations",
+                            "wrap": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "contoso.com",
+                            "wrap": true,
+                            "spacing": "None",
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

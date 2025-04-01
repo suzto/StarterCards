@@ -1,0 +1,225 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Reasoned for 12 minutes",
+                            "wrap": true,
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronDown",
+                            "size": "xxSmall",
+                            "selectAction": {
+                                "type": "Action.ToggleVisibility"
+                            },
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "spacing": "Small",
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "Activity",
+                            "size": "ExtraLarge",
+                            "style": "Accent",
+                            "appearance": "Tint"
+                        }
+                    ],
+                    "horizontalAlignment": "Right"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Sources (4)",
+                            "wrap": true,
+                            "size": "Small"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
+                }
+            ],
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronRight",
+                            "size": "xxSmall",
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "spacing": "Medium",
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Crafting a detailed report",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "Small"
+                }
+            ],
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronRight",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Charting macroeconomic risks",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "Small"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronRight",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Insights into Contoso’s ESG and real estate investment strategies",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "Small"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronRight",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Analyzing contextual framework of the collected information",
+                            "wrap": true
+                        }
+                    ],
+                    "spacing": "Small"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "ChevronRight",
+                                    "size": "xxSmall"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Extracting key themes and trends to highlight for the focus group",
+                                    "wrap": true
+                                }
+                            ]
+                        }
+                    ],
+                    "isVisible": false
+                }
+            ]
+        }
+    ]
+}

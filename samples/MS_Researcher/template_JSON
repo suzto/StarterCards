@@ -214,10 +214,73 @@
                                     "text": "Extracting key themes and trends to highlight for the focus group",
                                     "wrap": true
                                 }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ],
+            "verticalContentAlignment": "Top"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "12px",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "I’m mapping out political turmoil, currency instability, and cash flow hurdles, while thoughtfully suggesting country-specific legal tweaks for a sharper ESG integration.",
+                            "wrap": true
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Badge",
+                                            "text": "pwc.com",
+                                            "size": "ExtraLarge",
+                                            "style": "Informative",
+                                            "shape": "Square",
+                                            "appearance": "Tint",
+                                            "icon": "Power"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "Small",
+                                    "items": [
+                                        {
+                                            "type": "Badge",
+                                            "text": "epa.org",
+                                            "size": "ExtraLarge",
+                                            "style": "Informative",
+                                            "appearance": "Tint",
+                                            "shape": "Square",
+                                            "icon": "BuildingCloud"
+                                        }
+                                    ]
+                                }
                             ]
                         }
-                    ],
-                    "isVisible": false
+                    ]
                 }
             ]
         }

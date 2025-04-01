@@ -1,0 +1,60 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/MS_Researcher/Media.png",
+                            "width": "36px",
+                            "height": "36px"
+                        }
+                    ],
+                    "minHeight": "36px"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "horizontalAlignment": "Left",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Contoso Environmental lmpact Assessment",
+                            "wrap": true,
+                            "size": "Default",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Saved in Pages",
+                            "wrap": true,
+                            "spacing": "None",
+                            "size": "Small",
+                            "color": "Default",
+                            "isSubtle": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ArrowMinimize",
+                            "size": "xSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        }
+    ]
+}

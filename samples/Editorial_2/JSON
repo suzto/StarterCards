@@ -1,0 +1,187 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "minHeight": "300px",
+    "body": [
+        {
+            "type": "Container",
+            "targetWidth": "VeryNarrow",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Editorial_2/hero.png",
+                "horizontalAlignment": "Center",
+                "verticalAlignment": "Center"
+            },
+            "minHeight": "230px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "CODING SERIES",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "size": "Small"
+                }
+            ],
+            "verticalContentAlignment": "Bottom"
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Editorial_2/hero.png",
+                "verticalAlignment": "Center"
+            },
+            "targetWidth": "Wide",
+            "minHeight": "200px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "CODING SERIES",
+                    "wrap": true,
+                    "weight": "Bolder"
+                }
+            ],
+            "verticalContentAlignment": "Top"
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Editorial_2/hero.png"
+            },
+            "bleed": true,
+            "minHeight": "290px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "CODING SERIES",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "color": "Dark"
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "Standard"
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Editorial_2/hero.png"
+            },
+            "bleed": true,
+            "minHeight": "230px",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "8px"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "CODING SERIES",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "color": "Dark",
+                                    "spacing": "None"
+                                }
+                            ],
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "Narrow"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Master the Art of Coding",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "targetWidth": "VeryNarrow"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Master the Art of Coding",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "targetWidth": "AtLeast:Narrow",
+            "spacing": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Join our coding series to explore interactive classes and insightful articles that help you build your coding skills from the ground up.",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "size": "Large",
+            "color": "Default",
+            "isSubtle": true,
+            "targetWidth": "AtLeast:Narrow"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Join our coding series to explore interactive classes and insightful articles that help you build your coding skills from the ground up.",
+            "wrap": true,
+            "horizontalAlignment": "Center",
+            "color": "Default",
+            "isSubtle": true,
+            "targetWidth": "VeryNarrow",
+            "spacing": "Small"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Register",
+                                    "url": "https://www.adaptivecards.microsoft.com",
+                                    "style": "positive"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "spacing": "None"
+                }
+            ],
+            "horizontalAlignment": "Center",
+            "spacing": "Large"
+        }
+    ]
+}

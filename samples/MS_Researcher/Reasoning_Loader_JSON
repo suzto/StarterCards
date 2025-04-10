@@ -1,0 +1,54 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Reasoning",
+                            "wrap": true,
+                            "size": "Default",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "spacing": "Small",
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "ChevronDown",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/MS_Researcher/loader.png",
+                            "width": "100px",
+                            "height": "5px"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
+                }
+            ]
+        }
+    ]
+}

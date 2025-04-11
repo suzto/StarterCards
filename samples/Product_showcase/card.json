@@ -40,91 +40,74 @@
                             "width": "stretch",
                             "items": [
                                 {
-                                    "type": "Container",
-                                    "items": [
+                                    "type": "Badge",
+                                    "text": "Pending",
+                                    "style": "Subtle",
+                                    "size": "Large",
+                                    "spacing": "None"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Business Laptop 6",
+                                    "wrap": true,
+                                    "size": "Large",
+                                    "weight": "Bolder",
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Not just faster. Smarter. The AI-accelerated Surface Laptop 7th Edition, a Bizagent + PC, puts next-generation performance and Bizagent + experiences at your fingertips. With cutting-edge technology and seamless integration, it empowers you to achieve more with less effort. Experience unparalleled productivity and innovation with every use.",
+                                    "wrap": true,
+                                    "id": "truncatedText",
+                                    "maxLines": 3
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Not just faster. Smarter. The AI-accelerated Surface Laptop 7th Edition, a Bizagent + PC, puts next-generation performance and Bizagent + experiences at your fingertips. With cutting-edge technology and seamless integration, it empowers you to achieve more with less effort. Experience unparalleled productivity and innovation with every use.",
+                                    "wrap": true,
+                                    "isVisible": false,
+                                    "id": "fullText"
+                                },
+                                {
+                                    "type": "RichTextBlock",
+                                    "id": "showMore",
+                                    "spacing": "ExtraSmall",
+                                    "inlines": [
                                         {
-                                            "type": "ColumnSet",
-                                            "columns": [
-                                                {
-                                                    "type": "Column",
-                                                    "width": "stretch",
-                                                    "items": [
-                                                        {
-                                                            "type": "Badge",
-                                                            "text": "Pending",
-                                                            "style": "Subtle",
-                                                            "size": "Large",
-                                                            "spacing": "None"
-                                                        },
-                                                        {
-                                                            "type": "TextBlock",
-                                                            "text": "Business Laptop 6",
-                                                            "wrap": true,
-                                                            "size": "Large",
-                                                            "weight": "Bolder",
-                                                            "spacing": "Small"
-                                                        },
-                                                        {
-                                                            "type": "TextBlock",
-                                                            "text": "Not just faster. Smarter. The AI-accelerated Surface Laptop 7th Edition, a Bizagent + PC, puts next-generation performance and Bizagent + experiences at your fingertips. With cutting-edge technology and seamless integration, it empowers you to achieve more with less effort. Experience unparalleled productivity and innovation with every use.",
-                                                            "wrap": true,
-                                                            "id": "truncatedText",
-                                                            "maxLines": 3
-                                                        },
-                                                        {
-                                                            "type": "TextBlock",
-                                                            "text": "Not just faster. Smarter. The AI-accelerated Surface Laptop 7th Edition, a Bizagent + PC, puts next-generation performance and Bizagent + experiences at your fingertips. With cutting-edge technology and seamless integration, it empowers you to achieve more with less effort. Experience unparalleled productivity and innovation with every use.",
-                                                            "wrap": true,
-                                                            "isVisible": false,
-                                                            "id": "fullText"
-                                                        },
-                                                        {
-                                                            "type": "RichTextBlock",
-                                                            "id": "showMore",
-                                                            "spacing": "ExtraSmall",
-                                                            "inlines": [
-                                                                {
-                                                                    "type": "TextRun",
-                                                                    "text": "Show more",
-                                                                    "selectAction": {
-                                                                        "type": "Action.ToggleVisibility",
-                                                                        "targetElements": [
-                                                                            "truncatedText",
-                                                                            "fullText",
-                                                                            "showMore",
-                                                                            "showLess"
-                                                                        ]
-                                                                    }
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "type": "RichTextBlock",
-                                                            "id": "showLess",
-                                                            "spacing": "ExtraSmall",
-                                                            "inlines": [
-                                                                {
-                                                                    "type": "TextRun",
-                                                                    "text": "Show less",
-                                                                    "selectAction": {
-                                                                        "type": "Action.ToggleVisibility",
-                                                                        "targetElements": [
-                                                                            "truncatedText",
-                                                                            "fullText",
-                                                                            "showMore",
-                                                                            "showLess"
-                                                                        ]
-                                                                    }
-                                                                }
-                                                            ],
-                                                            "isVisible": false
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            "type": "TextRun",
+                                            "text": "Show more",
+                                            "selectAction": {
+                                                "type": "Action.ToggleVisibility",
+                                                "targetElements": [
+                                                    "truncatedText",
+                                                    "fullText",
+                                                    "showMore",
+                                                    "showLess"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "RichTextBlock",
+                                    "id": "showLess",
+                                    "spacing": "ExtraSmall",
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": "Show less",
+                                            "selectAction": {
+                                                "type": "Action.ToggleVisibility",
+                                                "targetElements": [
+                                                    "truncatedText",
+                                                    "fullText",
+                                                    "showMore",
+                                                    "showLess"
+                                                ]
+                                            }
                                         }
                                     ],
-                                    "spacing": "Large"
+                                    "isVisible": false
                                 },
                                 {
                                     "type": "ColumnSet",
@@ -206,8 +189,7 @@
                                     ],
                                     "spacing": "Large"
                                 }
-                            ],
-                            "spacing": "Medium"
+                            ]
                         }
                     ]
                 }

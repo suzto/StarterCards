@@ -110,59 +110,88 @@
                                     "isVisible": false
                                 },
                                 {
-                                    "type": "ColumnSet",
-                                    "columns": [
+                                    "type": "Container",
+                                    "items": [
                                         {
-                                            "type": "Column",
-                                            "width": "auto",
-                                            "items": [
+                                            "type": "ColumnSet",
+                                            "columns": [
                                                 {
-                                                    "type": "TextBlock",
-                                                    "text": "Order date",
-                                                    "wrap": true,
-                                                    "weight": "Bolder"
+                                                    "type": "Column",
+                                                    "width": "90px",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Order date",
+                                                            "wrap": true,
+                                                            "weight": "Bolder"
+                                                        }
+                                                    ]
                                                 },
                                                 {
-                                                    "type": "TextBlock",
-                                                    "text": "Estimated delivery",
-                                                    "wrap": true,
-                                                    "weight": "Bolder",
-                                                    "spacing": "ExtraSmall"
-                                                },
-                                                {
-                                                    "type": "TextBlock",
-                                                    "text": "Ordered by",
-                                                    "wrap": true,
-                                                    "weight": "Bolder",
-                                                    "spacing": "ExtraSmall"
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "May 21, 2025",
+                                                            "wrap": true
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },
                                         {
-                                            "type": "Column",
-                                            "width": "stretch",
+                                            "type": "Container",
                                             "items": [
                                                 {
-                                                    "type": "TextBlock",
-                                                    "text": "May 21, 2025",
-                                                    "wrap": true
-                                                },
-                                                {
-                                                    "type": "TextBlock",
-                                                    "text": "May 29, 2025",
-                                                    "wrap": true,
-                                                    "spacing": "ExtraSmall"
+                                                    "type": "ColumnSet",
+                                                    "columns": [
+                                                        {
+                                                            "type": "Column",
+                                                            "width": "90px",
+                                                            "items": [
+                                                                {
+                                                                    "type": "TextBlock",
+                                                                    "text": "Delivery est.",
+                                                                    "wrap": true,
+                                                                    "weight": "Bolder"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Column",
+                                                            "width": "stretch",
+                                                            "items": [
+                                                                {
+                                                                    "type": "TextBlock",
+                                                                    "text": "May 29, 2025",
+                                                                    "wrap": true
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
                                                 },
                                                 {
                                                     "type": "ColumnSet",
                                                     "columns": [
                                                         {
                                                             "type": "Column",
+                                                            "width": "90px",
+                                                            "items": [
+                                                                {
+                                                                    "type": "TextBlock",
+                                                                    "text": "Ordered by",
+                                                                    "wrap": true,
+                                                                    "weight": "Bolder"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "Column",
                                                             "width": "auto",
                                                             "items": [
                                                                 {
                                                                     "type": "Image",
-                                                                    "style": "Person",
                                                                     "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Product_showcase/avatar_small.png",
                                                                     "width": "20px",
                                                                     "height": "20px"
@@ -172,22 +201,208 @@
                                                         {
                                                             "type": "Column",
                                                             "width": "stretch",
-                                                            "spacing": "Small",
                                                             "items": [
                                                                 {
                                                                     "type": "TextBlock",
                                                                     "text": "Ray Tanaka",
                                                                     "wrap": true
                                                                 }
-                                                            ]
+                                                            ],
+                                                            "spacing": "Small"
                                                         }
                                                     ],
-                                                    "spacing": "ExtraSmall"
+                                                    "spacing": "Small"
+                                                }
+                                            ],
+                                            "spacing": "Small"
+                                        }
+                                    ],
+                                    "targetWidth": "Standard"
+                                },
+                                {
+                                    "type": "Container",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Order date",
+                                                            "wrap": true,
+                                                            "weight": "Bolder"
+                                                        },
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "May 21, 2025",
+                                                            "wrap": true,
+                                                            "spacing": "ExtraSmall"
+                                                        },
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Estimated delivery",
+                                                            "wrap": true,
+                                                            "weight": "Bolder"
+                                                        },
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "May 29, 2025",
+                                                            "wrap": true,
+                                                            "spacing": "ExtraSmall"
+                                                        },
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Ordered by",
+                                                            "wrap": true,
+                                                            "weight": "Bolder"
+                                                        },
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Image",
+                                                                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Product_showcase/avatar_small.png",
+                                                                            "width": "20px",
+                                                                            "height": "20px"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Ray Tanaka",
+                                                                            "wrap": true
+                                                                        }
+                                                                    ],
+                                                                    "spacing": "Small"
+                                                                }
+                                                            ],
+                                                            "spacing": "ExtraSmall"
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }
                                     ],
-                                    "spacing": "Large"
+                                    "isVisible": false
+                                },
+                                {
+                                    "type": "Container",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "135px",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Order date",
+                                                            "wrap": true,
+                                                            "weight": "Bolder"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "May 21, 2025",
+                                                            "wrap": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "135px",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Estimated delivery",
+                                                            "wrap": true,
+                                                            "weight": "Bolder",
+                                                            "spacing": "ExtraSmall",
+                                                            "maxLines": 2
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "May 29, 2025",
+                                                            "wrap": true,
+                                                            "spacing": "ExtraSmall"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "135px",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Ordered by",
+                                                            "wrap": true,
+                                                            "weight": "Bolder",
+                                                            "spacing": "ExtraSmall"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "Image",
+                                                            "style": "Person",
+                                                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Product_showcase/avatar_small.png",
+                                                            "width": "20px",
+                                                            "height": "20px"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Ray Tanaka",
+                                                            "wrap": true
+                                                        }
+                                                    ],
+                                                    "spacing": "Small"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "targetWidth": "Wide"
                                 }
                             ]
                         }

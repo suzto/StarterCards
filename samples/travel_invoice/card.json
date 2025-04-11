@@ -18,7 +18,7 @@
         },
         {
             "type": "Container",
-            "targetWidth": "VeryNarrow",
+            "targetWidth": "AtMost:Narrow",
             "items": [
                 {
                     "type": "ColumnSet",
@@ -44,7 +44,8 @@
                                     "type": "TextBlock",
                                     "text": "Travel to Bankok",
                                     "wrap": true,
-                                    "weight": "Bolder"
+                                    "weight": "Bolder",
+                                    "maxLines": 3
                                 },
                                 {
                                     "type": "ColumnSet",
@@ -124,7 +125,8 @@
                                             "type": "TextBlock",
                                             "text": "Travel to Bankok",
                                             "wrap": true,
-                                            "weight": "Bolder"
+                                            "weight": "Bolder",
+                                            "maxLines": 2
                                         }
                                     ],
                                     "verticalContentAlignment": "Bottom"
@@ -173,7 +175,7 @@
                     ]
                 }
             ],
-            "targetWidth": "AtLeast:Narrow",
+            "targetWidth": "AtLeast:Standard",
             "spacing": "Medium"
         },
         {
@@ -189,7 +191,8 @@
                             "size": "xxSmall"
                         }
                     ],
-                    "verticalContentAlignment": "Center"
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
                 },
                 {
                     "type": "Column",
@@ -205,7 +208,8 @@
                         }
                     ],
                     "spacing": "ExtraSmall",
-                    "verticalContentAlignment": "Center"
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
                 },
                 {
                     "type": "Column",
@@ -217,7 +221,8 @@
                             "size": "xxSmall"
                         }
                     ],
-                    "verticalContentAlignment": "Center"
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
                 },
                 {
                     "type": "Column",
@@ -233,7 +238,8 @@
                         }
                     ],
                     "spacing": "ExtraSmall",
-                    "verticalContentAlignment": "Center"
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
                 },
                 {
                     "type": "Column",
@@ -248,7 +254,8 @@
                         }
                     ],
                     "spacing": "Medium",
-                    "verticalContentAlignment": "Center"
+                    "verticalContentAlignment": "Center",
+                    "horizontalAlignment": "Right"
                 }
             ],
             "horizontalAlignment": "Right",

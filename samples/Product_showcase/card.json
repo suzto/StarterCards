@@ -101,13 +101,15 @@
                                                     "type": "TextBlock",
                                                     "text": "Estimated delivery",
                                                     "wrap": true,
-                                                    "weight": "Bolder"
+                                                    "weight": "Bolder",
+                                                    "spacing": "ExtraSmall"
                                                 },
                                                 {
                                                     "type": "TextBlock",
                                                     "text": "Ordered by",
                                                     "wrap": true,
-                                                    "weight": "Bolder"
+                                                    "weight": "Bolder",
+                                                    "spacing": "ExtraSmall"
                                                 }
                                             ]
                                         },
@@ -123,7 +125,8 @@
                                                 {
                                                     "type": "TextBlock",
                                                     "text": "May 29, 2025",
-                                                    "wrap": true
+                                                    "wrap": true,
+                                                    "spacing": "ExtraSmall"
                                                 },
                                                 {
                                                     "type": "ColumnSet",
@@ -153,16 +156,33 @@
                                                                 }
                                                             ]
                                                         }
-                                                    ]
+                                                    ],
+                                                    "spacing": "ExtraSmall"
                                                 }
                                             ]
                                         }
-                                    ]
+                                    ],
+                                    "spacing": "Large"
                                 }
                             ],
                             "spacing": "Medium"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "View order",
+                    "id": "order"
+                },
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Chat with agent",
+                    "iconUrl": "icon:Chat"
                 }
             ]
         }

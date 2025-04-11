@@ -166,7 +166,7 @@
                                 {
                                     "type": "Action.OpenUrl",
                                     "title": "Register",
-                                    "url": "https://www.adaptivecards.microsoft.com",
+                                    "url": "https://adaptivecards.microsoft.com/",
                                     "style": "positive"
                                 }
                             ]

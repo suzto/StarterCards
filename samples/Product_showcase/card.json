@@ -294,6 +294,81 @@
                 },
                 {
                     "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Order date",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "May 21, 2025",
+                                    "wrap": true,
+                                    "spacing": "None"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Estimated delivery",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "May 29, 2025",
+                                    "wrap": true,
+                                    "spacing": "None"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Ordered by",
+                                    "wrap": true,
+                                    "weight": "Bolder",
+                                    "spacing": "Small"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Product_showcase/avatar_small.png",
+                                                    "width": "20px",
+                                                    "height": "20px"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "spacing": "Small",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Ray Tanaka",
+                                                    "wrap": true
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ]
+                        }
+                    ],
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Large"
+                },
+                {
+                    "type": "ColumnSet",
                     "spacing": "Large",
                     "columns": [
                         {
@@ -310,12 +385,15 @@
                                     "type": "TextBlock",
                                     "text": "Estimated delivery",
                                     "wrap": true,
-                                    "weight": "Bolder"
+                                    "weight": "Bolder",
+                                    "spacing": "ExtraSmall"
                                 },
                                 {
                                     "type": "TextBlock",
-                                    "text": "New TextBlock",
-                                    "wrap": true
+                                    "text": "Ordered by",
+                                    "wrap": true,
+                                    "spacing": "ExtraSmall",
+                                    "weight": "Bolder"
                                 }
                             ]
                         },
@@ -331,16 +409,43 @@
                                 {
                                     "type": "TextBlock",
                                     "text": "May 29, 2025",
-                                    "wrap": true
+                                    "wrap": true,
+                                    "spacing": "ExtraSmall"
                                 },
                                 {
-                                    "type": "TextBlock",
-                                    "text": "New TextBlock",
-                                    "wrap": true
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Product_showcase/avatar_small.png",
+                                                    "width": "20px",
+                                                    "height": "20px"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "text": "Ray Tanaka",
+                                                    "wrap": true
+                                                }
+                                            ],
+                                            "spacing": "Small"
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "targetWidth": "Narrow"
                 }
             ],
             "targetWidth": "AtMost:Narrow"

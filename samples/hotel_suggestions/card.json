@@ -701,6 +701,205 @@
                 },
                 {
                     "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "LockClosedKey",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Safe box",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "VehicleCarParking",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Paid parking",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Dumbbell",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Gym",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Food",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Restaurant",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "AnimalDog",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Pet friendly",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "DrinkBottleOff",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Alcohol-free",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Container",
                     "bleed": true,
                     "items": [
                         {
@@ -1275,6 +1474,85 @@
                         }
                     ],
                     "targetWidth": "Narrow"
+                },
+                {
+                    "type": "Container",
+                    "spacing": "Large",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Book",
+                                                    "url": "https://adaptivecards.microsoft.com/"
+                                                },
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Share",
+                                                    "url": "https://adaptivecards.microsoft.com/",
+                                                    "iconUrl": "icon:Share"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "From $1,342.24",
+                                            "wrap": true,
+                                            "size": "Large"
+                                        }
+                                    ],
+                                    "horizontalAlignment": "Right"
+                                }
+                            ]
+                        }
+                    ],
+                    "targetWidth": "AtLeast:Narrow",
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Container",
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Large",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "From $1,342.24",
+                            "wrap": true,
+                            "spacing": "Small",
+                            "size": "Large"
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Book",
+                                    "url": "https://adaptivecards.microsoft.com/"
+                                },
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Share",
+                                    "iconUrl": "icon:Share",
+                                    "url": "https://adaptivecards.microsoft.com/"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ]
                 }
             ],
             "spacing": "None"

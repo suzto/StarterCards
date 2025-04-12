@@ -412,7 +412,8 @@
                                         }
                                     ]
                                 }
-                            ]
+                            ],
+                            "spacing": "Small"
                         }
                     ],
                     "targetWidth": "Narrow",
@@ -551,6 +552,82 @@
                     ],
                     "targetWidth": "VeryNarrow",
                     "spacing": "Small"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Book"
+                                                },
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Share",
+                                                    "iconUrl": "icon:Share"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "From $1,634.87 ",
+                                            "wrap": true,
+                                            "size": "Large"
+                                        }
+                                    ],
+                                    "horizontalAlignment": "Right"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "targetWidth": "AtLeast:Narrow",
+                    "spacing": "Large"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "From $1,634.87 ",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Default",
+                            "spacing": "Large"
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Book"
+                                },
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Share",
+                                    "iconUrl": "icon:Share"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Large"
                 }
             ]
         }

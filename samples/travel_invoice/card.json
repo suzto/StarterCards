@@ -183,16 +183,17 @@
             "columns": [
                 {
                     "type": "Column",
-                    "width": "auto",
+                    "width": "stretch",
                     "items": [
                         {
                             "type": "Icon",
                             "name": "Receipt",
-                            "size": "xxSmall"
+                            "size": "xxSmall",
+                            "horizontalAlignment": "Right"
                         }
                     ],
                     "verticalContentAlignment": "Center",
-                    "horizontalAlignment": "Right"
+                    "horizontalAlignment": "Left"
                 },
                 {
                     "type": "Column",

@@ -1,0 +1,1561 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Top hotel suggestions for Woodinville",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Fri, 8 Dec 2023 - Thu, 14 Dec",
+            "wrap": true,
+            "spacing": "ExtraSmall",
+            "size": "Small",
+            "color": "Default",
+            "isSubtle": true
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/hotel_suggestions/hotel1.png",
+                "horizontalAlignment": "Center",
+                "verticalAlignment": "Center"
+            },
+            "minHeight": "134px"
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "style": "emphasis",
+            "spacing": "None",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "verticalContentAlignment": "Center",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Alpine Ski House",
+                                    "wrap": true,
+                                    "size": "Large"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Rating",
+                                    "max": 1,
+                                    "value": 4.5,
+                                    "color": "Marigold",
+                                    "size": "Medium"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "123 Main Avenue North, South Lake, Woodinville",
+                    "wrap": true,
+                    "size": "Small",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Distance from center: 11.8km",
+                    "wrap": true,
+                    "spacing": "None",
+                    "size": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Single room · Free cancelation  ",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "LockClosedKey",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Safe box",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ],
+                                                                    "spacing": "ExtraSmall"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "VehicleCarParking",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Paid parking",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "Dumbbell",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "spacing": "Small",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Gym",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "Food",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Restaurant",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "Small",
+                    "targetWidth": "AtLeast:Standard",
+                    "bleed": true
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "Icon",
+                                                            "name": "LockClosedKey",
+                                                            "size": "xxSmall"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "spacing": "ExtraSmall",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Safe box",
+                                                            "wrap": true,
+                                                            "size": "Small",
+                                                            "color": "Default",
+                                                            "isSubtle": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "Icon",
+                                                            "name": "VehicleCarParking",
+                                                            "size": "xxSmall"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "spacing": "ExtraSmall",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Paid parking",
+                                                            "wrap": true,
+                                                            "size": "Small",
+                                                            "color": "Default",
+                                                            "isSubtle": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "Icon",
+                                                            "name": "Dumbbell",
+                                                            "size": "xxSmall"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "spacing": "Small",
+                                                    "items": [
+                                                        {
+                                                            "type": "TextBlock",
+                                                            "text": "Gym",
+                                                            "wrap": true,
+                                                            "size": "Small",
+                                                            "color": "Default",
+                                                            "isSubtle": true
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Food",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Restaurant",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "Narrow",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "LockClosedKey",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Safe box",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "VehicleCarParking",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Paid parking",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Dumbbell",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Gym",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Food",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Restaurant",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Book",
+                                                    "url": "https://adaptivecards.microsoft.com/"
+                                                },
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Share",
+                                                    "iconUrl": "icon:Share",
+                                                    "url": "https://adaptivecards.microsoft.com/"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "From $1,634.87 ",
+                                            "wrap": true,
+                                            "size": "Large"
+                                        }
+                                    ],
+                                    "horizontalAlignment": "Right"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "targetWidth": "AtLeast:Narrow",
+                    "spacing": "Large"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "From $1,634.87 ",
+                            "wrap": true,
+                            "size": "Large",
+                            "weight": "Default",
+                            "spacing": "Large"
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Book",
+                                    "url": "https://adaptivecards.microsoft.com/"
+                                },
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Share",
+                                    "iconUrl": "icon:Share",
+                                    "url": "https://adaptivecards.microsoft.com/"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Large"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/hotel_suggestions/hotel2.png",
+                "verticalAlignment": "Bottom"
+            },
+            "id": "hotel2",
+            "minHeight": "134px",
+            "spacing": "None"
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Munson's Pickles and Preserves Farm",
+                                    "wrap": true,
+                                    "size": "Large"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Rating",
+                                    "max": 1,
+                                    "value": 4,
+                                    "color": "Marigold",
+                                    "size": "Medium"
+                                }
+                            ],
+                            "horizontalAlignment": "Right"
+                        }
+                    ]
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "213 Fifth Avenue, North Lake, Woodinville ",
+                    "wrap": true,
+                    "size": "Small",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Distance from center: 12.2km",
+                    "wrap": true,
+                    "spacing": "None",
+                    "size": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Single room · Breakfast included · Free cancelation  ",
+                    "wrap": true,
+                    "size": "Small",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "LockClosedKey",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Safe box",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "VehicleCarParking",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Paid parking",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Dumbbell",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Gym",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "Food",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Restaurant",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "AnimalDog",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Pet friendly",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Icon",
+                                            "name": "DrinkBottleOff",
+                                            "size": "xxSmall"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "spacing": "ExtraSmall",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Alcohol-free",
+                                            "wrap": true,
+                                            "size": "Small",
+                                            "color": "Default",
+                                            "isSubtle": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Container",
+                    "bleed": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "LockClosedKey",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Safe box",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "VehicleCarParking",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Paid parking",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "Dumbbell",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "Small",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Gym",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "Food",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Restaurant",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "AnimalDog",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Pet friendly",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "DrinkBottleOff",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Alcohol-free",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "targetWidth": "AtLeast:Standard"
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "ColumnSet",
+                                                                            "columns": [
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "Icon",
+                                                                                            "name": "LockClosedKey",
+                                                                                            "size": "xxSmall"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "spacing": "ExtraSmall",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "TextBlock",
+                                                                                            "text": "Safe box",
+                                                                                            "wrap": true,
+                                                                                            "size": "Small",
+                                                                                            "color": "Default",
+                                                                                            "isSubtle": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "ColumnSet",
+                                                                            "columns": [
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "ColumnSet",
+                                                                                            "columns": [
+                                                                                                {
+                                                                                                    "type": "Column",
+                                                                                                    "width": "auto",
+                                                                                                    "items": [
+                                                                                                        {
+                                                                                                            "type": "Icon",
+                                                                                                            "name": "VehicleCarParking",
+                                                                                                            "size": "xxSmall"
+                                                                                                        }
+                                                                                                    ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "Column",
+                                                                                                    "width": "auto",
+                                                                                                    "spacing": "ExtraSmall",
+                                                                                                    "items": [
+                                                                                                        {
+                                                                                                            "type": "TextBlock",
+                                                                                                            "text": "Paid parking",
+                                                                                                            "wrap": true,
+                                                                                                            "size": "Small",
+                                                                                                            "color": "Default",
+                                                                                                            "isSubtle": true
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "stretch",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "ColumnSet",
+                                                                                            "columns": [
+                                                                                                {
+                                                                                                    "type": "Column",
+                                                                                                    "width": "stretch",
+                                                                                                    "items": [
+                                                                                                        {
+                                                                                                            "type": "ColumnSet",
+                                                                                                            "columns": [
+                                                                                                                {
+                                                                                                                    "type": "Column",
+                                                                                                                    "width": "auto",
+                                                                                                                    "items": [
+                                                                                                                        {
+                                                                                                                            "type": "ColumnSet",
+                                                                                                                            "columns": [
+                                                                                                                                {
+                                                                                                                                    "type": "Column",
+                                                                                                                                    "width": "auto",
+                                                                                                                                    "items": [
+                                                                                                                                        {
+                                                                                                                                            "type": "Icon",
+                                                                                                                                            "name": "Dumbbell",
+                                                                                                                                            "size": "xxSmall"
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "type": "Column",
+                                                                                                                                    "width": "auto",
+                                                                                                                                    "spacing": "Small",
+                                                                                                                                    "items": [
+                                                                                                                                        {
+                                                                                                                                            "type": "TextBlock",
+                                                                                                                                            "text": "Gym",
+                                                                                                                                            "wrap": true,
+                                                                                                                                            "size": "Small",
+                                                                                                                                            "color": "Default",
+                                                                                                                                            "isSubtle": true
+                                                                                                                                        }
+                                                                                                                                    ]
+                                                                                                                                }
+                                                                                                                            ]
+                                                                                                                        }
+                                                                                                                    ]
+                                                                                                                }
+                                                                                                            ]
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "ColumnSet",
+                                            "columns": [
+                                                {
+                                                    "type": "Column",
+                                                    "width": "auto",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "Icon",
+                                                                            "name": "Food",
+                                                                            "size": "xxSmall"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "spacing": "ExtraSmall",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "TextBlock",
+                                                                            "text": "Restaurant",
+                                                                            "wrap": true,
+                                                                            "size": "Small",
+                                                                            "color": "Default",
+                                                                            "isSubtle": true
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "Column",
+                                                    "width": "stretch",
+                                                    "items": [
+                                                        {
+                                                            "type": "ColumnSet",
+                                                            "columns": [
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "auto",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "ColumnSet",
+                                                                            "columns": [
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "Icon",
+                                                                                            "name": "AnimalDog",
+                                                                                            "size": "xxSmall"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "spacing": "ExtraSmall",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "TextBlock",
+                                                                                            "text": "Pet friendly",
+                                                                                            "wrap": true,
+                                                                                            "size": "Small",
+                                                                                            "color": "Default",
+                                                                                            "isSubtle": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "Column",
+                                                                    "width": "stretch",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "ColumnSet",
+                                                                            "columns": [
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "Icon",
+                                                                                            "name": "DrinkBottleOff",
+                                                                                            "size": "xxSmall"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "type": "Column",
+                                                                                    "width": "auto",
+                                                                                    "spacing": "ExtraSmall",
+                                                                                    "items": [
+                                                                                        {
+                                                                                            "type": "TextBlock",
+                                                                                            "text": "Alcohol-free",
+                                                                                            "wrap": true,
+                                                                                            "size": "Small",
+                                                                                            "color": "Default",
+                                                                                            "isSubtle": true
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "targetWidth": "Narrow"
+                },
+                {
+                    "type": "Container",
+                    "spacing": "Large",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "ActionSet",
+                                            "actions": [
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Book",
+                                                    "url": "https://adaptivecards.microsoft.com/"
+                                                },
+                                                {
+                                                    "type": "Action.OpenUrl",
+                                                    "title": "Share",
+                                                    "url": "https://adaptivecards.microsoft.com/",
+                                                    "iconUrl": "icon:Share"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "From $1,342.24",
+                                            "wrap": true,
+                                            "size": "Large"
+                                        }
+                                    ],
+                                    "horizontalAlignment": "Right"
+                                }
+                            ]
+                        }
+                    ],
+                    "targetWidth": "AtLeast:Narrow",
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Container",
+                    "targetWidth": "VeryNarrow",
+                    "spacing": "Large",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "From $1,342.24",
+                            "wrap": true,
+                            "spacing": "Small",
+                            "size": "Large"
+                        },
+                        {
+                            "type": "ActionSet",
+                            "actions": [
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Book",
+                                    "url": "https://adaptivecards.microsoft.com/"
+                                },
+                                {
+                                    "type": "Action.OpenUrl",
+                                    "title": "Share",
+                                    "iconUrl": "icon:Share",
+                                    "url": "https://adaptivecards.microsoft.com/"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        }
+    ]
+}

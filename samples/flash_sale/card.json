@@ -136,10 +136,17 @@
                                             "width": "stretch",
                                             "items": [
                                                 {
-                                                    "type": "TextBlock",
-                                                    "text": "$124.70",
+                                                    "type": "RichTextBlock",
                                                     "wrap": true,
-                                                    "color": "Attention"
+                                                    "inlines": [
+                                                        {
+                                                            "type": "TextRun",
+                                                            "text": "$124.70",
+                                                            "strikethrough": true,
+                                                            "size": "Large",
+                                                            "color": "Attention"
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }

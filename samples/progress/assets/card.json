@@ -34,7 +34,7 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "Current phase: ",
+                                    "text": "Current phase:",
                                     "wrap": true,
                                     "weight": "Bolder"
                                 }
@@ -51,20 +51,25 @@
                                     "style": "Filled"
                                 }
                             ],
-                            "spacing": "ExtraSmall"
+                            "spacing": "Small"
                         },
                         {
                             "type": "Column",
                             "width": "stretch",
                             "items": [
                                 {
-                                    "type": "TextBlock",
-                                    "text": "Development",
-                                    "wrap": true,
-                                    "weight": "Bolder"
+                                    "type": "RichTextBlock",
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": " Development",
+                                            "weight": "Bolder",
+                                            "highlight": true
+                                        }
+                                    ]
                                 }
                             ],
-                            "spacing": "ExtraSmall"
+                            "spacing": "None"
                         }
                     ]
                 },
@@ -85,117 +90,103 @@
             ]
         },
         {
-            "type": "TextBlock",
-            "text": "Key milestones",
-            "wrap": true,
-            "size": "Large",
-            "weight": "Bolder",
-            "spacing": "Large"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
+            "type": "Container",
+            "spacing": "Medium",
+            "items": [
                 {
-                    "type": "Column",
-                    "width": "auto",
-                    "items": [
+                    "type": "TextBlock",
+                    "text": "Key Milestones:",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "size": "Large"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
                         {
-                            "type": "TextBlock",
-                            "text": " • Design phase:",
-                            "wrap": true,
-                            "weight": "Bolder"
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "• Design phase:",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "CheckmarkCircle",
+                                    "size": "xxSmall",
+                                    "style": "Filled",
+                                    "color": "Good"
+                                }
+                            ],
+                            "spacing": "Small",
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "wrap": true,
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": " Complete",
+                                            "strikethrough": true,
+                                            "color": "Good"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "None",
+                            "verticalContentAlignment": "Center"
                         }
                     ]
                 },
                 {
-                    "type": "Column",
-                    "width": "auto",
-                    "items": [
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "inlines": [
                         {
-                            "type": "Icon",
-                            "name": "CheckmarkCircle",
-                            "size": "xSmall",
-                            "style": "Filled",
-                            "color": "Good"
-                        }
-                    ],
-                    "spacing": "ExtraSmall"
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": "Complete",
-                            "wrap": true,
-                            "color": "Good"
-                        }
-                    ],
-                    "spacing": "ExtraSmall"
-                }
-            ],
-            "spacing": "Small"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "auto",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "text": " • Development phase:",
-                            "wrap": true,
+                            "type": "TextRun",
+                            "text": "• Development phase:",
                             "weight": "Bolder"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
+                        },
                         {
-                            "type": "TextBlock",
-                            "text": "In progress",
-                            "wrap": true
+                            "type": "TextRun",
+                            "text": " In progress"
                         }
                     ],
-                    "spacing": "ExtraSmall"
-                }
-            ],
-            "spacing": "ExtraSmall"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
+                    "spacing": "Small"
+                },
                 {
-                    "type": "Column",
-                    "width": "auto",
-                    "items": [
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "inlines": [
                         {
-                            "type": "TextBlock",
+                            "type": "TextRun",
                             "text": "• Testing phase:",
-                            "wrap": true,
                             "weight": "Bolder"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
+                        },
                         {
-                            "type": "TextBlock",
-                            "text": "Upcoming",
-                            "wrap": true
+                            "type": "TextRun",
+                            "text": " Upcoming",
+                            "italic": true
                         }
                     ],
-                    "spacing": "ExtraSmall"
+                    "spacing": "Small"
                 }
-            ],
-            "spacing": "ExtraSmall"
+            ]
         }
     ]
 }

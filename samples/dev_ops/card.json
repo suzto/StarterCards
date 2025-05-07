@@ -1,291 +1,521 @@
 {
-  "type": "AdaptiveCard",
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.5",
-  "body": [
-    {
-      "type": "ColumnSet",
-      "columns": [
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
         {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "BranchRequest",
-              "size": "xSmall",
-              "color": "Accent"
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": "Pull Request | contoso/ui #29233",
-              "wrap": true,
-              "size": "Small",
-              "weight": "Bolder"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "ExtraSmall"
-        }
-      ]
-    },
-    {
-      "type": "TextBlock",
-      "text": "RFC Extended Design Tokens for UI",
-      "wrap": true,
-      "size": "Large",
-      "weight": "Bolder",
-      "spacing": "Small"
-    },
-    {
-      "type": "TextBlock",
-      "text": "Description",
-      "wrap": true,
-      "size": "Small",
-      "weight": "Bolder"
-    },
-    {
-      "type": "TextBlock",
-      "text": "This RFC outlines implementation details for an expansion of UI token system to enable better cross platforms for consistency integrated across the entire ecosystem",
-      "wrap": true,
-      "maxLines": 2,
-      "size": "Small",
-      "spacing": "ExtraSmall"
-    },
-    {
-      "type": "ColumnSet",
-      "separator": true,
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Badge",
-              "text": "Merged",
-              "style": "Accent",
-              "icon": "BranchFork",
-              "size": "Large"
-            }
-          ],
-          "spacing": "Large",
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Image",
-              "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/dev_ops/assets/avatar.png",
-              "style": "Person",
-              "width": "25px",
-              "height": "25px"
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "RichTextBlock",
-              "wrap": true,
-              "inlines": [
+            "type": "ColumnSet",
+            "columns": [
                 {
-                  "type": "TextRun",
-                  "text": "Kayo Miwa",
-                  "weight": "Bolder"
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "BranchRequest",
+                            "size": "xSmall",
+                            "color": "Accent"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
                 },
                 {
-                  "type": "TextRun",
-                  "text": " wants to merge "
-                },
-                {
-                  "type": "TextRun",
-                  "text": "2 commits",
-                  "underline": true,
-                  "color": "Default"
-                },
-                {
-                  "type": "TextRun",
-                  "text": " from "
-                },
-                {
-                  "type": "TextRun",
-                  "text": "EdSims",
-                  "color": "Accent"
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Pull Request | contoso/ui #29233",
+                            "wrap": true,
+                            "size": "Small",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "ExtraSmall"
                 }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        }
-      ],
-      "spacing": "ExtraLarge"
-    },
-    {
-      "type": "ColumnSet",
-      "columns": [
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "Person",
-              "size": "xxSmall"
-            }
-          ],
-          "verticalContentAlignment": "Center"
+            ]
         },
         {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "RichTextBlock",
-              "wrap": true,
-              "inlines": [
+            "type": "TextBlock",
+            "text": "RFC Extended Design Tokens for UI",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Description",
+            "wrap": true,
+            "size": "Small",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "This RFC outlines implementation details for an expansion of UI token system to enable better cross platforms for consistency integrated across the entire ecosystem",
+            "wrap": true,
+            "maxLines": 3,
+            "targetWidth": "VeryNarrow",
+            "size": "Small",
+            "spacing": "ExtraSmall"
+        },
+        {
+            "type": "TextBlock",
+            "text": "This RFC outlines implementation details for an expansion of UI token system to enable better cross platforms for consistency integrated across the entire ecosystem",
+            "wrap": true,
+            "maxLines": 2,
+            "size": "Small",
+            "spacing": "ExtraSmall",
+            "targetWidth": "AtLeast:Narrow"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
                 {
-                  "type": "TextRun",
-                  "text": "0",
-                  "weight": "Bolder",
-                  "color": "Accent"
+                    "type": "Column",
+                    "width": "auto",
+                    "spacing": "Large",
+                    "verticalContentAlignment": "Center",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "Merged",
+                            "style": "Accent",
+                            "icon": "BranchFork",
+                            "size": "Large"
+                        },
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "width": "auto",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/dev_ops/assets/avatar.png",
+                                            "style": "Person",
+                                            "width": "25px",
+                                            "height": "25px"
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Top"
+                                },
+                                {
+                                    "type": "Column",
+                                    "width": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "RichTextBlock",
+                                            "wrap": true,
+                                            "inlines": [
+                                                {
+                                                    "type": "TextRun",
+                                                    "text": "Kayo Miwa",
+                                                    "weight": "Bolder"
+                                                },
+                                                {
+                                                    "type": "TextRun",
+                                                    "text": " wants to merge "
+                                                },
+                                                {
+                                                    "type": "TextRun",
+                                                    "text": "2 commits",
+                                                    "underline": true,
+                                                    "color": "Default"
+                                                },
+                                                {
+                                                    "type": "TextRun",
+                                                    "text": " from "
+                                                },
+                                                {
+                                                    "type": "TextRun",
+                                                    "text": "EdSims",
+                                                    "color": "Accent"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "verticalContentAlignment": "Top",
+                                    "spacing": "ExtraSmall"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "targetWidth": "AtMost:Narrow",
+            "separator": true,
+            "spacing": "ExtraLarge"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Badge",
+                            "text": "Merged",
+                            "style": "Accent",
+                            "icon": "BranchFork",
+                            "size": "Large"
+                        }
+                    ],
+                    "spacing": "Large",
+                    "verticalContentAlignment": "Center"
                 },
                 {
-                  "type": "TextRun",
-                  "text": " Reviewers"
-                }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "ExtraSmall"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": " •",
-              "wrap": true,
-              "size": "Medium"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "Comment",
-              "size": "xxSmall"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "RichTextBlock",
-              "wrap": true,
-              "inlines": [
-                {
-                  "type": "TextRun",
-                  "text": "41",
-                  "weight": "Bolder",
-                  "color": "Accent"
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/dev_ops/assets/avatar.png",
+                            "style": "Person",
+                            "width": "25px",
+                            "height": "25px"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
                 },
                 {
-                  "type": "TextRun",
-                  "text": " comments"
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "Kayo Miwa",
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " wants to merge "
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": "2 commits",
+                                    "underline": true,
+                                    "color": "Default"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " from "
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": "EdSims",
+                                    "color": "Accent"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "Small"
                 }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "ExtraSmall"
+            ],
+            "spacing": "ExtraLarge",
+            "targetWidth": "AtLeast:Standard"
         },
         {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "TextBlock",
-              "text": " •",
-              "wrap": true
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "auto",
-          "items": [
-            {
-              "type": "Icon",
-              "name": "Receipt",
-              "size": "xxSmall"
-            }
-          ],
-          "verticalContentAlignment": "Center",
-          "spacing": "Small"
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "spacing": "ExtraSmall",
-          "items": [
-            {
-              "type": "RichTextBlock",
-              "wrap": true,
-              "inlines": [
+            "type": "ColumnSet",
+            "columns": [
                 {
-                  "type": "TextRun",
-                  "text": "1",
-                  "weight": "Bolder",
-                  "color": "Accent"
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "Person",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
                 },
                 {
-                  "type": "TextRun",
-                  "text": " Files changed"
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "0",
+                                    "weight": "Bolder",
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " Reviewers"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": " •",
+                            "wrap": true,
+                            "size": "Medium"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "Comment",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "41",
+                                    "weight": "Bolder",
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " comments"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": " •",
+                            "wrap": true
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "Receipt",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "spacing": "ExtraSmall",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "1",
+                                    "weight": "Bolder",
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " Files changed"
+                                }
+                            ]
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
                 }
-              ]
-            }
-          ],
-          "verticalContentAlignment": "Center"
-        }
-      ],
-      "separator": true,
-      "spacing": "ExtraLarge"
-    },
-    {
-      "type": "ActionSet",
-      "actions": [
+            ],
+            "separator": true,
+            "spacing": "ExtraLarge",
+            "targetWidth": "AtLeast:Standard"
+        },
         {
-          "type": "Action.Submit",
-          "title": "View pull request"
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "Person",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "0",
+                                    "weight": "Bolder",
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " Reviewers"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall",
+                    "verticalContentAlignment": "Center"
+                }
+            ],
+            "targetWidth": "AtMost:Narrow"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "Comment",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "spacing": "ExtraSmall",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "41",
+                                    "weight": "Bolder",
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " comments"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Small",
+            "targetWidth": "AtMost:Narrow"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Icon",
+                            "name": "Receipt",
+                            "size": "xxSmall"
+                        }
+                    ],
+                    "verticalContentAlignment": "Center"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "RichTextBlock",
+                            "wrap": true,
+                            "inlines": [
+                                {
+                                    "type": "TextRun",
+                                    "text": "1",
+                                    "weight": "Bolder",
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "TextRun",
+                                    "text": " Files changed"
+                                }
+                            ]
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                }
+            ],
+            "spacing": "Small",
+            "targetWidth": "AtMost:Narrow"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "View pull request"
+                }
+            ],
+            "spacing": "ExtraLarge",
+            "separator": true,
+            "targetWidth": "AtMost:Narrow"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "View pull request"
+                }
+            ],
+            "spacing": "ExtraLarge",
+            "targetWidth": "AtLeast:Standard"
         }
-      ],
-      "spacing": "ExtraLarge"
-    }
-  ]
+    ]
 }

@@ -136,17 +136,10 @@
                                             "width": "stretch",
                                             "items": [
                                                 {
-                                                    "type": "RichTextBlock",
+                                                    "type": "TextBlock",
+                                                    "text": "$124.70",
                                                     "wrap": true,
-                                                    "inlines": [
-                                                        {
-                                                            "type": "TextRun",
-                                                            "text": "$124.70",
-                                                            "strikethrough": true,
-                                                            "size": "Large",
-                                                            "color": "Attention"
-                                                        }
-                                                    ]
+                                                    "color": "Attention"
                                                 }
                                             ]
                                         }
@@ -220,19 +213,36 @@
                                             "width": "stretch",
                                             "items": [
                                                 {
-                                                    "type": "TextBlock",
-                                                    "text": "$124.70",
+                                                    "type": "RichTextBlock",
                                                     "wrap": true,
-                                                    "horizontalAlignment": "Left",
-                                                    "color": "Attention"
+                                                    "inlines": [
+                                                        {
+                                                            "type": "TextRun",
+                                                            "text": "$124.70",
+                                                            "strikethrough": true,
+                                                            "size": "Default",
+                                                            "color": "Attention"
+                                                        }
+                                                    ]
                                                 }
                                             ],
-                                            "verticalContentAlignment": "Center"
+                                            "verticalContentAlignment": "Center",
+                                            "horizontalAlignment": "Left"
                                         }
                                     ],
                                     "spacing": "None"
                                 }
                             ]
+                        }
+                    ],
+                    "horizontalAlignment": "Center"
+                },
+                {
+                    "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "Action.Submit",
+                            "title": "Order now"
                         }
                     ],
                     "horizontalAlignment": "Center"

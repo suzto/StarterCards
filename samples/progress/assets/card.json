@@ -1,0 +1,428 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "NextGen App Engineering",
+            "wrap": true,
+            "size": "Large",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Project status update",
+            "wrap": true,
+            "size": "Small",
+            "weight": "Bolder",
+            "spacing": "None"
+        },
+        {
+            "type": "Container",
+            "style": "emphasis",
+            "spacing": "Medium",
+            "roundedCorners": true,
+            "showBorder": true,
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Current phase:",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "Code",
+                                    "size": "xSmall",
+                                    "style": "Filled"
+                                }
+                            ],
+                            "spacing": "Small"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": " Development",
+                                            "weight": "Bolder",
+                                            "highlight": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "None"
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/progress/assets/ProgressBar.png",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "75% complete",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "color": "Good",
+                    "spacing": "ExtraSmall",
+                    "size": "Small"
+                }
+            ],
+            "targetWidth": "AtLeast:Narrow"
+        },
+        {
+            "type": "Container",
+            "style": "emphasis",
+            "spacing": "Medium",
+            "roundedCorners": true,
+            "showBorder": true,
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Current phase:",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "Icon",
+                                                    "name": "Code",
+                                                    "size": "xSmall",
+                                                    "style": "Filled"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "RichTextBlock",
+                                                    "inlines": [
+                                                        {
+                                                            "type": "TextRun",
+                                                            "text": " Development",
+                                                            "weight": "Bolder",
+                                                            "highlight": true
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "spacing": "ExtraSmall"
+                                        }
+                                    ],
+                                    "spacing": "ExtraSmall"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/progress/assets/ProgressBar.png",
+                    "spacing": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "75% complete",
+                    "wrap": true,
+                    "weight": "Bolder",
+                    "color": "Good",
+                    "spacing": "ExtraSmall",
+                    "size": "Small"
+                }
+            ],
+            "targetWidth": "VeryNarrow"
+        },
+        {
+            "type": "Container",
+            "spacing": "Medium",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Key Milestones:",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "size": "Large"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "• Design phase:",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "Icon",
+                                    "name": "CheckmarkCircle",
+                                    "size": "xxSmall",
+                                    "style": "Filled",
+                                    "color": "Good"
+                                }
+                            ],
+                            "spacing": "Small",
+                            "verticalContentAlignment": "Center"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "wrap": true,
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": " Complete",
+                                            "strikethrough": true,
+                                            "color": "Good"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "spacing": "None",
+                            "verticalContentAlignment": "Center"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "• Development phase:",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": " In progress"
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                },
+                {
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "• Testing phase:",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": " Upcoming",
+                            "italic": true
+                        }
+                    ],
+                    "spacing": "ExtraSmall"
+                }
+            ],
+            "targetWidth": "AtLeast:Narrow"
+        },
+        {
+            "type": "Container",
+            "spacing": "Medium",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Key Milestones:",
+                    "weight": "Bolder",
+                    "wrap": true,
+                    "size": "Large"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "• Design phase:",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "auto",
+                                            "items": [
+                                                {
+                                                    "type": "Icon",
+                                                    "name": "CheckmarkCircle",
+                                                    "size": "xxSmall",
+                                                    "style": "Filled",
+                                                    "color": "Good"
+                                                }
+                                            ],
+                                            "spacing": "Small"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "width": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "RichTextBlock",
+                                                    "wrap": true,
+                                                    "inlines": [
+                                                        {
+                                                            "type": "TextRun",
+                                                            "text": " Complete",
+                                                            "strikethrough": true,
+                                                            "color": "Good"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "spacing": "ExtraSmall"
+                                        }
+                                    ],
+                                    "spacing": "None"
+                                }
+                            ],
+                            "verticalContentAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "• Development phase:",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "wrap": true,
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": " In progress"
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "spacing": "None"
+                },
+                {
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "• Testing phase:",
+                            "weight": "Bolder"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "auto"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "RichTextBlock",
+                                    "wrap": true,
+                                    "inlines": [
+                                        {
+                                            "type": "TextRun",
+                                            "text": " Upcoming",
+                                            "italic": true
+                                        }
+                                    ],
+                                    "spacing": "Small"
+                                }
+                            ],
+                            "spacing": "Small"
+                        }
+                    ],
+                    "spacing": "None"
+                }
+            ],
+            "targetWidth": "VeryNarrow"
+        }
+    ]
+}

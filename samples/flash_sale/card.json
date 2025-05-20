@@ -12,7 +12,7 @@
                 "horizontalAlignment": "Center"
             },
             "minHeight": "200px",
-            "targetWidth": "AtMost:VeryNarrow",
+            "targetWidth": "AtMost:Narrow",
             "items": [
                 {
                     "type": "ColumnSet",
@@ -94,7 +94,7 @@
                 }
             ],
             "bleed": true,
-            "targetWidth": "AtLeast:Narrow"
+            "targetWidth": "AtLeast:Standard"
         },
         {
             "type": "Container",
@@ -176,7 +176,7 @@
             ],
             "spacing": "None",
             "verticalContentAlignment": "Center",
-            "targetWidth": "AtLeast:Narrow"
+            "targetWidth": "AtLeast:Standard"
         },
         {
             "type": "Container",
@@ -256,7 +256,7 @@
                 }
             ],
             "spacing": "None",
-            "targetWidth": "VeryNarrow"
+            "targetWidth": "AtMost:Narrow"
         }
     ]
 }

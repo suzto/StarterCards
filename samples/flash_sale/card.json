@@ -19,13 +19,21 @@
                     "columns": [
                         {
                             "type": "Column",
+                            "width": "stretch",
+                            "horizontalAlignment": "Right"
+                        },
+                        {
+                            "type": "Column",
                             "width": "auto",
+                            "spacing": "None",
+                            "horizontalAlignment": "Right",
                             "items": [
                                 {
                                     "type": "Icon",
                                     "name": "Flash",
                                     "size": "xSmall",
-                                    "color": "Attention"
+                                    "color": "Attention",
+                                    "horizontalAlignment": "Right"
                                 }
                             ]
                         },
@@ -40,7 +48,8 @@
                                     "size": "Medium",
                                     "weight": "Bolder",
                                     "color": "Attention",
-                                    "spacing": "ExtraSmall"
+                                    "spacing": "ExtraSmall",
+                                    "horizontalAlignment": "Right"
                                 }
                             ],
                             "spacing": "None"
@@ -48,7 +57,8 @@
                     ],
                     "horizontalAlignment": "Right"
                 }
-            ]
+            ],
+            "horizontalAlignment": "Right"
         },
         {
             "type": "Container",
@@ -70,9 +80,11 @@
                                     "type": "Icon",
                                     "name": "Flash",
                                     "size": "Small",
-                                    "color": "Attention"
+                                    "color": "Attention",
+                                    "horizontalAlignment": "Right"
                                 }
-                            ]
+                            ],
+                            "horizontalAlignment": "Right"
                         },
                         {
                             "type": "Column",
@@ -94,7 +106,8 @@
                 }
             ],
             "bleed": true,
-            "targetWidth": "AtLeast:Standard"
+            "targetWidth": "AtLeast:Standard",
+            "horizontalAlignment": "Right"
         },
         {
             "type": "Container",
@@ -195,7 +208,8 @@
                                     "text": "Red Rush Trainers",
                                     "wrap": true,
                                     "size": "Large",
-                                    "weight": "Bolder"
+                                    "weight": "Bolder",
+                                    "horizontalAlignment": "Center"
                                 },
                                 {
                                     "type": "ColumnSet",
@@ -213,7 +227,8 @@
                                                     "weight": "Bolder"
                                                 }
                                             ],
-                                            "verticalContentAlignment": "Center"
+                                            "verticalContentAlignment": "Center",
+                                            "horizontalAlignment": "Center"
                                         },
                                         {
                                             "type": "Column",
@@ -237,26 +252,47 @@
                                             "horizontalAlignment": "Left"
                                         }
                                     ],
-                                    "spacing": "None"
+                                    "spacing": "None",
+                                    "horizontalAlignment": "Center"
                                 }
-                            ]
+                            ],
+                            "horizontalAlignment": "Center"
                         }
                     ],
                     "horizontalAlignment": "Center"
                 },
                 {
-                    "type": "ActionSet",
-                    "actions": [
+                    "type": "ColumnSet",
+                    "columns": [
                         {
-                            "type": "Action.Submit",
-                            "title": "Order now"
+                            "type": "Column",
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.Submit",
+                                            "title": "Order now"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch"
                         }
-                    ],
-                    "horizontalAlignment": "Center"
+                    ]
                 }
             ],
             "spacing": "None",
-            "targetWidth": "AtMost:Narrow"
+            "targetWidth": "AtMost:Narrow",
+            "horizontalAlignment": "Center"
         }
     ]
 }

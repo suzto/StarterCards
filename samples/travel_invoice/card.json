@@ -183,7 +183,7 @@
             "columns": [
                 {
                     "type": "Column",
-                    "width": "stretch",
+                    "width": "auto",
                     "items": [
                         {
                             "type": "Icon",
@@ -193,7 +193,7 @@
                         }
                     ],
                     "verticalContentAlignment": "Center",
-                    "horizontalAlignment": "Left"
+                    "horizontalAlignment": "Right"
                 },
                 {
                     "type": "Column",

@@ -2,7 +2,7 @@
 
 ## Summary
 
-The <b>DevOps card</b> is your gateway to vibrant social connectivity. Ideal for broadcasting company updates, sharing posts, or fostering community ties, this card is versatile enough to match your messaging. Enrich it with custom text, imagery, and links for an immersive social journey.
+Keep your team in sync with the <b>DevOps card</b>. This card provides a clear snapshot of a pull request’s status—merged, open, or in review—along with a concise description, activity highlights like comments and file changes, and contributor details. A dedicated button lets users jump straight to the full request, making it easy to stay on top of code changes and collaboration.
 
 _bot-sent_ card example:
 

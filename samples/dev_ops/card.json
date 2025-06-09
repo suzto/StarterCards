@@ -131,7 +131,11 @@
                                                 {
                                                     "type": "TextRun",
                                                     "text": "EdSims",
-                                                    "color": "Accent"
+                                                    "color": "Accent",
+                                                    "selectAction": {
+                                                        "type": "Action.OpenUrl",
+                                                        "url": "https://github.com/EdSims"
+                                                    }
                                                 }
                                             ]
                                         }
@@ -211,7 +215,11 @@
                                 {
                                     "type": "TextRun",
                                     "text": "EdSims",
-                                    "color": "Accent"
+                                    "color": "Accent",
+                                    "selectAction": {
+                                        "type": "Action.OpenUrl",
+                                        "url": "https://github.com/EdSims"
+                                    }
                                 }
                             ]
                         }

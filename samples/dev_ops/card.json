@@ -426,11 +426,13 @@
                   "type": "TextRun",
                   "text": "0",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " Reviewers"
+                  "text": " Reviewers",
+                  "size": "Small"
                 }
               ]
             }
@@ -469,11 +471,13 @@
                   "type": "TextRun",
                   "text": "41",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " comments"
+                  "text": " comments",
+                  "size": "Small"
                 }
               ]
             }
@@ -510,11 +514,13 @@
                   "type": "TextRun",
                   "text": "1",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " Files changed"
+                  "text": " Files changed",
+                  "size": "Small"
                 }
               ]
             }

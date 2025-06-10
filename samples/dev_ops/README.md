@@ -108,7 +108,7 @@ This is where the rubber meets the road to ensure high quality cards for all use
   * Design Teams apps and cards with the [The Microsoft Teams UI Kit](https://www.figma.com/community/file/916836509871353159), which has core components, templates, and best practices.
   * Find Microsoft icons from [IconCloud](https://iconcloud.design/browse/Fluent%20System%20Library/Fluent%20Regular) or the [Fluent 2 Iconography site](https://fluent2.microsoft.design/iconography) and modify them to to use in your cards (you'll need to save them out as pngs while we work on building in Fluent icon support).
 
-* **Build**: Edit, build, preview, and test cards with our Teams Development Portal [Adaptive Card Designer](https://dev.teams.microsoft.com/cards).
+* **Build**: Edit, build, preview, and test cards with our Designer Tool [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer.html).
 
 </p>
 

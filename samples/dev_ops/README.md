@@ -32,7 +32,7 @@ _**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR
 
 This card utilizes our responsive framework, allowing for multiple layouts or content modifications for specific set width ranges. For more details on coding with this framework, see <a href="https://adaptivecards.microsoft.com/?topic=responsive-layout">Design responsive Adaptive Cards</a>.
 
-![picture of the extension in action](assets/communicationsLayouts.png)
+![picture of the extension in action](assets/Layouts.png)
 
 <br> <br>
 

@@ -78,11 +78,10 @@ Set the maximum line truncation as desired to work for the card content and layo
 #### 5) Update Button Copy and Actions
 
 Customize button text and actions to suit your needs. <br>
-For icons, use the color #818181 to ensure readability in light/dark modes. Icons should fit edge-to-edge in a 16x16 square. Save them as transparent PNGs at 2x size for good resolution across endpoints. Access Fluent icon asset links in the [Resources section](#resources--tools) on this page.
 
 <br>
 
-***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec <a href="assets/communicationCard_spec.png">(see current card spec)</a> , and verify the layouts before coding.<br />
+***For further design modifications** use the Microsoft Teams UI Kit in Figma to create, visualize, spec, and verify the layouts before coding.<br />
 
 <a href="https://www.figma.com/community/file/916836509871353159">
 <img src="../../assets/teams_ui_kit_button.png" width="172" alt="Get the Microsoft Teams UI Kit" />

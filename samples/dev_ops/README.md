@@ -59,25 +59,27 @@ _To create a "full width" card, add the following code to the JSON._ <br>
 
  <br>
 
-#### 2) Replace the Hero Image
+#### 2) Update Main Heading & Description Text
 
-If you’re creating an image, save the image as a transparent PNG at 2x size to ensure good resolution across endpoints. Keep the image slightly taller vertically to leave ample room for the copy.
+Update the header, item number and body copy to pull from the desired pull request.
 
-* <b>Note:</b> A radius feature for adding rounded corners to the image is coming soon. In the meantime, you can manually add a 6px radius to the corners.
+#### 3) Status Badge
 
-#### 3) Link to the Avatar Image
+Change the "Merged" label and its style (e.g., "Accent") to reflect the current status of the pull request (e.g., "Open", "Draft", "Closed").
 
-Ensure the image URL fetches and shows the image associated with the message sender.
+#### 4) User & Commit Info
 
-Verify the correct linkage of the avatar image.
+Replace "Serena Davis" and "EdSims" with the actual contributor and source branch or user. Update the commit count as needed.
 
-#### 4) Update Description Copy and Set Truncation
+#### 5) Review Summary
 
-Set the maximum line truncation as desired to work for the card content and layout. You can also choose to add a “Show more” / “Show less” feature.
+Adjust the numbers for reviewers, comments, and files changed to match the actual pull request data.
 
-#### 5) Update Button Copy and Actions
+#### 6) Action Button
 
-Customize button text and actions to suit your needs. <br>
+Ensure the "View pull request" button is linked to the correct URL for the partner's GitHub or Azure DevOps instance.
+
+
 
 <br>
 

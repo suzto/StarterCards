@@ -124,26 +124,31 @@
                         {
                           "type": "TextRun",
                           "text": "Kayo Miwa",
-                          "weight": "Bolder"
+                          "weight": "Bolder",
+                          "size": "Small"
                         },
                         {
                           "type": "TextRun",
-                          "text": " wants to merge "
+                          "text": " wants to merge ",
+                           "size": "Small"
                         },
                         {
                           "type": "TextRun",
                           "text": "2 commits",
                           "underline": true,
-                          "color": "Default"
+                          "color": "Default",
+                           "size": "Small"
                         },
                         {
                           "type": "TextRun",
-                          "text": " from "
+                          "text": " from ",
+                           "size": "Small"
                         },
                         {
                           "type": "TextRun",
                           "text": "EdSims",
                           "color": "Accent",
+                           "size": "Small",
                           "selectAction": {
                             "type": "Action.OpenUrl",
                             "url": "https://github.com/EdSims"
@@ -207,26 +212,31 @@
                 {
                   "type": "TextRun",
                   "text": "Kayo Miwa",
-                  "weight": "Bolder"
+                  "weight": "Bolder",
+                   "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " wants to merge "
+                  "text": " wants to merge ",
+                   "size": "Small"
                 },
                 {
                   "type": "TextRun",
                   "text": "2 commits",
                   "underline": true,
-                  "color": "Default"
+                  "color": "Default",
+                   "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " from "
+                  "text": " from ",
+                   "size": "Small"
                 },
                 {
                   "type": "TextRun",
                   "text": "EdSims",
                   "color": "Accent",
+                   "size": "Small",
                   "selectAction": {
                     "type": "Action.OpenUrl",
                     "url": "https://github.com/EdSims"
@@ -268,11 +278,13 @@
                   "type": "TextRun",
                   "text": "0",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                   "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " Reviewers"
+                  "text": " Reviewers",
+                   "size": "Small"
                 }
               ]
             }
@@ -318,11 +330,13 @@
                   "type": "TextRun",
                   "text": "41",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                   "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " comments"
+                  "text": " comments",
+                   "size": "Small"
                 }
               ]
             }
@@ -354,7 +368,7 @@
             }
           ],
           "verticalContentAlignment": "Center",
-          "spacing": "Small"
+          "spacing": "ExtraSmall"
         },
         {
           "type": "Column",
@@ -368,11 +382,13 @@
                   "type": "TextRun",
                   "text": "1",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " Files changed"
+                  "text": " Files changed",
+                  "size": "Small"
                 }
               ]
             }
@@ -410,11 +426,13 @@
                   "type": "TextRun",
                   "text": "0",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " Reviewers"
+                  "text": " Reviewers",
+                  "size": "Small"
                 }
               ]
             }
@@ -453,11 +471,13 @@
                   "type": "TextRun",
                   "text": "41",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " comments"
+                  "text": " comments",
+                  "size": "Small"
                 }
               ]
             }
@@ -494,11 +514,13 @@
                   "type": "TextRun",
                   "text": "1",
                   "weight": "Bolder",
-                  "color": "Accent"
+                  "color": "Accent",
+                  "size": "Small"
                 },
                 {
                   "type": "TextRun",
-                  "text": " Files changed"
+                  "text": " Files changed",
+                  "size": "Small"
                 }
               ]
             }

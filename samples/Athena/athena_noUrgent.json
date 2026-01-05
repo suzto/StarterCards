@@ -7,8 +7,8 @@
             "type": "Container",
             "backgroundImage": {
                 "horizontalAlignment": "Center",
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_headerWide.png",
-                "verticalAlignment": "Center"
+                "verticalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_upcoming_wide.png"
             },
             "minHeight": "168px",
             "items": [
@@ -31,7 +31,7 @@
             "type": "Container",
             "backgroundImage": {
                 "horizontalAlignment": "Center",
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_standard.png"
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_upcoming_standard.png"
             },
             "minHeight": "168px",
             "items": [
@@ -53,8 +53,8 @@
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_narrow.png",
-                "horizontalAlignment": "Center"
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_upcoming_narrow.png"
             },
             "minHeight": "156px",
             "items": [
@@ -84,8 +84,8 @@
             "targetWidth": "VeryNarrow",
             "bleed": true,
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_vNarrow.png",
-                "horizontalAlignment": "Center"
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_vNarrow.png"
             },
             "minHeight": "112px",
             "horizontalAlignment": "Center"
@@ -99,142 +99,21 @@
             "targetWidth": "VeryNarrow"
         },
         {
-            "type": "Container",
-            "targetWidth": "VeryNarrow",
-            "style": "emphasis",
-            "showBorder": true,
-            "roundedCorners": true,
-            "items": [
-                {
-                    "type": "TextBlock",
-                    "text": "2",
-                    "wrap": true,
-                    "size": "ExtraLarge",
-                    "weight": "Bolder",
-                    "color": "Warning",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "INCIDENTS",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Default",
-                    "weight": "Bolder",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "Sev 0 active",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "Active for 2 hours",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                }
-            ],
-            "horizontalAlignment": "Center"
+            "type": "TextBlock",
+            "text": "Good news. No urgent items this morning. You've got {count} items on the horizon—plenty of time to stay ahead.",
+            "wrap": true,
+            "spacing": "Small",
+            "targetWidth": "AtLeast:Narrow"
         },
         {
             "type": "Container",
-            "targetWidth": "VeryNarrow",
             "style": "emphasis",
             "showBorder": true,
             "roundedCorners": true,
             "items": [
                 {
                     "type": "TextBlock",
-                    "text": "3",
-                    "wrap": true,
-                    "size": "ExtraLarge",
-                    "weight": "Bolder",
-                    "color": "Attention",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "RING BLOCKERS",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Default",
-                    "weight": "Bolder",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "1 active blocker",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                }
-            ],
-            "horizontalAlignment": "Center"
-        },
-        {
-            "type": "Container",
-            "targetWidth": "VeryNarrow",
-            "style": "emphasis",
-            "showBorder": true,
-            "roundedCorners": true,
-            "items": [
-                {
-                    "type": "TextBlock",
-                    "text": "3",
-                    "wrap": true,
-                    "size": "ExtraLarge",
-                    "weight": "Bolder",
-                    "color": "Attention",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "BUGS",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Default",
-                    "weight": "Bolder",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "1 P0 Priority",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "2 overdue",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                }
-            ],
-            "horizontalAlignment": "Center"
-        },
-        {
-            "type": "Container",
-            "targetWidth": "VeryNarrow",
-            "style": "emphasis",
-            "showBorder": true,
-            "roundedCorners": true,
-            "items": [
-                {
-                    "type": "TextBlock",
-                    "text": "4",
+                    "text": "0",
                     "wrap": true,
                     "size": "ExtraLarge",
                     "weight": "Bolder",
@@ -243,241 +122,15 @@
                 },
                 {
                     "type": "TextBlock",
-                    "text": "PULL REQUESTS",
+                    "text": "URGENT ISSUES",
                     "wrap": true,
                     "spacing": "None",
                     "size": "Default",
                     "weight": "Bolder",
                     "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "2 past SLA",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "1 awaiting your review",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
                 }
             ],
             "horizontalAlignment": "Center"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "Container",
-                            "style": "emphasis",
-                            "showBorder": true,
-                            "roundedCorners": true,
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "2",
-                                    "wrap": true,
-                                    "size": "ExtraLarge",
-                                    "weight": "Bolder",
-                                    "color": "Warning",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "INCIDENTS",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "size": "Default",
-                                    "weight": "Bolder",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Sev 0 active",
-                                    "wrap": true,
-                                    "separator": true,
-                                    "spacing": "Small",
-                                    "size": "Small",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "Active for 2 hours",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "size": "Small",
-                                    "horizontalAlignment": "Center"
-                                }
-                            ],
-                            "horizontalAlignment": "Center",
-                            "height": "stretch"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "Container",
-                            "showBorder": true,
-                            "roundedCorners": true,
-                            "style": "emphasis",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "3",
-                                    "wrap": true,
-                                    "size": "ExtraLarge",
-                                    "weight": "Bolder",
-                                    "color": "Attention",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "RING BLOCKERS",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "weight": "Bolder",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "1 active blocker",
-                                    "wrap": true,
-                                    "separator": true,
-                                    "size": "Small",
-                                    "spacing": "Small",
-                                    "horizontalAlignment": "Center"
-                                }
-                            ],
-                            "horizontalAlignment": "Center",
-                            "height": "stretch"
-                        }
-                    ]
-                }
-            ],
-            "targetWidth": "AtLeast:Narrow"
-        },
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "Container",
-                            "showBorder": true,
-                            "roundedCorners": true,
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "3",
-                                    "wrap": true,
-                                    "size": "ExtraLarge",
-                                    "weight": "Bolder",
-                                    "color": "Attention",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "BUGS",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "size": "Default",
-                                    "weight": "Bolder",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "1 P0 Priority",
-                                    "wrap": true,
-                                    "separator": true,
-                                    "spacing": "Small",
-                                    "size": "Small",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "2 overdue",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "size": "Small",
-                                    "weight": "Default",
-                                    "color": "Default",
-                                    "horizontalAlignment": "Center"
-                                }
-                            ],
-                            "horizontalAlignment": "Center",
-                            "style": "emphasis",
-                            "height": "stretch"
-                        }
-                    ]
-                },
-                {
-                    "type": "Column",
-                    "width": "stretch",
-                    "items": [
-                        {
-                            "type": "Container",
-                            "style": "emphasis",
-                            "showBorder": true,
-                            "roundedCorners": true,
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "text": "4",
-                                    "wrap": true,
-                                    "color": "Accent",
-                                    "weight": "Bolder",
-                                    "size": "ExtraLarge",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "PULL REQUESTS",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "size": "Default",
-                                    "weight": "Bolder",
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "2 past SLA",
-                                    "wrap": true,
-                                    "spacing": "Small",
-                                    "size": "Small",
-                                    "separator": true,
-                                    "horizontalAlignment": "Center"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "text": "1 awaiting your review",
-                                    "wrap": true,
-                                    "spacing": "None",
-                                    "size": "Small",
-                                    "horizontalAlignment": "Center"
-                                }
-                            ],
-                            "horizontalAlignment": "Center",
-                            "height": "stretch"
-                        }
-                    ]
-                }
-            ],
-            "targetWidth": "AtLeast:Narrow"
         },
         {
             "type": "Container",

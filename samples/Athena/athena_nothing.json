@@ -141,6 +141,12 @@
                             "text": "—enjoy a moment to rest at basecamp!"
                         }
                     ]
+                },
+                {
+                    "type": "Image",
+                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/spacer.png",
+                    "width": "10px",
+                    "height": "10px"
                 }
             ],
             "spacing": "None"

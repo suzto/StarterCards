@@ -99,11 +99,25 @@
             "targetWidth": "VeryNarrow"
         },
         {
-            "type": "TextBlock",
-            "text": "Good news. No urgent items this morning. You've got {count} items on the horizon—plenty of time to stay ahead.",
+            "type": "RichTextBlock",
             "wrap": true,
             "spacing": "Small",
-            "targetWidth": "AtLeast:Narrow"
+            "targetWidth": "AtLeast:Narrow",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "Good news. No urgent items this morning. You've got "
+                },
+                {
+                    "type": "TextRun",
+                    "text": "{count} items on the horizon",
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextRun",
+                    "text": "—plenty of time to stay ahead."
+                }
+            ]
         },
         {
             "type": "Container",

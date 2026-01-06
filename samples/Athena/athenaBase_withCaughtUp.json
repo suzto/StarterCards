@@ -152,11 +152,11 @@
             "items": [
                 {
                     "type": "TextBlock",
-                    "text": "3",
+                    "text": "0",
                     "wrap": true,
                     "size": "ExtraLarge",
                     "weight": "Bolder",
-                    "color": "Attention",
+                    "color": "Good",
                     "horizontalAlignment": "Center"
                 },
                 {
@@ -170,12 +170,14 @@
                 },
                 {
                     "type": "TextBlock",
-                    "text": "1 active blocker",
+                    "text": "All caught up",
                     "wrap": true,
                     "separator": true,
                     "spacing": "Small",
                     "size": "Small",
-                    "horizontalAlignment": "Center"
+                    "horizontalAlignment": "Center",
+                    "color": "Good",
+                    "weight": "Bolder"
                 }
             ],
             "horizontalAlignment": "Center"
@@ -336,11 +338,11 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "text": "3",
+                                    "text": "0",
                                     "wrap": true,
                                     "size": "ExtraLarge",
                                     "weight": "Bolder",
-                                    "color": "Attention",
+                                    "color": "Good",
                                     "horizontalAlignment": "Center"
                                 },
                                 {
@@ -353,12 +355,14 @@
                                 },
                                 {
                                     "type": "TextBlock",
-                                    "text": "1 active blocker",
+                                    "text": "All caught up",
                                     "wrap": true,
                                     "separator": true,
                                     "size": "Small",
                                     "spacing": "Small",
-                                    "horizontalAlignment": "Center"
+                                    "horizontalAlignment": "Center",
+                                    "color": "Good",
+                                    "weight": "Bolder"
                                 }
                             ],
                             "horizontalAlignment": "Center",

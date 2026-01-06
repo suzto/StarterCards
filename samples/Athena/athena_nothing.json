@@ -1,0 +1,149 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "verticalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noItems_wide.png"
+            },
+            "minHeight": "183px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Summit reached, Suz!",
+                    "wrap": true,
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "color": "Light",
+                    "horizontalAlignment": "Center"
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "horizontalAlignment": "Center",
+            "targetWidth": "Wide",
+            "bleed": true
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noItems_standard.png",
+                "verticalAlignment": "Center"
+            },
+            "minHeight": "180px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Summit reached, Suz!",
+                    "wrap": true,
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "horizontalAlignment": "Center",
+                    "color": "Light"
+                }
+            ],
+            "verticalContentAlignment": "Bottom",
+            "targetWidth": "Standard",
+            "bleed": true,
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "Container",
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noItems_narrow.png"
+            },
+            "minHeight": "156px",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Summit reached, Suz!",
+                    "wrap": true,
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "horizontalAlignment": "Center",
+                    "color": "Light"
+                },
+                {
+                    "type": "Image",
+                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/spacer.png",
+                    "width": "5px",
+                    "height": "5px",
+                    "spacing": "ExtraSmall"
+                }
+            ],
+            "bleed": true,
+            "verticalContentAlignment": "Bottom",
+            "horizontalAlignment": "Center",
+            "targetWidth": "Narrow"
+        },
+        {
+            "type": "Container",
+            "targetWidth": "VeryNarrow",
+            "bleed": true,
+            "backgroundImage": {
+                "horizontalAlignment": "Center",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noItems_vNarrow.png"
+            },
+            "minHeight": "112px",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "Container",
+            "bleed": true,
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Summit reached, Suz!",
+                    "wrap": true,
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "targetWidth": "VeryNarrow",
+                    "horizontalAlignment": "Center"
+                },
+                {
+                    "type": "Image",
+                    "targetWidth": "AtMost:Narrow",
+                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/noItems_TentSmall.png",
+                    "width": "120px",
+                    "height": "120px",
+                    "horizontalAlignment": "Center"
+                },
+                {
+                    "type": "Image",
+                    "horizontalAlignment": "Center",
+                    "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/noItems_TentLarge.png",
+                    "targetWidth": "AtLeast:Standard",
+                    "width": "138px",
+                    "height": "138px"
+                },
+                {
+                    "type": "RichTextBlock",
+                    "wrap": true,
+                    "horizontalAlignment": "Center",
+                    "inlines": [
+                        {
+                            "type": "TextRun",
+                            "text": "You're completely caught up! "
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": "Nothing urgent, nothing upcoming",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextRun",
+                            "text": "—enjoy a moment to rest at basecamp!"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        }
+    ]
+}

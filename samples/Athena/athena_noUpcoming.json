@@ -142,23 +142,6 @@
                     "size": "Default",
                     "weight": "Bolder",
                     "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "Sev 0 active",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "Active for 2 hours",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
                 }
             ],
             "horizontalAlignment": "Center"
@@ -187,18 +170,10 @@
                     "size": "Default",
                     "weight": "Bolder",
                     "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "1 active blocker",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
                 }
             ],
-            "horizontalAlignment": "Center"
+            "horizontalAlignment": "Center",
+            "spacing": "Small"
         },
         {
             "type": "Container",
@@ -224,26 +199,10 @@
                     "size": "Default",
                     "weight": "Bolder",
                     "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "1 P0 Priority",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "2 overdue",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
                 }
             ],
-            "horizontalAlignment": "Center"
+            "horizontalAlignment": "Center",
+            "spacing": "Small"
         },
         {
             "type": "Container",
@@ -269,26 +228,10 @@
                     "size": "Default",
                     "weight": "Bolder",
                     "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "2 past SLA",
-                    "wrap": true,
-                    "separator": true,
-                    "spacing": "Small",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "1 awaiting your review",
-                    "wrap": true,
-                    "spacing": "None",
-                    "size": "Small",
-                    "horizontalAlignment": "Center"
                 }
             ],
-            "horizontalAlignment": "Center"
+            "horizontalAlignment": "Center",
+            "spacing": "Small"
         },
         {
             "type": "ColumnSet",

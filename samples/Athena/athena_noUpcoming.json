@@ -7,7 +7,7 @@
             "type": "Container",
             "backgroundImage": {
                 "horizontalAlignment": "Center",
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_headerWide.png",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noUpcoming_wide.png",
                 "verticalAlignment": "Center"
             },
             "minHeight": "168px",
@@ -31,7 +31,7 @@
             "type": "Container",
             "backgroundImage": {
                 "horizontalAlignment": "Center",
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_standard.png"
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noUpcoming_standard.png"
             },
             "minHeight": "168px",
             "items": [
@@ -53,7 +53,7 @@
         {
             "type": "Container",
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_narrow.png",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noUpcoming_narrow.png",
                 "horizontalAlignment": "Center"
             },
             "minHeight": "156px",
@@ -84,7 +84,7 @@
             "targetWidth": "VeryNarrow",
             "bleed": true,
             "backgroundImage": {
-                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_vNarrow.png",
+                "url": "https://raw.githubusercontent.com/suzto/StarterCards/refs/heads/main/samples/Athena/athena_header_noUpcoming_vNarrow.png",
                 "horizontalAlignment": "Center"
             },
             "minHeight": "112px",
